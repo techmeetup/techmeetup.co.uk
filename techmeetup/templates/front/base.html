@@ -1,55 +1,41 @@
 {% extends "base.html" %}
 
-{% block head %}
-<style type="text/css">
-#cities { overflow:auto; list-style-type:none; margin-top:20px; }
-#cities li { width: 300px; float:left; margin-right:20px; font-size:12px; }
-#cities li:last-child { margin-right:0px; }
-#cities li h3 { padding: 0px; }
-#cities li em { color:#999; font-style:italic; }
-#cities li p { margin:5px 0px; }
-
-#announcements { text-align:center; margin:30px 0px; padding:15px 0px; background:#eee;
--webkit-border-radius:5px; -moz-border-radius: 5px; overflow:auto;}
-#announcements h3 { width:300px; float:left;  }
-
-#blog { list-style: none; }
-</style>
-{% endblock %}
-
 {% block content %}
-            <h2>Upcoming Meetups</h2> 
-            <ul id="cities"> 
-                <li class="edinburgh"><h3>Edinburgh</h3> 
-                    <p>Neil Scott from <a href="http://visit-glasgow.info/">visit-glasgow.info</a> and Dave Sapien from <a href="http://www.meandthegiants.com/">meandthegiants.com</a></p> 
-                    <em>When and Where</em><br /> 
-                    24th of February, 7:30PM<br /> 
-                    <a href="">Floor 1, Saltire Centre, GCal Uni</a> 
-                </li> 
-                <li class="glasgow"><h3>Glasgow</h3> 
-                    <p>Neil Scott from http://visit-glasgow.info/ and Dave Sapien from http://www.meandthegiants.com/</p> 
-                    <em>When and Where</em><br /> 
-                    24th of February, 7:30PM<br /> 
-                    <a href="">Floor 1, Saltire Centre, GCal Uni</a> 
-                </li> 
-                <li class="aberdeen"><h3>Aberdeen</h3> 
-                    <p>Neil Scott from http://visit-glasgow.info/ and Dave Sapien from http://www.meandthegiants.com/</p> 
-                    <em>When and Where</em><br /> 
-                    24th of February, 7:30PM<br /> 
-                    <a href="">Floor 1, Saltire Centre, GCal Uni</a> 
-                </li> 
-            </ul> 
- 
-            <div id="announcements"> 
-                <h3>Get Announcements</h3> 
-                <h3>Follow Us On Twitter</h3> 
-                <h3>Join The Discussions</h3> 
-            </div> 
- 
-            <h2>Recent Blog Posts</h2> 
-            <ul id="blog">
-                {% for post in latest_blogposts %}
-                <li><a href="{{ post.get_absolute_url }}"><h3>{{ post.title }}</h3></a></li>
-                {% endfor %}
-            </ul> 
+<h3>Upcoming Meetups</h3> 
+<ul id="cities"> 
+  <li class="edinburgh">
+    <h4>Edinburgh</h4> 
+    <p>Neil Scott from <a href="http://visit-glasgow.info/">visit-glasgow.info</a> and Dave Sapien from <a href="http://www.meandthegiants.com/">meandthegiants.com</a></p> 
+    <em>When and Where</em><br /> 
+    24th of February, 7:30PM<br /> 
+    <a href="">Floor 1, Saltire Centre, GCal Uni</a> 
+  </li> 
+  <li class="glasgow">
+    <h4>Glasgow</h4> 
+    <p>Neil Scott from http://visit-glasgow.info/ and Dave Sapien from http://www.meandthegiants.com/</p> 
+    <em>When and Where</em><br /> 
+    24th of February, 7:30PM<br /> 
+    <a href="">Floor 1, Saltire Centre, GCal Uni</a> 
+  </li> 
+  <li class="aberdeen">
+    <h4>Aberdeen</h4> 
+    <p>Neil Scott from http://visit-glasgow.info/ and Dave Sapien from http://www.meandthegiants.com/</p> 
+    <em>When and Where</em><br /> 
+    24th of February, 7:30PM<br /> 
+    <a href="">Floor 1, Saltire Centre, GCal Uni</a> 
+  </li> 
+</ul> 
+
+<div id="announcements"> 
+  <h4>Get Announcements</h4> 
+  <h4>Follow Us On Twitter</h4> 
+  <h4>Join The Discussions</h4> 
+</div> 
+
+<h2>Recent Blog Posts</h2> 
+<ul id="blog">
+  {% for post in latest_blogposts %}
+  <li><a href="{{ post.get_absolute_url }}"><h3>{{ post.title }}</h3></a></li>
+  {% endfor %}
+</ul> 
 {% endblock content %}
