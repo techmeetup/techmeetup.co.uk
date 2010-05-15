@@ -1,6 +1,8 @@
 from django.db import models
 from django.contrib.auth.models import User
 from django.template.defaultfilters import slugify
+from django.core.urlresolvers import reverse
+
 import datetime
 
 class Post(models.Model):
@@ -17,6 +19,13 @@ class Post(models.Model):
         self.updated = datetime.datetime.today()
         self.slug = slugify(self.title)
         super(Post,self).save()
+
+    @models.permalink
+    def get_absolute_url(self):
+        return ('blog_post_detail', (), {
+            'year': self.created.strftime("%Y"),
+            'month': self.created.strftime("%m"),
+            'slug': self.slug })
 
     class Meta:
         unique_together = ('author', 'slug')

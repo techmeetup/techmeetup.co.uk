@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% for post in posts %}
+
+<h3><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h3>
+
+{% endfor %}
+
+{% endblock %}

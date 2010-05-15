@@ -1,11 +1,19 @@
 {% extends "base.html" %}
 
-{% if object %}
+{% block content %}
 
-<h1>{{ object.title }}</h1>
+{% if post %}
 
-<p>{{ object.created }}</p>
+<h1>{{ post.title }}</h1>
+
+<p>{{ post.created }}</p>
 
 <div class="blog_body">
-{{ object.body }}
+{{ post.body }}
 </div>
+
+{% else %}
+<h1>???</h1>
+{% endif %}
+
+{% endblock %}

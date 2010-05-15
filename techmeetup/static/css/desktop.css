@@ -1,0 +1,28 @@
+/* shortcuts */
+.clear { clear: both; }
+
+/* structure */
+
+* { margin: 0; padding: 0; font-family: "Helvetica", Arial, Verdana, sans-serif; }
+
+body { text-align: center; }
+
+#wrapper { margin: 0 auto; text-align: left;}
+
+#headerwrapper { background: #111; color: #fff; }
+#header {  width: 950px; margin: 0 auto; }
+#header a:link, #header a:visited { color: #fff; text-decoration: none; }
+#header a:hover { text-decoration: underline; }
+
+#header > h1 { float: left; margin: 10px 0; }
+#header > ul { float: right; list-style: none; margin-top: 18px; }
+#header > ul > li { display: inline-block; margin: 5px; line-height: 30px; }
+
+#content { width: 950px; margin: 0 auto; padding: 30px 0; }
+
+#footer { margin:0px auto; width:940px; color:white; padding:20px 0px; overflow:auto; } 
+#footerwrapper { background:#111; }
+#footer section { display:block; width:220px; margin-right:20px; padding-left:00px; float:left; }
+#footer section:last-child { margin-right:0px; }
+#footer ul { margin-top:20px; list-style-type:none; }
+#footer ul li a { display:block; color:white; padding:3px 0px; }
