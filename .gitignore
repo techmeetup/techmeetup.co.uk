@@ -1,0 +1,11 @@
+*.pyc*
+*.swp
+*local.py*
+*dev.db*
+*.*~
+ext_libs/*/build
+ext_libs/*/dist
+*.egg
+*.egg*
+*.hg*
+static/uploads
