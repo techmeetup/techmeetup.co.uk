@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% if object %}
+
+<h1>{{ object.title }}</h1>
+
+<p>{{ object.created }}</p>
+
+<div class="blog_body">
+{{ object.body }}
+</div>

@@ -5,6 +5,7 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns('',
+    (r'^$', include('front.urls')),
     (r'^blog/', include('blog.urls')),
 
     # Uncomment the admin/doc line below and add 'django.contrib.admindocs' 

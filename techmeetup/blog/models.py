@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from django.template.defaultfilters import slugify
 import datetime
 
-class Post():
+class Post(models.Model):
     author = models.ForeignKey(User, related_name='posts')
     title = models.CharField(max_length=200)
     slug = models.CharField(max_length=200)
