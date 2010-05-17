@@ -1,41 +1,65 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h3>Upcoming Meetups</h3> 
 <ul id="cities"> 
   <li class="edinburgh">
     <h4>Edinburgh</h4> 
-    <p>Neil Scott from <a href="http://visit-glasgow.info/">visit-glasgow.info</a> and Dave Sapien from <a href="http://www.meandthegiants.com/">meandthegiants.com</a></p> 
-    <em>When and Where</em><br /> 
-    24th of February, 7:30PM<br /> 
-    <a href="">Floor 1, Saltire Centre, GCal Uni</a> 
+    <p>Jo Walsh will cover the basics of spatial databases.</p>
+    <p><a href="" class="map">Appleton Tower</a></p>
+    <div class="when" style="background:#5BBF00">
+      <div class="daywrap">
+        <div class="day">12th</div>
+        <div class="month">May</div>
+      </div>
+      <div class="time">6:30PM</div>
+    </div>
   </li> 
   <li class="glasgow">
     <h4>Glasgow</h4> 
-    <p>Neil Scott from http://visit-glasgow.info/ and Dave Sapien from http://www.meandthegiants.com/</p> 
-    <em>When and Where</em><br /> 
-    24th of February, 7:30PM<br /> 
-    <a href="">Floor 1, Saltire Centre, GCal Uni</a> 
+    <p>Neil Scott from http://visit-glasgow.info/ and Dave Sapien from http://www.meandthegiants.com/.</p>
+    <p><a href="" class="map">Floor 1, Saltire Centre, GCal Uni</a></p>
+
+</p> 
+    <div class="when">
+      <div class="daywrap">
+        <div class="day">28th</div>
+        <div class="month">Apr</div>
+      </div>
+      <div class="time">6:30PM</div>
+    </div>
   </li> 
   <li class="aberdeen">
     <h4>Aberdeen</h4> 
-    <p>Neil Scott from http://visit-glasgow.info/ and Dave Sapien from http://www.meandthegiants.com/</p> 
-    <em>When and Where</em><br /> 
-    24th of February, 7:30PM<br /> 
-    <a href="">Floor 1, Saltire Centre, GCal Uni</a> 
+    <p>Gordon Murrison & Martin Evans.</p>
+    <p><a href="" class="map">North Side Meston Building, Aberdeen Uni </a> </p>
+</p> 
+    <div class="when">
+      <div class="daywrap">
+        <div class="day">24th</div>
+        <div class="month">Feb</div>
+      </div>
+      <div class="time">7PM</div>
+    </div>
   </li> 
 </ul> 
 
-<div id="announcements"> 
-  <h4>Get Announcements</h4> 
-  <h4>Follow Us On Twitter</h4> 
-  <h4>Join The Discussions</h4> 
-</div> 
+<div style="overflow:auto">
+  <div id="mailinglists">
+    <img src="/static/img/groups.png" />
+    <a href="http://groups.google.com/group/techmeetup?pli=1">
+      Get Announcements</a> about upcoming techmeetups, or<br />
+    <a href="#">Join Discussions</a> with the rest of the community.
+  </div>
+  <div id="twitter"> 
+    <a href="http://www.twitter.com/daleharvey"><img src="http://twitter-badges.s3.amazonaws.com/t_logo-a.png" alt="Follow daleharvey on Twitter"/></a>  
+    Follow us on twitter and stuff.
+  </div> 
+</div>  
 
-<h2>Recent Blog Posts</h2> 
+<h4 id="recent">Recent Blog Posts</h4> 
 <ul id="blog">
   {% for post in latest_blogposts %}
-  <li><a href="{{ post.get_absolute_url }}"><h3>{{ post.title }}</h3></a></li>
+  <li><a href="{{ post.get_absolute_url }}"><h5>{{ post.title }}</h5></a></li>
   {% endfor %}
 </ul> 
 {% endblock content %}
