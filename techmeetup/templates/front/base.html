@@ -70,7 +70,7 @@
 <ul id="blog">
   {% for post in latest_blogposts %}
   <li>
-    <span>10 Apr 2010</span> &raquo; 
+    <span>{{ post.created|date:"d M Y" }}</span> &raquo; 
     <a href="{{ post.get_absolute_url }}"><h4>{{ post.title }}</h4></a>
   </li>
   {% endfor %}
