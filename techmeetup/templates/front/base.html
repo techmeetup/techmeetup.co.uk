@@ -2,64 +2,77 @@
 
 {% block content %}
 <ul id="cities"> 
+
   <li class="edinburgh">
     <h4>Edinburgh</h4> 
     <p>Jo Walsh will cover the basics of spatial databases.</p>
     <p><a href="" class="map">Appleton Tower</a></p>
-    <div class="when" style="background:#5BBF00">
-      <div class="daywrap">
-        <div class="day">12th</div>
-        <div class="month">May</div>
+    <div class="datewrapper">
+      <div class="when">
+        <div class="daywrap">
+          <div class="day">12th</div><div class="month">May</div>
+        </div>
+        <div class="time">6:30PM</div>
       </div>
-      <div class="time">6:30PM</div>
+      <sub>2nd wed of the month</sub>
     </div>
   </li> 
+  
   <li class="glasgow">
     <h4>Glasgow</h4> 
-    <p>Neil Scott from http://visit-glasgow.info/ and Dave Sapien from http://www.meandthegiants.com/.</p>
+    <p>Neil Scott from http://visit-glasgow.info/ and Dave Sapien from 
+      http://www.meandthegiants.com/.</p>
     <p><a href="" class="map">Floor 1, Saltire Centre, GCal Uni</a></p>
-
-</p> 
-    <div class="when">
-      <div class="daywrap">
-        <div class="day">28th</div>
-        <div class="month">Apr</div>
+    <div class="datewrapper">
+      <div class="when">
+        <div class="daywrap">
+          <div class="day">28th</div><div class="month">Apr</div>
+        </div>
+        <div class="time">6:30PM</div>
       </div>
-      <div class="time">6:30PM</div>
+      <sub>4th wed of the month</sub>
     </div>
   </li> 
+
   <li class="aberdeen">
     <h4>Aberdeen</h4> 
     <p>Gordon Murrison & Martin Evans.</p>
-    <p><a href="" class="map">North Side Meston Building, Aberdeen Uni </a> </p>
-</p> 
-    <div class="when">
-      <div class="daywrap">
-        <div class="day">24th</div>
-        <div class="month">Feb</div>
+    <p><a href="" class="map">North Side Meston Building, Aberdeen Uni</a></p>
+    <div class="datewrapper">
+      <div class="when">
+        <div class="daywrap">
+          <div class="day">24th</div><div class="month">Feb</div>
+        </div>
+        <div class="time">7PM</div>
       </div>
-      <div class="time">7PM</div>
+      <sub>3rd wed of the month</sub>
     </div>
   </li> 
 </ul> 
 
 <div style="overflow:auto">
   <div id="mailinglists">
+    <img src="/static/img/twitter.png" alt="Follow techmeetup on Twitter"/>
+    <a href="http://www.twitter.com/techmeetup">@techmeetup</a> <sub>about 13 hours ago</sub>
+
+	<p>&#8220;TechMeetup Glasgow #11 <a href="#">http://bit.ly/dAKb1B</a>&#8221;</p>
+  </div>
+  <div id="twitter"> 
     <img src="/static/img/groups.png" />
     <a href="http://groups.google.com/group/techmeetup?pli=1">
       Get Announcements</a> about upcoming techmeetups, or<br />
-    <a href="#">Join Discussions</a> with the rest of the community.
-  </div>
-  <div id="twitter"> 
-    <a href="http://www.twitter.com/daleharvey"><img src="http://twitter-badges.s3.amazonaws.com/t_logo-a.png" alt="Follow daleharvey on Twitter"/></a>  
-    Follow us on twitter and stuff.
+    <a href="http://groups.google.com/group/techmeetup-discussions">
+      Join Discussions</a> with the rest of the community.
   </div> 
 </div>  
 
-<h4 id="recent">Recent Blog Posts</h4> 
+<h5 id="recent">recent posts</h5> 
 <ul id="blog">
   {% for post in latest_blogposts %}
-  <li><a href="{{ post.get_absolute_url }}"><h5>{{ post.title }}</h5></a></li>
+  <li>
+    <span>10 Apr 2010</span> &raquo; 
+    <a href="{{ post.get_absolute_url }}"><h4>{{ post.title }}</h4></a>
+  </li>
   {% endfor %}
 </ul> 
 {% endblock content %}
