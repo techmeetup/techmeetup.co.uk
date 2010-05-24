@@ -2,10 +2,13 @@
 
 {% block content %}
 
-{% for post in posts %}
-
-<h3><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h3>
-
-{% endfor %}
+<ul id="blog">
+  {% for post in posts %}
+  <li>
+    <span>{{ post.created|date:"d M Y" }}</span> &raquo; 
+    <a href="{{ post.get_absolute_url }}"><h4>{{ post.title }}</h4></a>
+  </li>
+  {% endfor %}
+</ul> 
 
 {% endblock %}

@@ -5,6 +5,7 @@
 
   <li class="edinburgh">
     <h4>Edinburgh</h4> 
+    <span>every 2nd Wednesday of the month</span>
     <p>Jo Walsh will cover the basics of spatial databases.</p>
     <p><a href="" class="map">Appleton Tower</a></p>
     <div class="datewrapper">
@@ -14,12 +15,12 @@
         </div>
         <div class="time">6:30PM</div>
       </div>
-      <sub>2nd wed of the month</sub>
     </div>
   </li> 
   
   <li class="glasgow">
     <h4>Glasgow</h4> 
+    <span>every 3rd Wednesday of the month</span>
     <p>Neil Scott from http://visit-glasgow.info/ and Dave Sapien from 
       http://www.meandthegiants.com/.</p>
     <p><a href="" class="map">Floor 1, Saltire Centre, GCal Uni</a></p>
@@ -30,12 +31,12 @@
         </div>
         <div class="time">6:30PM</div>
       </div>
-      <sub>4th wed of the month</sub>
     </div>
   </li> 
 
   <li class="aberdeen">
     <h4>Aberdeen</h4> 
+    <span>every 4th Wednesday of the month</span>
     <p>Gordon Murrison & Martin Evans.</p>
     <p><a href="" class="map">North Side Meston Building, Aberdeen Uni</a></p>
     <div class="datewrapper">
@@ -45,7 +46,6 @@
         </div>
         <div class="time">7PM</div>
       </div>
-      <sub>3rd wed of the month</sub>
     </div>
   </li> 
 </ul> 
@@ -54,9 +54,8 @@
   <div id="mailinglists">
     <img src="/static/img/twitter.png" />
     <a href="http://www.twitter.com/techmeetup">@techmeetup</a> 
-    <sub>about 13 hours ago</sub>
-	<p>&#8220;TechMeetup Glasgow #11 
-      <a href="#">http://bit.ly/dAKb1B</a>&#8221;</p>
+    <sub id="last_twitter_created"></sub>
+	<p>&#8220;<span id="last_twitter"></span>&#8221;</p>
   </div>
   
   <div id="twitter"> 
@@ -78,3 +77,18 @@
   {% endfor %}
 </ul> 
 {% endblock content %}
+
+{% block scripts %}
+<script>
+
+  var url   = "http://api.twitter.com/statuses/user_timeline/",
+      user  = "techmeetup", 
+      count = 1;
+
+  $.getJSON(url+user+".json?count="+count+"&callback=?", function(data) { 
+    $("#last_twitter_created").text(prettyDate(data[0].created_at));
+    $("#last_twitter").text(data[0].text);
+  });
+
+</script>
+{% endblock scripts %}
