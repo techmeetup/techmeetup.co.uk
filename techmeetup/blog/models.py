@@ -6,10 +6,11 @@ from django.core.urlresolvers import reverse
 import datetime
 
 class Post(models.Model):
-    author = models.ForeignKey(User, related_name='posts')
-    title = models.CharField(max_length=200)
-    slug = models.CharField(max_length=200)
-    body = models.TextField()
+
+    author  = models.ForeignKey(User, related_name='posts')
+    title   = models.CharField(max_length=200)
+    slug    = models.CharField(max_length=200)
+    body    = models.TextField()
     created = models.DateTimeField('Date Published')
     updated = models.DateTimeField('Date Updated')
 
@@ -23,9 +24,10 @@ class Post(models.Model):
     @models.permalink
     def get_absolute_url(self):
         return ('blog_post_detail', (), {
-            'year': self.created.strftime("%Y"),
-            'month': self.created.strftime("%m"),
-            'slug': self.slug })
-
+                'year'  : self.created.strftime("%Y"),
+                'month' : self.created.strftime("%m"),
+                'slug'  : self.slug 
+                })
+    
     class Meta:
         unique_together = ('author', 'slug')

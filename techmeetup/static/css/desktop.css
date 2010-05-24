@@ -34,6 +34,14 @@ a {
     text-decoration : none;
 }
 
+p { 
+    margin-bottom:2em;
+}
+
+ul, ol { 
+    padding-left:2em;
+}
+
 /******************************************************************************
    GLOBAL STYLES
 ******************************************************************************/
@@ -131,6 +139,7 @@ a {
     color       : #999;
 }
 #footer ul { 
+    padding: 0px;
     margin-top      : 10px; 
     list-style-type : none; 
 }
@@ -241,6 +250,7 @@ a {
 }
 
 #blog { 
+    padding: 0px;
     list-style : none; 
 }
 #blog a { 
@@ -284,6 +294,5 @@ a {
 }
 
 #contact {
-    overflow : auto;
     height   : 65px;
 }
