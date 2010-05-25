@@ -5,8 +5,7 @@
 {% if post %}
 
 <h1>{{ post.title }}</h1>
-
-<p>{{ post.created }}</p>
+<span>{{ post.created|date:"dS M Y" }}</span>
 
 <div class="blog_body">
 {{ post.body }}
