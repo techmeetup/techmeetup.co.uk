@@ -4,11 +4,12 @@
 * { 
     margin  : 0; 
     padding : 0; 
+    border  : 0;
 }
 
 body {
     font       : 14px/1.7  Arial,"Helvetica Neue",sans-serif;
-    background : #111;
+    background : green;
     color      : #EEE;
     width      : 100%;
 }
@@ -120,7 +121,7 @@ li {
 
 #footerwrapper { 
     border-top:1px solid #888;
-    -moz-box-shadow: 0px -1px 5px black;
+    /* -moz-box-shadow: 0px -1px 5px black; */
 }
 
 #footer { 
@@ -296,17 +297,22 @@ li {
     bottom          : 0px;
 }
 
-#mailinglists { 
-    width        : 469px;
-    float        : left;
-    border-right : 1px solid #222;
-}
-
 #mailinglists img, #twitter img { 
-    width        : 64px;
-    height       : 64px;
+    width        : 32px;
+    height       : 32px;
     float        : left;
     margin-right : 10px;
+    padding-bottom:50px;
+}
+
+#mailinglists p { 
+    margin:0px;
+}
+#mailinglists { 
+    width        : 449px;
+    padding-right: 20px;
+    float        : left;
+    border-right : 1px solid #222;
 }
 
 #twitter { 
@@ -316,6 +322,10 @@ li {
     border-left  : 1px solid #444;
 }
 
+#mailinglists, #twitter {
+    height:100%;
+}
+
 #contact {
-    height   : 65px;
+    height   : 95px;
 }

@@ -28,7 +28,7 @@ function prettyDate(time){
 }
 
 // If jQuery is included in the page, adds a jQuery plugin to handle it as well
-if ( typeof jQuery != "undefined" )
+if ( typeof jQuery != "undefined" ) {
 	jQuery.fn.prettyDate = function(){
 		return this.each(function(){
 			var date = prettyDate(this.title);
@@ -36,3 +36,20 @@ if ( typeof jQuery != "undefined" )
 				jQuery(this).text( date );
 		});
 	};
+}
+
+function autolink(s) {
+    var hlink = /\s(ht|f)tp:\/\/([^ \,\;\:\!\)\(\"\'\<\>\f\n\r\t\v])+/g;
+    return (s.replace (hlink, function ($0,$1,$2) {
+        s = $0.substring(1,$0.length); 
+        // remove trailing dots, if any
+        while (s.length>0 && s.charAt(s.length-1)=='.') 
+            s=s.substring(0,s.length-1);
+        // add hlink
+        return " " + s.link(s); 
+    }));
+}
+
+
+
+
