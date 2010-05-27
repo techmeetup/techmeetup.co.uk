@@ -1,53 +1,24 @@
 {% extends "base.html" %}
 
 {% block content %}
-<ul id="cities"> 
-
-  <li class="edinburgh">
-    <h4>Edinburgh</h4> 
-    <span>every 2nd Wednesday of the month</span>
-    <p>Jo Walsh will cover the basics of spatial databases.</p>
-    <p><a href="" class="map">Appleton Tower</a></p>
+<ul id="cities">
+  {% for meetup in meetups %}
+  <li>
+    <h4>{{ meetup.location.name }}</h4> 
+    <span>{{ meetup.location.occurrence }}</span>
+    <p>{{ meetup.description }}</p>
+    <p><a href="{{ meetup.map_link }}" class="map">{{ meetup.where }}</a></p>
     <div class="datewrapper">
       <div class="when">
         <div class="daywrap">
-          <div class="day">12th</div><div class="month">May</div>
+          <div class="day">{{ meetup.when|date:"nS" }}</div>
+          <div class="month">{{ meetup.when|date:"M" }}</div>
         </div>
-        <div class="time">6:30PM</div>
+        <div class="time">{{ meetup.when|date:"g.iA" }}</div>
       </div>
     </div>
   </li> 
-  
-  <li class="glasgow">
-    <h4>Glasgow</h4> 
-    <span>every 3rd Wednesday of the month</span>
-    <p>Neil Scott from http://visit-glasgow.info/ and Dave Sapien from 
-      http://www.meandthegiants.com/.</p>
-    <p><a href="" class="map">Floor 1, Saltire Centre, GCal Uni</a></p>
-    <div class="datewrapper">
-      <div class="when">
-        <div class="daywrap">
-          <div class="day">28th</div><div class="month">Apr</div>
-        </div>
-        <div class="time">6:30PM</div>
-      </div>
-    </div>
-  </li> 
-
-  <li class="aberdeen">
-    <h4>Aberdeen</h4> 
-    <span>every 4th Wednesday of the month</span>
-    <p>Gordon Murrison & Martin Evans.</p>
-    <p><a href="" class="map">North Side Meston Building, Aberdeen Uni</a></p>
-    <div class="datewrapper">
-      <div class="when">
-        <div class="daywrap">
-          <div class="day">24th</div><div class="month">Feb</div>
-        </div>
-        <div class="time">7PM</div>
-      </div>
-    </div>
-  </li> 
+  {% endfor %}
 </ul> 
 
 <div id="contact">

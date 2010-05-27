@@ -83,6 +83,7 @@ INSTALLED_APPS = (
     'django.contrib.flatpages',
     'front',
     'blog',
+    'techmeetups',
 )
 
 try:

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<ul id="cities">
+  {% for meetup in meetups %}
+  <li>
+    <h4>{{ meetup.location.name }}</h4> 
+    <span>{{ meetup.location.occurrence }}</span>
+    <p>{{ meetup.description }}</p>
+    <p><a href="{{ meetup.map_link }}" class="map">{{ meetup.where }}</a></p>
+    <div class="datewrapper">
+      <div class="when">
+        <div class="daywrap">
+          <div class="day">{{ meetup.when|date:"nS" }}</div>
+          <div class="month">{{ meetup.when|date:"M" }}</div>
+        </div>
+        <div class="time">{{ meetup.when|date:"g.iA" }}</div>
+      </div>
+    </div>
+  </li> 
+  {% endfor %}
+</ul> 
+
+{% endblock %}
