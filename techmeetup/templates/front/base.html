@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% load humanize %}
+
 {% block content %}
 <ul id="cities">
   {% for meetup in meetups %}
@@ -25,8 +27,8 @@
   <div id="mailinglists">
     <img src="/static/img/twitter.png" />
     <a href="http://www.twitter.com/techmeetup">@techmeetup</a> 
-    <sub id="last_twitter_created"></sub>
-	<p>&#8220;<span id="last_twitter"></span>&#8221;</p>
+    <sub id="last_twitter_created">{{ tweet.date|naturalday }}</sub>
+	<p>&#8220;{{ tweet.text }}&#8221;</p>
   </div>
   
   <div id="twitter"> 
@@ -50,16 +52,4 @@
 {% endblock content %}
 
 {% block scripts %}
-<script>
-
-  var url   = "http://api.twitter.com/statuses/user_timeline/",
-      user  = "techmeetup", 
-      count = 3; // twitter sometimes dont return any for count=1
-
-  $.getJSON(url+user+".json?count="+count+"&callback=?", function(data) { 
-    $("#last_twitter_created").text(prettyDate(data[0].created_at));
-    $("#last_twitter").html(autolink(data[0].text));
-  });
-
-</script>
 {% endblock scripts %}

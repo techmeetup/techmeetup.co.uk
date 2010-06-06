@@ -1,4 +1,5 @@
 # Django settings for techmeetup project.
+from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS
 
 import os
 TECHMEETUP_DIR = os.path.dirname(__file__)
@@ -74,6 +75,12 @@ TEMPLATE_DIRS = (
     os.path.join(TECHMEETUP_DIR, "templates"),
 )
 
+TEMPLATE_CONTEXT_PROCESSORS = TEMPLATE_CONTEXT_PROCESSORS + (
+    "techmeetup.front.context_processors.latest_tweet",
+)
+TWITTER_USER = "techmeetup"
+TWITTER_TIMEOUT = 3600
+
 INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.admin',
@@ -81,6 +88,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.sites',
     'django.contrib.flatpages',
+    'django.contrib.humanize',
     'front',
     'blog',
     'techmeetups',
