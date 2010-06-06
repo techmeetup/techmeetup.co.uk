@@ -8,7 +8,7 @@
 <span>{{ post.created|date:"dS M Y" }}</span>
 
 <div class="blog_body">
-{{ post.body }}
+  {{ post.body|safe|linebreaks }}
 </div>
 
 {% else %}

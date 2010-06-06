@@ -66,7 +66,7 @@ li {
     background      : #111; 
     color           : #30363E; 
     border-bottom   : 1px solid #888;
-    /* -moz-box-shadow : 0px 1px 5px black; */
+    -moz-box-shadow : 0px 1px 5px black;
     padding: 10px 0px;
 }
 #content { 
@@ -120,8 +120,9 @@ li {
 }
 
 #footerwrapper { 
+    
     border-top:1px solid #888;
-    /* -moz-box-shadow: 0px -1px 5px black; */
+    -moz-box-shadow: 0px -1px 5px black;
 }
 
 #footer { 

@@ -14,11 +14,13 @@ class Post(models.Model):
     created = models.DateTimeField('Date Published')
     updated = models.DateTimeField('Date Updated')
 
+    def __unicode__(self):
+        return self.title
+
     def save(self):
-        if not self.id:
-            self.created = datetime.date.today()
+        if not self.slug:
+            self.slug = slugify(self.title)
         self.updated = datetime.datetime.today()
-        self.slug = slugify(self.title)
         super(Post,self).save()
 
     @models.permalink
