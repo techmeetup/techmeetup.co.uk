@@ -330,3 +330,11 @@ li {
 #contact {
     height   : 95px;
 }
+
+.date { 
+    display:block;
+    color:#999999;
+    margin-bottom:15px;
+}
+
+.post h1 { margin:0px; } 

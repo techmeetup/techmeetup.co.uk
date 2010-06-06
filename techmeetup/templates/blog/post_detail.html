@@ -4,13 +4,45 @@
 
 {% if post %}
 
-<h1>{{ post.title }}</h1>
-<span>{{ post.created|date:"dS M Y" }}</span>
+<div class="post">
+  
+  <h1>{{ post.title }}</h1>
+  <span class="date">{{ post.created|date:"dS M Y" }}</span>
+  
+  <div class="blog_body">
+    {{ post.body|safe|linebreaks }}
+  </div>
 
-<div class="blog_body">
-  {{ post.body|safe|linebreaks }}
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_identified = "{{ post.title }}";
+    var disqus_developer = true;
+    /**
+    * var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread] 
+    */
+    (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'http://uktechmeetup.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+
+  <script type="text/javascript">
+    //<![CDATA[
+(function() {
+	var links = document.getElementsByTagName('a');
+	var query = '?';
+	for(var i = 0; i < links.length; i++) {
+	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+	}
+	}
+	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/uktechmeetup/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+  </script>
+
 </div>
-
 {% else %}
 <h1>???</h1>
 {% endif %}
