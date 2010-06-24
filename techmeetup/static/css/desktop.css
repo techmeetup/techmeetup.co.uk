@@ -358,3 +358,12 @@ li {
 }
 
 .post h1 { margin:0px; } 
+
+
+#cal h4 { text-decoration:underline; cursor:pointer; }
+#cal ul { list-style-type:none; }
+#cal li { overflow:hidden; margin:10px 10px 20px 10px; }
+#cal p { margin:3px 0px 6px 0px; }
+#cal .when { width:90px; float:left; text-align:center; margin-right:10px;}
+#cal .date { display:block; margin:2px 0px 2px 0px; font-weight:bold; color:white;}
+#cal .desc { display:none; margin-left:110px;}
