@@ -7,8 +7,16 @@ def front(request):
 
     latest_blogposts = Post.objects.all().order_by('-created')[0:5]
 
-    meetups = [ loc.meetup_set.order_by('-when')[0:1].get()
-                for loc in MeetupLocation.objects.all() ]
+    meetups = []
+    
+    if MeetupLocation.objects.all():
+        for loc in MeetupLocation.objects.all():
+            tmp = loc.meetup_set.order_by('-when')[0:1]
+            if tmp: 
+                meetups.append(tmp.get())
+
+    for tmp in meetups:
+        print tmp.when
 
     return render_to_response('front/base.html', {
 	    'latest_blogposts' : latest_blogposts,
