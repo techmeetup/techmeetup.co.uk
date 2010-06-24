@@ -15,15 +15,17 @@
 
   <div id="disqus_thread"></div>
   <script type="text/javascript">
-    var disqus_identified = "{{ post.title }}";
-    var disqus_developer = true;
-    /**
-    * var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread] 
-    */
+    var disqus_identified = "{{ post.slug }}",
+        disqus_iframe_css = "http://" + document.location.host + 
+                            "/static/css/disqus.css",
+        disqus_developer  = true;
+
     (function() {
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = 'http://uktechmeetup.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      var dsq = document.createElement('script'); 
+      dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://uktechmeetup.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || 
+        document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
   </script>
 

@@ -8,9 +8,14 @@ def latest_tweet( request ):
 
     if tweet:
         return {"tweet": tweet}
+    
+    try:
+        tweet = twitter.Api().GetUserTimeline( settings.TWITTER_USER )[0]
+        tweet.date = datetime.strptime( tweet.created_at, 
+                                        "%a %b %d %H:%M:%S +0000 %Y" )
+        cache.set( 'tweet', tweet, settings.TWITTER_TIMEOUT )
 
-    tweet = twitter.Api().GetUserTimeline( settings.TWITTER_USER )[0]
-    tweet.date = datetime.strptime( tweet.created_at, "%a %b %d %H:%M:%S +0000 %Y" )
-    cache.set( 'tweet', tweet, settings.TWITTER_TIMEOUT )
+        return {"tweet": tweet}
 
-    return {"tweet": tweet}
+    except:
+        return {"tweet": { "text" : "twitter is borked" }}

@@ -59,7 +59,6 @@ li {
 }
 
 #wrapper { 
-    min-width:940px;
     background : #30363E;
 }
 
@@ -67,10 +66,7 @@ li {
     background      : #111; 
     color           : #30363E; 
     border-bottom   : 1px solid #888;
-    min-width:940px;
-    -moz-box-shadow : -5px 1px 5px black;
-    -webkit-box-shadow : -5px 1px 5px black;
-    box-shadow : -5px 1px 5px black;
+    -moz-box-shadow : 0px 1px 5px black;
     padding: 10px 0px;
 }
 #content { 
@@ -124,11 +120,9 @@ li {
 }
 
 #footerwrapper { 
-    min-width:940px;
+    
     border-top:1px solid #888;
-    -moz-box-shadow: -5px -1px 5px black;
-    -webkit-box-shadow: -5px -1px 5px black;
-    box-shadow: -5px -1px 5px black;
+    -moz-box-shadow: 0px -1px 5px black;
 }
 
 #footer { 
@@ -137,15 +131,6 @@ li {
     padding  : 20px 0px; 
     overflow : auto; 
 } 
-
-#footer img { 
-    opacity:0.3;
-}
-
-#footer img:hover { 
-    opacity:1;
-}
-
 
 #footerwrapper, #footer { 
     background : #111; 
@@ -188,12 +173,10 @@ li {
 #cities { 
     overflow              : auto; 
     list-style-type       : none; 
-    background: -webkit-gradient(linear, 0 40%, 0 70%, from(#EFEFEF), 
-                                 to(#CCC));
+    -moz-border-radius    : 3px;
     background            : -moz-linear-gradient(center top,  #EFEFEF,  #BBB)
                             repeat scroll 0 0 transparent;
     -moz-box-shadow       : 1px 1px 5px #111;
-    -webkit-box-shadow    : 1px 1px 5px #111;
     border                : 1px solid #222;
     margin                : 0px 0px 35px 0px; 
     padding               : 10px 0px; 
@@ -258,7 +241,6 @@ li {
 
 .when { 
     -moz-border-radius : 4px;
-    -webkit-border-radius : 4px; 
     color              : white;        
     background         : blue;
     font-weight        : bold;
@@ -297,8 +279,6 @@ li {
     padding: 0px;
     list-style : none; 
 }
-
-#blog li { margin: 1em 0; }
 #blog a { 
     text-decoration:none; 
 }

@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 from blog.models import Post
 from urlparse import urlparse
 
+import django.utils.text
 import re, htmlentitydefs
 import datetime
 import os
@@ -42,7 +43,7 @@ def importFromWp():
             Post( author  = getOrCreate(name),
                   title   = getInnerText(post, "title"), 
                   slug    = slug, 
-                  body    = unescape(content.firstChild.wholeText),
+                  body    = django.utils.text.unescape_entities(content.firstChild.wholeText),
                   created = date, 
                   updated = date ).save()
             

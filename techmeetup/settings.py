@@ -89,6 +89,7 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.flatpages',
     'django.contrib.humanize',
+#    'south', TBD
     'front',
     'blog',
     'techmeetups',
