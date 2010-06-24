@@ -28,7 +28,7 @@
     <img src="/static/img/twitter.png" />
     <a href="http://www.twitter.com/techmeetup">@techmeetup</a> 
     <sub id="last_twitter_created">{{ tweet.date|naturalday }}</sub>
-	<p>&#8220;{{ tweet.text }}&#8221;</p>
+	<p>&#8220;{{ tweet.text|urlize }}&#8221;</p>
   </div>
   
   <div id="twitter"> 
