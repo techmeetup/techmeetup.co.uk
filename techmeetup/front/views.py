@@ -15,9 +15,6 @@ def front(request):
             if tmp: 
                 meetups.append(tmp.get())
 
-    for tmp in meetups:
-        print tmp.when
-
     return render_to_response('front/base.html', {
 	    'latest_blogposts' : latest_blogposts,
             'meetups'          : meetups
