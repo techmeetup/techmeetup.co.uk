@@ -9,3 +9,4 @@ ext_libs/*/dist
 *.egg*
 *.hg*
 static/uploads
+apache2
