@@ -7,8 +7,11 @@
 <div class="post">
   
   <h1>{{ post.title }}</h1>
-  <span class="date">{{ post.created|date:"dS M Y" }}</span>
-  
+  <div class="details">
+    <span class="date">{{ post.created|date:"dS M Y" }}</span> by
+    <span class="author">{{ post.author }}</span>
+  </div>
+
   <div class="blog_body">
     {{ post.body|safe|linebreaks }}
   </div>

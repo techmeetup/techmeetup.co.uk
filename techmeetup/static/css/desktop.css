@@ -351,10 +351,14 @@ li {
     height   : 95px;
 }
 
-.date { 
-    display:block;
+.details { 
     color:#999999;
     margin-bottom:15px;
+}
+
+.alignleft { 
+    margin:10px;
+    float:left;
 }
 
 .post h1 { margin:0px; } 
