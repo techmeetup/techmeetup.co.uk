@@ -1,4 +1,6 @@
 from django.conf.urls.defaults import *
+
+import blog.views
 import settings
 
 # Uncomment the next two lines to enable the admin:
@@ -8,6 +10,7 @@ admin.autodiscover()
 urlpatterns = patterns('',
     (r'^$', include('front.urls')),
     (r'^blog/', include('blog.urls')),
+    (r'^latest/feed/$', blog.views.LatestEntriesFeed()),
 
     (r'^admin/doc/', include('django.contrib.admindocs.urls')),
     (r'^admin/', include(admin.site.urls)),
