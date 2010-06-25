@@ -188,6 +188,8 @@ li {
 #cities { 
     overflow              : auto; 
     list-style-type       : none; 
+    
+    background-color: #EFEFEF;
     background: -webkit-gradient(linear, 0 40%, 0 70%, from(#EFEFEF), 
                                  to(#CCC));
     background            : -moz-linear-gradient(center top,  #EFEFEF,  #BBB)
