@@ -138,13 +138,13 @@ li {
     overflow : auto; 
 } 
 
-#footer img { 
+.fadehover { 
     opacity:0.3;
 }
 
-#footer img:hover { 
-    opacity:1;
-}
+/* #footer img:hover {  */
+/*     opacity:1; */
+/* } */
 
 
 #footerwrapper, #footer { 
