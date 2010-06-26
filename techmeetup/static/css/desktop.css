@@ -83,6 +83,11 @@ li {
     color : #999;
 }
 
+#last_twitter_created { 
+    font-size:70%;
+    color : #999;
+}
+
 #header {  
     width      : 940px; 
     background : #111; 
@@ -203,6 +208,7 @@ li {
     width                 : 940px;
     -webkit-border-radius : 5px; 
     -moz-border-radius    : 5px; 
+    border-radius : 5px; 
 }
 #cities li { 
     width         : 298px; 
