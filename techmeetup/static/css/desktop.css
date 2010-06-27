@@ -102,6 +102,7 @@ li {
     height:43px;
     width:190px;
     text-indent:-999px;
+    outline:none;
 }
 #header a:link, #header a:visited { 
     font-family     : "Trebuchet MS", verdana;
