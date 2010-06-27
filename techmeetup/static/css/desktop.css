@@ -64,6 +64,7 @@ li {
 }
 
 #headerwrapper { 
+    margin-top:5px;
     background      : #111; 
     color           : #30363E; 
     border-bottom   : 1px solid #888;
@@ -92,13 +93,15 @@ li {
     width      : 940px; 
     background : #111; 
     margin     : 0 auto; 
-    position   : relative; 
+    position   : relative;     
 }
 
 #header h1 a {
-    color       : white !important;
-    font-weight : bold;
-    font-family : serif;
+    background:url(/static/img/techmeetup_logo.png);
+    display:block;
+    height:43px;
+    width:190px;
+    text-indent:-999px;
 }
 #header a:link, #header a:visited { 
     font-family     : "Trebuchet MS", verdana;
@@ -110,8 +113,8 @@ li {
 }
 
 #header h1 { 
+    margin:0px;
     float  : left; 
-    margin : 10px 0; 
 }
 
 #header ul { 
@@ -119,12 +122,12 @@ li {
     bottom     : 0px; 
     right      : 0px; 
     list-style : none; 
-    margin-top : 18px; 
+    margin-top : 0px; 
 }
 
 #header > ul > li { 
     display     : inline-block; 
-    margin      : 5px 0px 5px 35px; 
+    margin      : 5px 0px 0px 35px; 
     font-size   : 120%;
 }
 
