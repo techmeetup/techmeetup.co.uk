@@ -5,7 +5,7 @@
 {% block content %}
 <ul id="cities">
   {% for meetup in meetups %}
-  <li>
+  <li class="{% cycle "first" "" "last" %}">
     <h4>{{ meetup.location.name }}</h4> 
     <span>{{ meetup.location.occurrence }}</span>
     <p>{{ meetup.description }}</p>

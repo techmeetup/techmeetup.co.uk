@@ -10,6 +10,11 @@
     <title>TechMeetup {% block title %}{% endblock title %}</title> 
     <script src="/static/js/jquery-1.4.2.min.js"></script>
 
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
     {% block head %}
     {% endblock head %}
 
@@ -60,7 +65,7 @@
           <ul><li><a href="http://startupcafe.co.uk">StartupCafe</a></li> 
         </ul></section> 
         
-        <section><h4>Sponsors</h4>
+        <section class="last"><h4>Sponsors</h4>
           <ul>
             <li><a href="http://www.informatics-ventures.com/" 
                    class="fadehover">

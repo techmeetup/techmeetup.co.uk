@@ -150,26 +150,21 @@ li {
     opacity:0.3;
 }
 
-/* #footer img:hover {  */
-/*     opacity:1; */
-/* } */
-
-
 #footerwrapper, #footer { 
     background : #111; 
 }
 #footer section { 
-    display      : block; 
-    width        : 205px; 
+    display      : inline; 
+    width        : 204px; 
     margin-right : 40px; 
     padding-left : 0px; 
     float        : left; 
 }
-#footer section:last-child { 
+#footer section.last { 
     margin-right : 0px; 
 }
 #footer h4 { 
-    font-family : "Trebuchet MS", verdana;
+    font-size:90%;
     color       : #999;
 }
 #footer ul { 
@@ -217,20 +212,18 @@ li {
     width         : 298px; 
     height        : 120px;
     float         : left;  
-    padding-right : 10px;
-    padding-left  : 10px;
+    padding       : 0px 10px 0px 10px;
     margin        : 0px;
     position      : relative;
     border-right  : 1px solid #999;
     border-left   : 1px solid #DDD;
 }
-#cities li:first-child { 
+#cities li.first { 
     border-left:0px;
 }
-#cities li:last-child { 
+#cities li.last { 
+    padding       : 0px 0px 0px 10px;
     width         : 290px; 
-    padding-right : 0px;
-    margin-right  : 0px; 
     border-right  : 0px;
 }
 #cities li p { 
