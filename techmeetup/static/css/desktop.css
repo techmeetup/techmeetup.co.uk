@@ -89,11 +89,22 @@ li {
     color : #999;
 }
 
+#sponsors { width: 280px; float: right; }
+#sponsors ul { list-style: none; padding: 0; }
+#sponsors { text-align: center; }
+#sponsors li { margin-top: 20px; }
+
 #header {
     width      : 940px;
     background : #111;
     margin     : 0 auto;
     position   : relative;
+}
+
+#intro {
+    width: 630px;
+    margin-right: 20px;
+    float:left;
 }
 
 #header h1 a {
@@ -152,8 +163,19 @@ li {
     padding:5px 0;
 }
 
-.fadehover {
+#sponsors .fadehover, .fadehover {
+    -moz-transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
     opacity:0.3;
+}
+
+#sponsors .fadehover {
+    opacity: 0.7;
+}
+
+#sponsors .fadehover:hover, .fadehover:hover {
+    opacity: 1;
 }
 
 #footerwrapper, #footer {

@@ -3,6 +3,27 @@
 {% load humanize %}
 
 {% block content %}
+
+<div id="head">
+  <div id="intro">
+       <p>We founded the TechMeetup because there is an abundance of events for entrepreneurs to meet investors and lawyers, and next to nothing for techies and tech. Considering the wealth of tech talent around (yes you), why haven’t we made the effort before to get to know everyone – see what else everyone is working on – get help on our projects from others – and talk about some of the cool stuff we’re doing – web apps, software, mobile apps, hardware, games…</p>
+
+       <p>Networking sounds like something that you do if you’re in PR or sales, so we don’t call it that and we don’t make it feel like that. There’s no name badges, no canapés. There’s just pizza and beer, a projector and a load of techies arguing about stuff. Come along to a TechMeetup and meet who else is involved in your tech scene.</p>
+  </div>
+
+  <div id="sponsors"><h4>Thanks to our sponsors:</h4>
+    <ul>
+      <li><a href="http://www.skyscanner.net/" class="fadehover">
+          <img src="/static/img/skyscanner.png" />
+      </a></li>
+      <li><a href="http://www.skyscanner.net/" class="fadehover">
+          <img src="http://edgecase.com/images/edgecase_logo_big.png" />
+      </a></li>
+    </ul>
+  </div>
+
+</div>
+
 <ul id="cities">
   {% for meetup in meetups %}
   <li class="{% cycle "first" "" "last" %}">
