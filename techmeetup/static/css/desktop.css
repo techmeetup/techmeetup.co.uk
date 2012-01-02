@@ -216,7 +216,6 @@ li {
 }
 #cities li {
     width         : 298px;
-    height        : 170px;
     float         : left;
     padding       : 0px 10px 0px 10px;
     margin        : 0px;
@@ -322,10 +321,9 @@ li {
     line-height     : 16px;
     background      : url(/static/img/map.png) no-repeat;
     padding-left    : 20px;
+    height          : 40px;
     text-decoration : none;
     color           : #106294 !important;
-    position        : absolute;
-    bottom          : 0px;
 }
 
 #mailinglists img, #twitter img {
