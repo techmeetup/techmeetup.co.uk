@@ -6,7 +6,7 @@
 <ul id="cities">
   {% for meetup in meetups %}
   <li class="{% cycle "first" "" "last" %}">
-    <h4>{{ meetup.location.name }}</h4> 
+    <h4>{{ meetup.location.name }}</h4>
     <span>{{ meetup.location.occurrence }}</span>
     <p>{{ meetup.description|safe|linebreaks }}</p>
     <p><a href="{{ meetup.map_link }}" class="map">{{ meetup.where }}</a></p>
@@ -19,50 +19,37 @@
         <div class="time">{{ meetup.when|date:"g.iA" }}</div>
       </div>
     </div>
-  </li> 
+  </li>
   {% endfor %}
-</ul> 
+</ul>
 
 <div id="contact">
   <div id="mailinglists">
     <img src="/static/img/twitter.png" />
-    <a href="http://www.twitter.com/techmeetup">@techmeetup</a> 
+    <a href="http://www.twitter.com/techmeetup">@techmeetup</a>
     <span id="last_twitter_created">{{ tweet.date|naturalday }}</span>
 	<p>&#8220;{{ tweet.text|urlize }}&#8221;</p>
   </div>
-  
-  <div id="twitter"> 
+
+  <div id="twitter">
     <img src="/static/img/groups.png" />
     <a href="http://groups.google.com/group/techmeetup?pli=1">
       Get Announcements</a> about upcoming techmeetups, or<br />
     <a href="http://groups.google.com/group/techmeetup-discussions">
       Join Discussions</a> with the rest of the community.
-  </div> 
-</div>  
+  </div>
+</div>
 
-<h5 id="recent">recent posts</h5> 
+<h5 id="recent">recent posts</h5>
 <ul id="blog">
   {% for post in latest_blogposts %}
   <li>
-    <span>{{ post.created|date:"d M Y" }}</span> &raquo; 
+    <span>{{ post.created|date:"d M Y" }}</span> &raquo;
     <a href="{{ post.get_absolute_url }}"><h4>{{ post.title }}</h4></a>
   </li>
   {% endfor %}
-</ul> 
+</ul>
 {% endblock content %}
-
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-10057871-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
 
 {% block scripts %}
 {% endblock scripts %}
