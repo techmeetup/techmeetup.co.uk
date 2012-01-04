@@ -401,3 +401,5 @@ li {
 #about-sponsors { height: 100%; width: 280px; float: right; margin: 0px 0 0 40px; background: #000; padding: 10px; border-radius: 5px;  }
 #about-sponsors li { margin-top: 40px; }
 #about-sponsors ul { list-style: none; }
+
+#head { min-height: 240px; }
