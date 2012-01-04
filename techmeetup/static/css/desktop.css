@@ -402,4 +402,4 @@ li {
 #about-sponsors li { margin-top: 40px; }
 #about-sponsors ul { list-style: none; }
 
-#head { min-height: 240px; }
+#head { min-height: 240px; overflow: auto; }
