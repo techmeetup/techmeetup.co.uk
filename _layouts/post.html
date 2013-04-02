@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div id="post">
+  <h1>{{ page.title }}</h1>
+  <div class="details">
+    <span class="date">{{ page.created | date: "%d %B %Y" }}</span>
+    <!-- <span class="author">{{ post.author }}</span> -->
+  </div>
+
+  <div class="blog_body">{{ content }}</div>
+
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_identified = "{{ page.slug }}",
+        disqus_iframe_css = "http://" + document.location.host +
+                            "/static/css/disqus.css",
+        disqus_developer = true;
+
+    (function() {
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://uktechmeetup.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] ||
+        document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+
+  <script type="text/javascript">
+    //<![CDATA[
+(function() {
+var links = document.getElementsByTagName('a');
+var query = '?';
+for(var i = 0; i < links.length; i++) {
+if(links[i].href.indexOf('#disqus_thread') >= 0) {
+query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+}
+}
+document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/uktechmeetup/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+  </script>
+</div>

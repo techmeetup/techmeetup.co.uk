@@ -1,0 +1,18 @@
+---
+layout: post
+title: Edinburgh Techmeetup August 10th 6&#58;30pm
+slug: edinburgh-aug-2011
+created: 2011-08-03 11:53:08
+---
+
+<p>This months Techmeetup is happening in a different location; Amazon's new offices on the lower ground floor of the Waverley Gate building (<a href="http://www.amazondc.com/contact-us">map</a>)</p>
+
+<p>Two speakers (minor details still being confirmed):</p>
+
+<p>Chris Rourke of <a href="http://www.uservision.co.uk/">User Vision</a> will provide an introduction to usability testing with practical and simple methods that can be performed by anyone.</p>
+
+<p>Ann Marie Shillito from <a href="http://anarkik3d.co.uk/">Anarkik3d</a> will be talking about software for designers using haptic 3D mice.</p>
+
+<p>There will be a long interval between the two, as both our speakers will be running demos. Chris will be running a user testing session with a volunteer from the audience. Ann will hopefully have several laptops and haptic 3D mice set up for you to play with.</p>
+
+<p>Thanks to both our sponsors <a href="http://www.skyscanner.net/">SkyScanner</a> and <a href="http://www.amazondc.com/">Amazon</a> - both of which are hiring at the moment. </p>

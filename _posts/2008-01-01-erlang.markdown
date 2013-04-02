@@ -1,0 +1,10 @@
+---
+layout: post
+title: Gordon Guthrie on Erlang
+slug: erlang
+created: 2008-01-01 02:25:13
+---
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="425" height="355" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://static.slideshare.net/swf/ssplayer2.swf?doc=edinburgh-techie-meetup-20081010-ii-1225119588592610-8&stripped_title=erlang-presentation-696666" /><embed type="application/x-shockwave-flash" width="425" height="355" src="http://static.slideshare.net/swf/ssplayer2.swf?doc=edinburgh-techie-meetup-20081010-ii-1225119588592610-8&stripped_title=erlang-presentation-696666"></embed></object>
+
+Gordon Guthrie of <a href="http://wwww.hypernumbers.com">Hypernumbers</a> gave a high level yet interesting talk on Erlang. He focussed on the philosophy behind Erlang which was designed from ground up to be a concurrent & distribution-oriented programming language. Even though Erlang syntax is similar to many other functional programming languages, it provides native concurrency and multiprocessing capabilities. So an application written in Erlang can scale easily to a large network of computers.

@@ -1,0 +1,340 @@
+/******************************************************************************
+   TAG STYLES
+******************************************************************************/
+* { 
+    margin  : 0; 
+    padding : 0; 
+    border  : 0;
+}
+
+body {
+    font       : 14px/1.7  Arial,"Helvetica Neue",sans-serif;
+    background : #111;
+    color      : #EEE;
+    width      : 100%;
+}
+
+h1  { font-size: 220%; }
+h2  { font-size: 180%; }
+h3  { font-size: 160%; }
+h4  { font-size: 140%; }
+h5  { font-size: 100%; }
+h6  { font-size: 90%;  } 
+sub { font-size: 70%; }
+
+h1, h2, h3, h3, h4, h5, h6 {
+    line-height : 100%;
+    color       : #33A5D1;
+    text-shadow : #111 1px 1px 1px;
+    font-weight : normal;
+    margin-bottom: 0.5em;
+}
+
+
+a img { 
+    border:none;
+}
+
+a { 
+    color           : #33A5D1;
+    text-decoration : none;
+}
+
+p { 
+    margin-bottom:2em;
+}
+
+ul, ol { 
+    padding-left:2em;
+}
+
+li { 
+    margin:0.5em 0;
+}
+/******************************************************************************
+   GLOBAL STYLES
+******************************************************************************/
+.clear { 
+    clear: both; 
+}
+
+#wrapper { 
+    background : #30363E;
+}
+
+#headerwrapper { 
+    background      : #111; 
+    color           : #30363E; 
+    border-bottom   : 1px solid #888;
+    -moz-box-shadow : 0px 1px 5px black;
+    padding: 10px 0px;
+}
+#content { 
+    width      : 940px; 
+    margin     : 25px auto 0px auto; 
+    padding    : 0 0 25px 0; 
+    background : #30363E;    
+}
+#content sub { 
+    color : #999;
+}
+
+#header {  
+    width      : 940px; 
+    background : #111; 
+    margin     : 0 auto; 
+    position   : relative; 
+}
+
+#header h1 a {
+    color       : white !important;
+    font-weight : bold;
+    font-family : serif;
+}
+#header a:link, #header a:visited { 
+    font-family     : "Trebuchet MS", verdana;
+    color           : #FFF; 
+    text-decoration : none; 
+}
+#header a:hover { 
+    text-decoration : underline; 
+}
+
+#header h1 { 
+    float  : left; 
+    margin : 10px 0; 
+}
+
+#header ul { 
+    position   : absolute; 
+    bottom     : 0px; 
+    right      : 0px; 
+    list-style : none; 
+    margin-top : 18px; 
+}
+
+#header > ul > li { 
+    display     : inline-block; 
+    margin      : 5px 0px 5px 35px; 
+    font-size   : 120%;
+}
+
+#footerwrapper { 
+    
+    border-top:1px solid #888;
+    -moz-box-shadow: 0px -1px 5px black;
+}
+
+#footer { 
+    margin   : 0px auto; 
+    width    : 940px; 
+    padding  : 20px 0px; 
+    overflow : auto; 
+} 
+
+#footerwrapper, #footer { 
+    background : #111; 
+}
+#footer section { 
+    display      : block; 
+    width        : 205px; 
+    margin-right : 40px; 
+    padding-left : 0px; 
+    float        : left; 
+}
+#footer section:last-child { 
+    margin-right : 0px; 
+}
+#footer h4 { 
+    font-family : "Trebuchet MS", verdana;
+    color       : #999;
+}
+#footer ul { 
+    padding: 0px;
+    margin-top      : 10px; 
+    list-style-type : none; 
+}
+#footer ul li { 
+    margin:0px;
+}
+#footer ul li a { 
+    color           : #DDD; 
+    padding         : 3px 0px; 
+    text-decoration : none; 
+    font-size       : 90%; 
+}
+#footer ul li a:hover { 
+    text-decoration : underline; 
+}
+
+/******************************************************************************
+   FRONT PAGE
+******************************************************************************/
+#cities { 
+    overflow              : auto; 
+    list-style-type       : none; 
+    -moz-border-radius    : 3px;
+    background            : -moz-linear-gradient(center top,  #EFEFEF,  #BBB)
+                            repeat scroll 0 0 transparent;
+    -moz-box-shadow       : 1px 1px 5px #111;
+    border                : 1px solid #222;
+    margin                : 0px 0px 35px 0px; 
+    padding               : 10px 0px; 
+    overflow              : auto;
+    width                 : 940px;
+    -webkit-border-radius : 5px; 
+    -moz-border-radius    : 5px; 
+}
+#cities li { 
+    width         : 298px; 
+    height        : 120px;
+    float         : left;  
+    padding-right : 10px;
+    padding-left  : 10px;
+    margin        : 0px;
+    position      : relative;
+    border-right  : 1px solid #999;
+    border-left   : 1px solid #DDD;
+}
+#cities li:first-child { 
+    border-left:0px;
+}
+#cities li:last-child { 
+    width         : 290px; 
+    padding-right : 0px;
+    margin-right  : 0px; 
+    border-right  : 0px;
+}
+#cities li p { 
+    margin    : 0px 0px; 
+    font-size : 90%;
+    color     : #333;
+}
+#cities h4 { 
+    margin: 0px;
+}
+#cities span { 
+    position:relative;
+    top:-5px;
+    color:#555;
+    font-size:70%;
+    line-height:70%;
+}
+
+.datewrapper { 
+    position   : absolute;
+    top        : 0px;
+    right      : 10px;
+    text-align : center;
+}
+
+.datewrapper sub { 
+    display : none;
+    color   : #999;
+}
+
+#cities h4 { 
+    color       : #333;
+    font-weight : bold;
+    text-shadow : #FFF 1px 1px 0px;
+}
+
+.when { 
+    -moz-border-radius : 4px;
+    color              : white;        
+    background         : blue;
+    font-weight        : bold;
+    text-align         : center;
+    font-size          : 90%;
+    line-height        : 14px;
+    width              : 110px;
+    padding            : 3px;
+    text-shadow        : #275200 1px 1px 0px;
+    background         : #57A621;
+    overflow           : auto;
+}
+
+.daywrap { 
+    float : left;
+    width : 30px;
+}
+
+.time {
+    display     : block;
+    width       : 80px;
+    line-height : 28px;
+    float       : right;
+    text-align  : center;
+    font-size   : 140%;
+}
+
+#recent { 
+    color        : #999;
+    margin-top   : 25px;
+    font-variant : small-caps;
+    text-shadow:none;
+}
+
+#blog { 
+    padding: 0px;
+    list-style : none; 
+}
+#blog a { 
+    text-decoration:none; 
+}
+#blog h4 { 
+    color       : #33A5D1;
+    display     : inline;
+    text-shadow : #111 1px 1px 1px;
+}
+.map { 
+    display         : block;
+    line-height     : 16px;
+    background      : url(/static/img/map.png) no-repeat;
+    padding-left    : 20px;
+    text-decoration : none;
+    color           : #106294 !important;
+    position        : absolute;
+    bottom          : 0px;
+}
+
+#mailinglists img, #twitter img { 
+    width        : 32px;
+    height       : 32px;
+    float        : left;
+    margin-right : 10px;
+    padding-bottom:50px;
+}
+
+#mailinglists p { 
+    margin:0px;
+}
+#mailinglists { 
+    width        : 449px;
+    padding-right: 20px;
+    float        : left;
+    border-right : 1px solid #222;
+}
+
+#twitter { 
+    width        : 449px;
+    float        : right;
+    padding-left : 20px;
+    border-left  : 1px solid #444;
+}
+
+#mailinglists, #twitter {
+    height:100%;
+}
+
+#contact {
+    height   : 95px;
+}
+
+.date { 
+    display:block;
+    color:#999999;
+    margin-bottom:15px;
+}
+
+.post h1 { margin:0px; } 

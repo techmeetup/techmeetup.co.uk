@@ -1,0 +1,27 @@
+---
+layout: post
+title: Aberdeen Techmeetup 11
+slug: aberdeen_11
+created: 2010-09-15 13:25:54
+---
+
+It's time for another Techmeetup on the 15th at 6:30pm in the foyer of the North entrance of the Meston Building. As usual come for the food, listen to the talks and stay for the conversation and networking.
+
+Jeff Pan and Edward Thomas
+http://www.csd.abdn.ac.uk/~jpan/
+
+“Linked Data and Semantic Inference”
+
+We will give a brief introduction of linked data and the Semantic Web, with some example to illustrate the usefulness of semantic inference.
+
+Sam Eliott
+http://www.lenary.co.uk/
+
+"Patching: A Game of Give and Take"
+
+My take on what it means to help with Open Souce projects - what you
+can get from the experience and what it can mean to someone if you
+help with their project.
+
+The talk is based on my experience in the Ruby and Ruby on Rails
+communities both accepting patches And writing them

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <link href="/static/css/desktop.css" rel="stylesheet" />
+    <link rel="alternate" type="application/rss+xml" title="RSS"
+          href="/latest/feed/" />
+
+    <title>TechMeetup - {{ page.title }}</title>
+    <script src="/static/js/jquery-1.4.2.min.js"></script>
+  </head>
+
+  <body>
+
+    <div id="wrapper">
+      <div id="headerwrapper"><div id="header">
+          <h1><a href="/">Tech Meetup</a></h1>
+          <ul>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="http://vimeo.com/techmeetup">Videos</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <!-- <li><a href="/speakers/">Speakers</a></li> -->
+            <li><a href="/calendar.html">Calendar</a></li>
+          </ul>
+          <div class="clear"></div>
+      </div></div>
+
+      <div id="content">{{ content }}</div>
+
+    </div>
+
+    <div id="footerwrapper"><div id="footer">
+        <section><h4>Site</h4>
+          <ul><li><a href="/about.html">About</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="http://vimeo.com/techmeetup">Videos</a></li>
+            <li><a href="/calendar.html">Calendar</a></li>
+        </ul></section>
+
+        <section><h4>Community</h4>
+          <ul><li><a href="http://twitter.com/techmeetup">Twitter</a></li>
+            <li>
+              <a href="http://groups.google.com/group/techmeetup-discussions">
+                Discussions</a></li>
+            <li><a href="http://groups.google.com/group/techmeetup?pli=1">
+                Announcements</a></li>
+        </ul></section>
+
+        <section><h4>Other Places</h4>
+          <ul><li><a href="http://startupcafe.co.uk">StartupCafe</a></li>
+        </ul></section>
+
+        <section class="last"><h4>Sponsors</h4>
+          <ul>
+            <li><a href="http://www.skyscanner.net/" class="fadehover">
+                <img src="/static/img/skyscanner.png" />
+            </a></li>
+            <li><a href="http://edgecase.com" class="fadehover">
+                <img src="/static/img/edgecase.png" />
+            </a></li>
+            <li><a href="http://www.scottlogic.co.uk/" class="fadehover">
+                <img src="/static/img/scottlogic.png" />
+            </a></li>
+            <li><a href="/about.html">And many more »</a></li>
+          </ul>
+        </section>
+
+    </div></div>
+
+    <script src="/static/js/main.js"></script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-10057871-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+  </body>
+</html>
