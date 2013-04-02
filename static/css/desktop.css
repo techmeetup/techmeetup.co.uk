@@ -108,7 +108,7 @@ li {
 }
 
 #header h1 a {
-    background:url(/static/img/techmeetup_logo.png);
+    background:url(../img/techmeetup_logo.png);
     display:block;
     height:43px;
     width:190px;
@@ -337,7 +337,7 @@ li {
 .map {
     display         : block;
     line-height     : 16px;
-    background      : url(/static/img/map.png) no-repeat;
+    background      : url(../img/map.png) no-repeat;
     padding-left    : 20px;
     height          : 40px;
     text-decoration : none;
