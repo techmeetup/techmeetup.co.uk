@@ -13,15 +13,15 @@ title: Home
   <div id="sponsors"><h4>Thanks to our sponsors:</h4>
     <ul>
       <li><a href="http://www.skyscanner.net/" class="fadehover">
-          <img src="{{ site.baseurl }}static/img/skyscanner.png" />
+          <img src="{{ site.baseurl }}/static/img/skyscanner.png" />
       </a></li>
       <li><a href="http://neo.com/" class="fadehover">
-          <img src="{{ site.baseurl }}static/img/neo.png" />
+          <img src="{{ site.baseurl }}/static/img/neo.png" />
       </a></li>
       <li><a href="http://www.informatics-ventures.com/" class="fadehover">
-          <img src="{{ site.baseurl }}static/img/informatics.png" />
+          <img src="{{ site.baseurl }}/static/img/informatics.png" />
       </a></li>
-      <li><a href="{{ site.baseurl }}about.html">And many more »</a></li>
+      <li><a href="{{ site.baseurl }}/about.html">And many more »</a></li>
     </ul>
   </div>
 
@@ -81,13 +81,13 @@ title: Home
 
 <div id="contact">
   <div id="mailinglists">
-    <img src="/static/img/twitter.png" />
+    <img src="{{site.baseurl}}/static/img/twitter.png" />
     <a href="http://www.twitter.com/techmeetup">@techmeetup</a>
     <span id="last_twitter_created"></span>
   </div>
 
   <div id="twitter">
-    <img src="/static/img/groups.png" />
+    <img src="{{site.baseurl}}/static/img/groups.png" />
     <a href="http://groups.google.com/group/techmeetup?pli=1">
       Get Announcements</a> about upcoming techmeetups, or<br />
     <a href="http://groups.google.com/group/techmeetup-discussions">
@@ -100,7 +100,7 @@ title: Home
 <div id="home">
   <ul id="blog" class="posts">
     {% for post in site.posts limit:5 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a></li>
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{site.baseurl}}{{ post.url }}"><h4>{{ post.title }}</h4></a></li>
     {% endfor %}
   </ul>
 </div>
