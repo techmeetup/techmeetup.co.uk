@@ -7,9 +7,9 @@ created: 2012-03-13 13:00:29
 
 The next TechMeetup Aberdeen talk is on Wednesday, 21rst March at 7:00pm (NOTE later time!) in the foyer of the North entrance to the Meston Building.
 
-<b>Chris Shanks and Greg Myers</b> <a href="https://twitter.com/#!/A_Tale_Of_Chris">@A_Tale_Of_Chris</a> <a href="https://twitter.com/#!/bookofgreg">@bookofgreg</a>
+&nbsp;<b>Chris Shanks and Greg Myers</b> <a href="https://twitter.com/#!/A_Tale_Of_Chris">@A_Tale_Of_Chris</a> <a href="https://twitter.com/#!/bookofgreg">@bookofgreg</a>
 
-<h3>Why not Linux?</h3>
+&nbsp;<h3>Why not Linux?</h3>
 
 "If your currently using Windows and keep hitting the same problems when programming, have you thought about using Linux?
 

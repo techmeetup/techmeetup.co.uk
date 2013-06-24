@@ -17,5 +17,5 @@ http://www.leggetter.co.uk/
 •	When does Real-Time matter? (discuss)
 •	Evolution of the Web: from Pull to Push
 •	The technologies behind Push
-•	Push Services & Platforms
+•	Push Services &amp; Platforms
 Following Phil’s talk we’ll explore some new ideas we have so be sure to come and join the fun. We look forward to seeing you there.

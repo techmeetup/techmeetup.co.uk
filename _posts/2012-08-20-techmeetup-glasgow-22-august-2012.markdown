@@ -10,12 +10,12 @@ TechMeetup Glasgow is back on the 5th Floor of the School of Computing on 22th o
 This months talks are two-fold:
 
 Maria Farrell from the Open Rights Group will be talking about the Communications Data Bill and
-having a Q&A on Internet Policy
+having a Q&amp;A on Internet Policy
 
 Technologies for Health and Wellbeing – Lessons Learned through Co-designing with Older Users
 Dr Marilyn McGee-Lennon will give a brief overview of some of the projects she has been working on recently and highlight the co-design methods that have worked (and haven’t) and reveal some tips about how these methods can be used to develop better interactive technologies and experiences.
 
-There'll be beer and pizza as usual and plenty of time before, between, and after the talks to catch up on the latest tech news & gossip. As ever, the event is free and no sign-up is necessary.
+There'll be beer and pizza as usual and plenty of time before, between, and after the talks to catch up on the latest tech news &amp; gossip. As ever, the event is free and no sign-up is necessary.
 
 TechMeetup is made possible by the amazing financial support from the University of Glasgow (http://www.gla.ac.uk/), EdgeCase (http://edgecase.com/), ScottLogic (http://www.scottlogic.co.uk/), SkyScanner (http://www.skyscanner.net/) and small donations from community members. Thank you all.
 

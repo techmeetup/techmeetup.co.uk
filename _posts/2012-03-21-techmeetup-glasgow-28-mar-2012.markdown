@@ -15,7 +15,7 @@ Principles are at the foundation of Lean and Agile: yet they are often lost in a
 <strong> Infographics, John Loudon (@phoenixq)</strong>
 Infographics have long been a hot topic from the subtle beginnings with basic graphs to the sophisticated layering now possible through digital software. In this talk John Loudon will cover some of the history of where infographics came from and what caused the sudden surge in their use . The talk will go on to look at a process he implemented into his team as a training and development exercise and also give hints and tips as to how to get you started in creating your own. If you're interested in infographics or just getting a better understanding of how they can be used to leverage data sets then this is the talk for you.
 
-There'll be beer and pizza as usual and plenty of time before, between, and after the talks to catch up on the latest tech news & gossip. As ever, the event is free and no sign-up is necessary.
+There'll be beer and pizza as usual and plenty of time before, between, and after the talks to catch up on the latest tech news &amp; gossip. As ever, the event is free and no sign-up is necessary.
 
 TechMeetup is made possible by the amazing financial support from the <a href="http://www.gla.ac.uk">University of Glasgow</a>, <a href="http://edgecase.com/">EdgeCase</a>, <a href="http://www.scottlogic.co.uk/">ScottLogic</a>, <a href="http://www.skyscanner.net/">SkyScanner</a> and small donations from community members. Thank you all.
 

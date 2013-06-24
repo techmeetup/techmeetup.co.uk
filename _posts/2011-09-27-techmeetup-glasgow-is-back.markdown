@@ -17,7 +17,7 @@ We’ve got two talks lined up in October:
 
 2.) Eilidh Donaldson (@tweetsportcouk) telling us about the life and times of running a startup and where she aims to take Tweetsport, an innovative approach to location-based sports news.
 
-There'll be beer and pizza as usual and plenty of time before, between, and after the talks to catch up on the latest tech news & gossip. As ever, the event is free and no sign-up is necessary.
+There'll be beer and pizza as usual and plenty of time before, between, and after the talks to catch up on the latest tech news &amp; gossip. As ever, the event is free and no sign-up is necessary.
 
 We’ve received amazing support over the last month from a lot of folk in the community. Thanks for all the retweets and spreading of the word. Please keep doing it. It means a lot to us and is mightily appreciated.
 
@@ -32,4 +32,4 @@ Glasgow Westend
 
 For queries email Ijonas Kisselbach (ijonas.kisselbach@gmail.com)
 
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?msa=0&amp;msid=217161173396650967619.0004accf70991bd913a97&amp;ie=UTF8&amp;t=h&amp;vpsrc=0&amp;ll=55.874525,-4.292893&amp;spn=0.00133,0.001794&amp;output=embed"></iframe><br /><small>View <a href="http://maps.google.com/maps/ms?msa=0&amp;msid=217161173396650967619.0004accf70991bd913a97&amp;ie=UTF8&amp;t=h&amp;vpsrc=0&amp;ll=55.874525,-4.292893&amp;spn=0.00133,0.001794&amp;source=embed" style="color:#0000FF;text-align:left">TechMeetup Glasgow</a> in a larger map</small>
+&nbsp;<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?msa=0&amp;amp;msid=217161173396650967619.0004accf70991bd913a97&amp;amp;ie=UTF8&amp;amp;t=h&amp;amp;vpsrc=0&amp;amp;ll=55.874525,-4.292893&amp;amp;spn=0.00133,0.001794&amp;amp;output=embed"></iframe><br /><small>View <a href="http://maps.google.com/maps/ms?msa=0&amp;amp;msid=217161173396650967619.0004accf70991bd913a97&amp;amp;ie=UTF8&amp;amp;t=h&amp;amp;vpsrc=0&amp;amp;ll=55.874525,-4.292893&amp;amp;spn=0.00133,0.001794&amp;amp;source=embed" style="color:#0000FF;text-align:left">TechMeetup Glasgow</a> in a larger map</small>

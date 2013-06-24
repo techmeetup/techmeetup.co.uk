@@ -15,7 +15,7 @@ RunRev CEO Kevin Miller, will talk about the vital need to engage today's studen
 <strong>The Strategies and Architectures used by State Sponsored Cyber-Attacks, Chris Johnson</strong>
 Chris will briefly describe ways of bringing down Europe’s transportation infrastructures using a number of different cyber-attack scenarios.  The aim of the talk is to make people aware of threats from the integration of computational infrastructures across European industries.
 
-There'll be beer and pizza as usual and plenty of time before, between, and after the talks to catch up on the latest tech news & gossip. As ever, the event is free and no sign-up is necessary.
+There'll be beer and pizza as usual and plenty of time before, between, and after the talks to catch up on the latest tech news &amp; gossip. As ever, the event is free and no sign-up is necessary.
 
 TechMeetup is made possible by the amazing financial support from the <a href="http://www.gla.ac.uk">University of Glasgow</a>, <a href="http://edgecase.com/">EdgeCase</a>, <a href="http://www.scottlogic.co.uk/">ScottLogic</a>, <a href="http://www.skyscanner.net/">SkyScanner</a> and small donations from community members. Thank you all.
 

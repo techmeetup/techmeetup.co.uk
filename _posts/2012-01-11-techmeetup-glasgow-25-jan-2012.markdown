@@ -15,7 +15,7 @@ Responsive Design is rapidly becoming part of the lingua franca of web and mobil
 <strong>HTTP Caching 101, Sebastien Lambla (@serialseb) of CodeBetter.com</strong>
 Caching is one of the most powerful feature of HTTP and ReSTful architecture, and also one of the most misunderstood. This session will review what can be done with HTTP, debunk a few myths and show some commonly-implemented patterns you can implement in your own clients.
 
-There'll be beer and pizza as usual and plenty of time before, between, and after the talks to catch up on the latest tech news & gossip. As ever, the event is free and no sign-up is necessary.
+There'll be beer and pizza as usual and plenty of time before, between, and after the talks to catch up on the latest tech news &amp; gossip. As ever, the event is free and no sign-up is necessary.
 
 TechMeetup is made possible by the amazing financial support from the <a href="http://www.gla.ac.uk">University of Glasgow</a>, <a href="http://edgecase.com/">EdgeCase</a>, <a href="http://www.skyscanner.net/">SkyScanner</a> and small donations from community members. Thank you all.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First Tech Meetup&#58; success! 
+title: First Tech Meetup&amp;#58; success! 
 slug: first-tech-meetup-success
 created: 2008-09-05 12:31:00
 ---

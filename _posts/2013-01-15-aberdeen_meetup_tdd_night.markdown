@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Aberdeen Meetup&#58; TDD Night
+title: Aberdeen Meetup&amp;#58; TDD Night
 slug: aberdeen_meetup_tdd_night
 created: 2013-01-15 11:40:57
 ---

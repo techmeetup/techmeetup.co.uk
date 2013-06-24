@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Edinburgh Wed 14th September, 6&#58;30pm
+title: Edinburgh Wed 14th September, 6&amp;#58;30pm
 slug: edinburgh-sept
 created: 2011-09-06 22:55:15
 ---

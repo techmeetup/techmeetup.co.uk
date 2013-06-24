@@ -12,7 +12,7 @@ This months talks are two-fold:
 Drawing for Developers: Canvas vs SVG, Kevin Brolly - @kevinbrolly
 Start Sharing - Greq McQueen - @gregmcqueen
 
-There'll be beer and pizza as usual and plenty of time before, between, and after the talks to catch up on the latest tech news & gossip. As ever, the event is free and no sign-up is necessary.
+There'll be beer and pizza as usual and plenty of time before, between, and after the talks to catch up on the latest tech news &amp; gossip. As ever, the event is free and no sign-up is necessary.
 
 TechMeetup is made possible by the amazing financial support from the University of Glasgow (http://www.gla.ac.uk/), EdgeCase (http://edgecase.com/), ScottLogic (http://www.scottlogic.co.uk/), SkyScanner (http://www.skyscanner.net/) and small donations from community members. Thank you all.
 

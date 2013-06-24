@@ -7,7 +7,7 @@ created: 2011-10-04 22:09:04
 
 Tech Meetup Edinburgh is back on the 8th floor of Appleton Tower on Wed 12th October from 6.30pm for our first ever themed event* - all about art.
 
-Our first talk is Digital colour 3D holograms and holographic displays, by Javid Khan of Holoxica Ltd. Full-colour 3D-holograms for the scientific community using CAD/mathematical models, scanned data or live images. Designs range from medical images or molecular structures to concept cars. Holoxica is also pioneering a holographic display, which is currently in the R&D phase.
+Our first talk is Digital colour 3D holograms and holographic displays, by Javid Khan of Holoxica Ltd. Full-colour 3D-holograms for the scientific community using CAD/mathematical models, scanned data or live images. Designs range from medical images or molecular structures to concept cars. Holoxica is also pioneering a holographic display, which is currently in the R&amp;D phase.
 
 Tom and Daniel from Codeus will talk about artificial intelligence and creativity, with examples from their work on generative art, generative poems, and evolutionary design. They will give some demonstrations of their work, and talk about the theory (and code) behind them.
 

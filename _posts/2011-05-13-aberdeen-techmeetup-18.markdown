@@ -23,7 +23,7 @@ The system generates a draft story based on data collected with a mobile
 phone, and the children edit and tell the story using an appropriate user
 interface. The talk will describe the functionality and architecture of the
 system as well as practical issues which occur when deploying this sort of
-system `in the wild'.
+system 'in the wild'.
 
 
 James Baster

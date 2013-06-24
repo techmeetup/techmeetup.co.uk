@@ -15,9 +15,9 @@ We're hosting a special Cloud Workshop event in conjunction with the University 
 <li>Derek Wang (Research Fellow, School of Computer Science, U of St Andrews) will talk about the web based toolkit he's been developing to analyse cost and revenues from different configurations in the cloud.</li>
 </ol>
 
-The format for the evening will be a very quick introduction, followed by the three talks (45 mins total), and then an open panel/Q&A discussion session for the rest of the time. The panel will be made up of the three speakers plus Prof. Ian Sommerville from St Andrews, and Prof. Ian Allison from RGU (the two PIs on the project).
+The format for the evening will be a very quick introduction, followed by the three talks (45 mins total), and then an open panel/Q&amp;A discussion session for the rest of the time. The panel will be made up of the three speakers plus Prof. Ian Sommerville from St Andrews, and Prof. Ian Allison from RGU (the two PIs on the project).
 
-There'll be beer and pizza as usual and plenty of time before, after the talks and before the Q&A to catch up on the latest tech news & gossip. As ever, the event is free and no sign-up is necessary.
+There'll be beer and pizza as usual and plenty of time before, after the talks and before the Q&amp;A to catch up on the latest tech news &amp; gossip. As ever, the event is free and no sign-up is necessary.
 
 TechMeetup is made possible by the amazing financial support from the <a href="http://www.gla.ac.uk/">University of Glasgow</a>, <a href="http://http://www.neo.com/offices/uk/">Neo</a> , <a href="http://www.scottlogic.co.uk/">ScottLogic</a>, <a href="http://www.skyscanner.net">SkyScanner</a> and small donations from community members. Thank you all.
 
@@ -29,7 +29,7 @@ by Hillhead Underground
 Glasgow Westend
 
 
-<a href="http://g.co/maps/n8zmn">Here's a Google Map</a> to the venue.
+&nbsp;<a href="http://g.co/maps/n8zmn">Here's a Google Map</a> to the venue.
 
 
 For queries email Ijonas Kisselbach (ijonas.kisselbach@gmail.com)

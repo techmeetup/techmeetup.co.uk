@@ -13,4 +13,4 @@ Side Projects draw to a close, as our intrepid workers return to tell us what th
 
 Then some more speakers talking about their projects: Tom Beddard talks about <a href="http://fractal.io/">http://fractal.io/</a> and Gavin Robertson talks about <a href="http://www.okmyway.com/">http://www.okmyway.com/</a>
 
-To finish the night up Jennie Lees, now working for Google, will be back in town and has kindly agreed to do a quick Q&A session. To ask your question visit <a href="http://techmeetuptalks.posterous.com/qa-session-with-jennie-lees-from-google">http://techmeetuptalks.posterous.com/qa-session-with-jennie-lees-from-google</a>
+To finish the night up Jennie Lees, now working for Google, will be back in town and has kindly agreed to do a quick Q&amp;A session. To ask your question visit <a href="http://techmeetuptalks.posterous.com/qa-session-with-jennie-lees-from-google">http://techmeetuptalks.posterous.com/qa-session-with-jennie-lees-from-google</a>

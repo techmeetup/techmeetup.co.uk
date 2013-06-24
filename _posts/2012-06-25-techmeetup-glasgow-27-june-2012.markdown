@@ -15,7 +15,7 @@ Rich's talk will cover how developers can apply the principles of good design to
 <strong>Outside-in Development, Mike Borozdin</strong>
 Outside-in development allows us, developers, to look at software from the end-user perspective. This results in achieving a greater level of customer satisfaction and producing more maintainable code. The talk will cover the essentials of outside-in development, its benefits, how to get started and the tools which can help you with that.
 
-There'll be beer and pizza as usual and plenty of time before, between, and after the talks to catch up on the latest tech news & gossip. As ever, the event is free and no sign-up is necessary.
+There'll be beer and pizza as usual and plenty of time before, between, and after the talks to catch up on the latest tech news &amp; gossip. As ever, the event is free and no sign-up is necessary.
 
 TechMeetup is made possible by the amazing financial support from the <a href="http://www.gla.ac.uk">University of Glasgow</a>, <a href="http://edgecase.com/">EdgeCase</a>, <a href="http://www.scottlogic.co.uk/">ScottLogic</a>, <a href="http://www.skyscanner.net/">SkyScanner</a> and small donations from community members. Thank you all.
 
