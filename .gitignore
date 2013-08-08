@@ -10,3 +10,4 @@ ext_libs/*/dist
 *.hg*
 static/uploads
 apache2
+_site
