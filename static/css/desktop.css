@@ -212,7 +212,7 @@ li {
 /******************************************************************************
    FRONT PAGE
 ******************************************************************************/
-#cities {
+.cities {
     overflow              : auto;
     list-style-type       : none;
     background: -webkit-gradient(linear, 0 40%, 0 70%, from(#EFEFEF),
@@ -232,7 +232,7 @@ li {
     -moz-border-radius    : 5px;
     border-radius : 5px;
 }
-#cities li {
+.cities li {
     width         : 298px;
     float         : left;
     padding       : 0px 10px 0px 10px;
@@ -241,23 +241,23 @@ li {
     border-right  : 1px solid #999;
     border-left   : 1px solid #DDD;
 }
-#cities li.first {
+.cities li.first {
     border-left:0px;
 }
-#cities li.last {
+.cities li.last {
     padding       : 0px 0px 0px 10px;
     width         : 290px;
     border-right  : 0px;
 }
-#cities li p {
+.cities li p {
     margin    : 0px 0px;
     font-size : 90%;
     color     : #333;
 }
-#cities h4 {
+.cities h4 {
     margin: 0px;
 }
-#cities span {
+.cities span {
     position:relative;
     top:-5px;
     color:#555;
