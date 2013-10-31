@@ -407,7 +407,5 @@ li {
 
 #head { min-height: 240px; overflow: auto; }
 
-.organiser {  text-decoration : none; color: #106294; }
-.cities .organisers { top:-5px; color:#555; font-size:70%; margin-bottom: 1em; }
 
 #secondcities { width: 650px; margin: 0 auto; margin-bottom: 3em; }
