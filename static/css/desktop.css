@@ -59,7 +59,6 @@ li {
 }
 
 #wrapper {
-    min-width:940px;
     background : #30363E;
 }
 
@@ -68,16 +67,14 @@ li {
     background      : #111;
     color           : #30363E;
     border-bottom   : 1px solid #888;
-    min-width:940px;
     -moz-box-shadow : -5px 1px 5px black;
     -webkit-box-shadow : -5px 1px 5px black;
     box-shadow : -5px 1px 5px black;
     padding: 10px 0px;
 }
 #content {
-    width      : 940px;
     margin     : 25px auto 0px auto;
-    padding    : 0 0 25px 0;
+    padding    : 25px 10px;
     background : #30363E;
 }
 #content sub {
@@ -89,22 +86,15 @@ li {
     color : #999;
 }
 
-#sponsors { width: 280px; float: right; }
+
 #sponsors ul { list-style: none; padding: 0; }
 #sponsors { text-align: center; }
 #sponsors li { margin-top: 20px; }
 
 #header {
-    width      : 940px;
     background : #111;
     margin     : 0 auto;
     position   : relative;
-}
-
-#intro {
-    width: 630px;
-    margin-right: 20px;
-    float:left;
 }
 
 #header h1 a {
@@ -124,17 +114,8 @@ li {
     text-decoration : underline;
 }
 
-#header h1 {
-    margin:0px;
-    float  : left;
-}
-
 #header ul {
-    position   : absolute;
-    bottom     : 0px;
-    right      : 0px;
     list-style : none;
-    margin-top : 0px;
 }
 
 #header > ul > li {
@@ -143,8 +124,42 @@ li {
     font-size   : 120%;
 }
 
+@media screen and (min-width: 940px) {
+	#intro {
+		width: 630px;
+		margin-right: 20px;
+		float:left;
+	}
+	#sponsors { width: 280px; float: right; }
+	#header {
+		width      : 940px;
+	}
+	#content {
+		width      : 940px;
+		padding    : 0 0 25px 0;
+	}
+	
+	#header h1 {
+		margin:0px;
+		float  : left;
+	}
+	#header ul {
+		position   : absolute;
+		bottom     : 0px;
+		right      : 0px;
+		list-style : none;
+		margin-top : 0px;
+	}
+
+	#header > ul > li {
+		display     : inline-block;
+		margin      : 5px 0px 0px 35px;
+		font-size   : 120%;
+	}
+}
+
+
 #footerwrapper {
-    min-width:940px;
     border-top:1px solid #888;
     -moz-box-shadow: -5px -1px 5px black;
     -webkit-box-shadow: -5px -1px 5px black;
@@ -153,7 +168,6 @@ li {
 
 #footer {
     margin   : 0px auto;
-    width    : 940px;
     padding  : 20px 0px;
     overflow : auto;
 }
@@ -178,11 +192,11 @@ li {
     background : #111;
 }
 #footer section {
-    display      : inline;
-    width        : 204px;
-    margin-right : 40px;
+    display      : block;
+    margin-right : 0px;
     padding-left : 0px;
-    float        : left;
+	text-align: center;
+	margin-top: 40px;
 }
 #footer section.last {
     margin-right : 0px;
@@ -209,46 +223,90 @@ li {
     text-decoration : underline;
 }
 
+@media screen and (min-width: 940px) {
+	#footerwrapper {
+		min-width:940px;
+	}	
+	#footer {
+		width    : 940px;
+	}
+	#footer section {
+		display      : inline;
+		width        : 204px;
+		float        : left;
+		text-align: left;
+		margin-right : 40px;
+		margin-top: 0;
+	}
+}
+
 /******************************************************************************
    FRONT PAGE
 ******************************************************************************/
-.cities {
-    overflow              : auto;
-    list-style-type       : none;
-    background: -webkit-gradient(linear, 0 40%, 0 70%, from(#EFEFEF),
-                                 to(#CCC));
-    background: -moz-linear-gradient(center top,  #EFEFEF,  #BBB)
-                            repeat scroll 0 0 transparent;
-    background-color: #EFEFEF;
+@media screen and (min-width: 940px) {
+	.cities {
+		overflow              : auto;
+		list-style-type       : none;
+		background: -webkit-gradient(linear, 0 40%, 0 70%, from(#EFEFEF),
+									 to(#CCC));
+		background: -moz-linear-gradient(center top,  #EFEFEF,  #BBB)
+								repeat scroll 0 0 transparent;
+		background-color: #EFEFEF;
 
-    -moz-box-shadow       : 1px 1px 5px #111;
-    -webkit-box-shadow    : 1px 1px 5px #111;
-    border                : 1px solid #222;
-    margin                : 0px 0px 35px 0px;
-    padding               : 10px 0px;
-    overflow              : auto;
-    width                 : 940px;
-    -webkit-border-radius : 5px;
-    -moz-border-radius    : 5px;
-    border-radius : 5px;
+		-moz-box-shadow       : 1px 1px 5px #111;
+		-webkit-box-shadow    : 1px 1px 5px #111;
+		border                : 1px solid #222;
+		margin                : 0px 0px 35px 0px;
+		padding               : 10px 0px;
+		overflow              : auto;
+		width                 : 940px;
+		-webkit-border-radius : 5px;
+		-moz-border-radius    : 5px;
+		border-radius : 5px;
+	}
+	.cities li {
+		width         : 298px;
+		float         : left;
+		padding       : 0px 10px 0px 10px;
+		margin        : 0px;
+		position      : relative;
+		border-right  : 1px solid #999;
+		border-left   : 1px solid #DDD;
+	}
+	.cities li.first {
+		border-left:0px;
+	}
+	.cities li.last {
+		padding       : 0px 0px 0px 10px;
+		width         : 290px;
+		border-right  : 0px;
+	}
+	#secondcities { width: 650px; margin: 0 auto; margin-bottom: 3em; }
 }
-.cities li {
-    width         : 298px;
-    float         : left;
-    padding       : 0px 10px 0px 10px;
-    margin        : 0px;
-    position      : relative;
-    border-right  : 1px solid #999;
-    border-left   : 1px solid #DDD;
+
+@media screen and (max-width: 940px) {
+	.cities li {
+		background: -webkit-gradient(linear, 0 40%, 0 70%, from(#EFEFEF),
+									 to(#CCC));
+		background: -moz-linear-gradient(center top,  #EFEFEF,  #BBB)
+								repeat scroll 0 0 transparent;
+		background-color: #EFEFEF;
+
+		-moz-box-shadow       : 1px 1px 5px #111;
+		-webkit-box-shadow    : 1px 1px 5px #111;
+		border                : 1px solid #222;
+		margin                : 10px 0;
+		padding               : 10px 10px;
+		-webkit-border-radius : 5px;
+		-moz-border-radius    : 5px;
+		border-radius : 5px;
+		list-style-type: none;
+		position      : relative;		
+		width: 90%;
+	}
 }
-.cities li.first {
-    border-left:0px;
-}
-.cities li.last {
-    padding       : 0px 0px 0px 10px;
-    width         : 290px;
-    border-right  : 0px;
-}
+
+
 .cities li p {
     margin    : 0px 0px;
     font-size : 90%;
@@ -346,38 +404,42 @@ li {
     text-decoration : none;
     color           : #106294 !important;
 }
-
 #mailinglists img, #twitter img {
-    width        : 32px;
-    height       : 32px;
-    float        : left;
-    margin-right : 10px;
-    padding-bottom:50px;
+		width        : 32px;
+		height       : 32px;
 }
+@media screen and (min-width: 940px) {
 
-#mailinglists p {
-    margin:0px;
-}
-#mailinglists {
-    width        : 449px;
-    padding-right: 20px;
-    float        : left;
-    border-right : 1px solid #222;
-}
+	#mailinglists img, #twitter img {
+		float        : left;
+		margin-right : 10px;
+		padding-bottom:50px;
+	}
 
-#twitter {
-    width        : 449px;
-    float        : right;
-    padding-left : 20px;
-    border-left  : 1px solid #444;
-}
+	#mailinglists p {
+		margin:0px;
+	}
+	#mailinglists {
+		width        : 449px;
+		padding-right: 20px;
+		float        : left;
+		border-right : 1px solid #222;
+	}
 
-#mailinglists, #twitter {
-    height:100%;
-}
+	#twitter {
+		width        : 449px;
+		float        : right;
+		padding-left : 20px;
+		border-left  : 1px solid #444;
+	}
 
-#contact {
-    height   : 95px;
+	#mailinglists, #twitter {
+		height:100%;
+	}
+
+	#contact {
+		height   : 95px;
+	}
 }
 
 .details {
@@ -411,4 +473,5 @@ li {
 	padding: 20px 0;
 }
 
-#secondcities { width: 650px; margin: 0 auto; margin-bottom: 3em; }
+
+
