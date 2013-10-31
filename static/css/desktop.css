@@ -283,6 +283,9 @@ li {
     text-shadow : #FFF 1px 1px 0px;
 }
 
+.cities h4 a {
+    color: #333;
+}
 .when {
     -moz-border-radius : 4px;
     -webkit-border-radius : 4px;
