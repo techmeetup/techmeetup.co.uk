@@ -407,5 +407,8 @@ li {
 
 #head { min-height: 240px; overflow: auto; }
 
+#UpcomingEvents .openTechCalendarEventListEvent {
+	padding: 20px 0;
+}
 
 #secondcities { width: 650px; margin: 0 auto; margin-bottom: 3em; }

@@ -11,6 +11,8 @@ title: Home
 	Organised by: <a class="organiser" href="http://www.twitter.com/philip_roberts">@philip_roberts</a> and 
 	<a class="organiser" href="http://www.twitter.com/mariusciocanel">@MariusCiocanel</a>
 </p>
+
+<div id="UpcomingEvents"></div>
 	  
 
 <h3>Usual Venue</h3>
@@ -25,3 +27,7 @@ title: Home
 	If you are in a big concourse and you aren't sure where the lifts are, they are behind double swing doors on the other side of the concourse.
 </p>
 	  
+<script src="{{ site.baseurl }}/static/js/cityCal.js"></script>
+<script>
+	placeOpenTechCalendarEventListWidget('UpcomingEvents',{groupID:1});
+</script>
