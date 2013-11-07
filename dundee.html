@@ -1,0 +1,37 @@
+---
+layout: default
+title: Home
+---
+
+<h2>Dundee</h2>
+
+<p>Last Tuesday of the month</p>
+
+<p class="organisers">
+	Organised by: <a class="organiser" href="http://www.twitter.com/KennyLowe">@KennyLowe</a>,  
+	<a class="organiser" href="http://www.twitter.com/RyanCormack">@RyanCormack</a>,  
+	<a class="organiser" href="http://www.twitter.com/AndyCobley">@AndyCobley</a> and 
+	<a class="organiser" href="http://www.twitter.com/bcd_dundee">@bcd_dundee</a>
+</p>
+   
+<div id="UpcomingEvents"></div>
+	  
+<h3>Export straight into your calendar and never miss an event!</h3>
+
+<p>Please <a href="http://opentechcalendar.co.uk/index.php/group/18">go here and click export for instructions</a>.</p>
+
+
+<h3>Usual Venue</h3>
+
+<p>
+	Note that sometimes special events are held at other locations, so always check details for each event. 
+	But usually, you'll find us at
+	<a href="https://maps.google.co.uk/maps?q=Queen+Mother+Building,+Dundee+University&hl=en&sll=56.458593,-2.982733&sspn=0.00894,0.027874&hnear=Queen+Mother+Bldg,+Dundee+DD1+4HN,+United+Kingdom&t=m&z=16">Queen Mother Building, Dundee University</a>.
+</p>
+
+
+<script src="{{ site.baseurl }}/static/js/cityCal.js"></script>
+<script>
+	placeOpenTechCalendarEventListWidget('UpcomingEvents',{groupID:18});
+</script>
+
