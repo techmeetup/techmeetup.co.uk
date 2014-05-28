@@ -1,15 +1,12 @@
-var url = "http://opentechcalendar.co.uk/index.php/country/GB/region/1/jsonp?callback=?";
+var url = "http://opentechcalendar.co.uk/api1/area/59/events.jsonp?callback=?";
 
 var mkhtml = function(entry) {
   return "<li>"
     +"<div class='when'><span class='date'>"+entry.start.displaylocal+"</span>"
     +"<span class='prettydate'>"+prettyDate(new Date(entry.start.rfc2882local))+"</span></div>"
     +"<h4>"+escapeHTML(entry.summaryDisplay)+"</h4>"
-    +"<div class='desc'><p>"+escapeHTML(entry.description)+"</p><p>"+escapeHTML(entry.group.title)+"</p>"
-    +"<strong>Where: </strong>"+escapeHTML(entry.location.address)
-	+" "+escapeHTML(entry.location.postcode)
-	+" "+escapeHTML(entry.location.title)+" "
-    +" (<a href='"+entry.url+"'>More</a>)</div>"
+    +"<div class='desc'><p>"+escapeHTMLNewLine(entry.description)+"</p>"
+    +" (<a href='"+entry.url+"'>More</a> "+(entry.url != entry.siteurl?"or <a href='"+entry.siteurl+"'>on OpenTechCalendar</a>":"")+")</div>"
     +"</li>";
 };
 
@@ -17,6 +14,12 @@ function escapeHTML(str) {
 	if(typeof str === "undefined") return '';
 	if(str == null) return '';
 	return str.replace("<","&lt;","g").replace(">","&gt;","g");
+}	
+
+function escapeHTMLNewLine(str) {
+	if(typeof str === "undefined") return '';
+	if(str == null) return '';
+	return str.replace("<","&lt;","g").replace(">","&gt;","g").replace("\n","<br>","g");
 }	
 
 // Munged from resigs
