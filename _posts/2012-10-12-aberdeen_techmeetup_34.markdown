@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Aberdeen Techmeetup 34
+title: Aberdeen TechMeetup 34
 slug: aberdeen_techmeetup_34
 created: 2012-10-12 12:24:19
 ---

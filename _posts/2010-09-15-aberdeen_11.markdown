@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Aberdeen Techmeetup 11
+title: Aberdeen TechMeetup 11
 slug: aberdeen_11
 created: 2010-09-15 13:25:54
 ---
 
-It's time for another Techmeetup on the 15th at 6:30pm in the foyer of the North entrance of the Meston Building. As usual come for the food, listen to the talks and stay for the conversation and networking.
+It's time for another TechMeetup on the 15th at 6:30pm in the foyer of the North entrance of the Meston Building. As usual come for the food, listen to the talks and stay for the conversation and networking.
 
 Jeff Pan and Edward Thomas
 http://www.csd.abdn.ac.uk/~jpan/

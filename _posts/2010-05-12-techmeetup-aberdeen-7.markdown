@@ -5,7 +5,7 @@ slug: techmeetup-aberdeen-7
 created: 2010-05-12 18:09:44
 ---
 
-Techmeetup #7 will be held on Wednesday 19th May in the foyer of the North entrance to the Meston Building (<a style="color: #005488;" href="http://www.csd.abdn.ac.uk/information/informationforvisitors/" target="_blank">http://www.csd.abdn.ac.uk/information/informationforvisitors/</a>).
+TechMeetup #7 will be held on Wednesday 19th May in the foyer of the North entrance to the Meston Building (<a style="color: #005488;" href="http://www.csd.abdn.ac.uk/information/informationforvisitors/" target="_blank">http://www.csd.abdn.ac.uk/information/informationforvisitors/</a>).
 
 Pizza and beer will be served from 6:30pm onwards, talks start at around 8pm and no doubt there will be a trip to the pub at the end of the night.
 

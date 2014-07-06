@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Aberdeen Techmeetup #7 (May 2010)
+title: Aberdeen TechMeetup #7 (May 2010)
 slug: aberdeen-techmeetup-7-may-2010
 created: 2010-05-20 10:40:00
 ---

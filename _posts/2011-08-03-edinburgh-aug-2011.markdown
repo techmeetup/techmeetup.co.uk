@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Edinburgh Techmeetup August 10th 6&amp;#58;30pm
+title: Edinburgh TechMeetup August 10th 6&amp;#58;30pm
 slug: edinburgh-aug-2011
 created: 2011-08-03 11:53:08
 ---
 
-<p>This months Techmeetup is happening in a different location; Amazon's new offices on the lower ground floor of the Waverley Gate building (<a href="http://www.amazondc.com/contact-us">map</a>)</p>
+<p>This months TechMeetup is happening in a different location; Amazon's new offices on the lower ground floor of the Waverley Gate building (<a href="http://www.amazondc.com/contact-us">map</a>)</p>
 
 <p>Two speakers (minor details still being confirmed):</p>
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New Techmeetup Site
+title: New TechMeetup Site
 slug: new-techmeetup-site
 created: 2010-06-27 02:27:31
 ---
