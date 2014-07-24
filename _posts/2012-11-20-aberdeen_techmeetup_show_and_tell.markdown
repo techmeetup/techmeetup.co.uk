@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Aberdeen Techmeetup&amp;#58; Show &amp; Tell
+title: Aberdeen TechMeetup&amp;#58; Show &amp; Tell
 slug: aberdeen_techmeetup_show_and_tell
 created: 2012-11-20 10:34:25
 ---

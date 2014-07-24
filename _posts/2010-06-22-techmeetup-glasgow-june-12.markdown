@@ -5,7 +5,7 @@ slug: techmeetup-glasgow-june-12
 created: 2010-06-22 12:19:40
 ---
 
-Techmeetup #12 will be held on <strong>Wednesday 23rd June</strong>, 7:00pm-late, in space generously donated by the <a href="http://www.g-mac.co.uk/">Glasgow Media Access Centre</a> (GMAC for short).  GMAC is located on the fifth floor of <a href="http://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=G1+5HD&sll=53.800651,-4.064941&sspn=16.942262,46.538086&ie=UTF8&hq=&hnear=Glasgow,+Lanarkshire+G1+5HD,+United+Kingdom&z=16">Trongate 103</a> - come checkout the <strong>new digs!</strong>
+TechMeetup #12 will be held on <strong>Wednesday 23rd June</strong>, 7:00pm-late, in space generously donated by the <a href="http://www.g-mac.co.uk/">Glasgow Media Access Centre</a> (GMAC for short).  GMAC is located on the fifth floor of <a href="http://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=G1+5HD&sll=53.800651,-4.064941&sspn=16.942262,46.538086&ie=UTF8&hq=&hnear=Glasgow,+Lanarkshire+G1+5HD,+United+Kingdom&z=16">Trongate 103</a> - come checkout the <strong>new digs!</strong>
 
 TechMeetup is a monthly get together for tech chat, talks, pizza & beer - turn up around 7pm and we'll be there to welcome you and introduce you to the nearest members of the local tech community.  Whether you're a code monkey, a designer, an academic, a start-up addict or you're running an established business, you'll meet folks walking your talk.
 

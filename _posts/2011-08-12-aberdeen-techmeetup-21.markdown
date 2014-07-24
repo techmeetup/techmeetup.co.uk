@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Aberdeen Techmeetup 21
+title: Aberdeen TechMeetup 21
 slug: aberdeen-techmeetup-21
 created: 2011-08-12 08:51:19
 ---
 
-Come along to the August meeting of Techmeetup Aberdeen at 6:30pm on 17th August at North entrance foyer to Meston building, and hear our two speakers. As usual, you get to meet and talk to interesting people and hear about cool ideas.
+Come along to the August meeting of TechMeetup Aberdeen at 6:30pm on 17th August at North entrance foyer to Meston building, and hear our two speakers. As usual, you get to meet and talk to interesting people and hear about cool ideas.
 
 Lee Christie <a href="http://twitter.com/#!/java6nerd"> http://twitter.com/#!/java6nerd</a>
 Java Generics

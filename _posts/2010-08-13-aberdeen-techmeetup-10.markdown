@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Aberdeen Techmeetup 10 
+title: Aberdeen TechMeetup 10
 slug: aberdeen-techmeetup-10
 created: 2010-08-13 08:43:26
 ---
 
-It’s time for another Techmeetup Aberdeen event at 6:30pm in the foyer of the North entrance of the Meston Building. As usual come for the food, listen to the talks and stay for the conversation and networking. ok, so you also want the beer and pizza, then fine. We'll make sure that's here too. See you there!
+It’s time for another TechMeetup Aberdeen event at 6:30pm in the foyer of the North entrance of the Meston Building. As usual come for the food, listen to the talks and stay for the conversation and networking. ok, so you also want the beer and pizza, then fine. We'll make sure that's here too. See you there!
 
 For those of you coming by car, you’re best advised to park in the car park to the south side of the library off of Bedford Road as the car park, that you’re familiar with outside of our building is now gone.
 

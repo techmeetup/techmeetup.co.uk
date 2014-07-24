@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Edinburgh March Techmeetup
+title: Edinburgh March TechMeetup
 slug: edinburgh-march-techmeetup
 created: 2010-03-05 09:54:26
 ---

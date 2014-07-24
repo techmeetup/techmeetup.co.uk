@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Aberdeen Techmeetup #5 17th March 2010
+title: Aberdeen TechMeetup #5 17th March 2010
 slug: aberdeen-techmeetup-5-17th-march-2010
 created: 2010-03-19 12:13:15
 ---
 
-There were traumatic scenes of looting at Aberdeen's 5th Techmeetup last Wednesday night as a group of geology students attending a university cheese and wine party spilt over into Techmeetup's space in the foyer. Bravely standing their ground the Techmeetup attendees defended their pizza against the marauding geologists.
+There were traumatic scenes of looting at Aberdeen's 5th TechMeetup last Wednesday night as a group of geology students attending a university cheese and wine party spilt over into TechMeetup's space in the foyer. Bravely standing their ground the TechMeetup attendees defended their pizza against the marauding geologists.
 
 Well that's a bit of an exaggeration and in the event there was plenty of beer and pizza to go round. This, followed by two excellent talks once again made for a most enjoyable evening.
 

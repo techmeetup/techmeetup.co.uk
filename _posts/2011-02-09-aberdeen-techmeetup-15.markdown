@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Aberdeen Techmeetup 15
+title: Aberdeen TechMeetup 15
 slug: aberdeen-techmeetup-15
 created: 2011-02-09 16:11:03
 ---
 
-It’s that time again. The next Techmeetup Aberdeen meeting will be Wed, 16th February at 6:30pm in the foyer of the North Entrance to the Meston Building. Come along to chat to fellow tech folks, and to hear
+It’s that time again. The next TechMeetup Aberdeen meeting will be Wed, 16th February at 6:30pm in the foyer of the North Entrance to the Meston Building. Come along to chat to fellow tech folks, and to hear
 
 James Philip talking about  The Magic Smoke
 http://twitter.com/#!/jorbals

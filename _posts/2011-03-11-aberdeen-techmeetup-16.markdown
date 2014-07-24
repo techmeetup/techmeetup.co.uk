@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Aberdeen Techmeetup 16
+title: Aberdeen TechMeetup 16
 slug: aberdeen-techmeetup-16
 created: 2011-03-11 13:36:22
 ---
 
-It’s that time again. The next Techmeetup Aberdeen meeting will be Wed, 16th March at 6:30pm in the foyer of the North Entrance to the Meston Building. Come along to chat to fellow tech folks, and to hear
+It’s that time again. The next TechMeetup Aberdeen meeting will be Wed, 16th March at 6:30pm in the foyer of the North Entrance to the Meston Building. Come along to chat to fellow tech folks, and to hear
 
 <em>Rowan Evenstar http://twitter.com/zenrhe</em>
 talking about
