@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Aberdeen TechMeetup&amp;#58; SureVoIP API
+title: Aberdeen TechMeetup - SureVoIP API
 slug: aberdeen_techmeetup_surevoip
 created: 2013-03-14 12:23:27
 ---

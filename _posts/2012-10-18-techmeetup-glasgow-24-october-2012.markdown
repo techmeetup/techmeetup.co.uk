@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TechMeetup Glasgow &amp;#58; A Startup Night
+title: TechMeetup Glasgow  - A Startup Night
 slug: techmeetup-glasgow-24-october-2012
 created: 2012-10-18 06:32:08
 ---

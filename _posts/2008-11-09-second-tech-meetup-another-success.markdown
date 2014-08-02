@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Second Tech Meetup&amp;#58; another success...
+title: Second Tech Meetup - another success...
 slug: second-tech-meetup-another-success
 created: 2008-11-09 02:30:40
 ---

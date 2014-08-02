@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TechMeetup Glasgow &amp;#58; A Games Night
+title: TechMeetup Glasgow  - A Games Night
 slug: techmeetup-glasgow-23-january-2013
 created: 2013-01-21 09:19:04
 ---

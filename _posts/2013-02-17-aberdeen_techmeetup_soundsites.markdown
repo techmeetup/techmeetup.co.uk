@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Aberdeen TechMeetup&amp;#58; Aberdeen Soundsites
+title: Aberdeen TechMeetup - Aberdeen Soundsites
 slug: aberdeen_techmeetup_soundsites
 created: 2013-02-17 11:28:23
 ---
