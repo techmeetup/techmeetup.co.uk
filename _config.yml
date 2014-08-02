@@ -1,2 +1,12 @@
-baseurl: http://techmeetup.co.uk
-markdown: rdiscount
+url: http://techmeetup.co.uk
+exclude: [bin, vendor, CNAME, Gemfile, Gemfile.lock, Guardfile, Rakefile,
+          README.md]
+gems:
+  - jekyll-sitemap
+
+# Same as GitHub Pages
+# https://help.github.com/articles/using-jekyll-with-pages#troubleshooting
+# Disable despite enabled on GitHub Pages for supported plugins to work.
+# safe: true
+lsi: false
+highlighter: pygments
