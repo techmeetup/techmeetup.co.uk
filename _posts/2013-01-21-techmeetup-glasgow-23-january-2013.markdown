@@ -24,7 +24,8 @@ Space Station Silicon Valley began development in September 1995 and was release
 
 There'll be beer and pizza as usual and plenty of time before, between, and after the talks to catch up on the latest tech news &amp; gossip. As ever, the event is free and no sign-up is necessary.
 
-TechMeetup is made possible by the amazing financial support from the <a href="http://www.gla.ac.uk/">University of Glasgow</a>, <a href="http://http://www.neo.com/offices/uk/">Neo</a> , <a href="http://www.scottlogic.co.uk/">ScottLogic</a>, <a href="http://www.skyscanner.net">SkyScanner</a> and small donations from community members. Thank you all.
+TechMeetup is made possible by the amazing financial support from the <a href="http://www.gla.ac.uk/">University of Glasgow</a>,
+ <a href="http://cultivatehq.com">Cultivate</a> , <a href="http://www.scottlogic.co.uk/">ScottLogic</a>, <a href="http://www.skyscanner.net">SkyScanner</a> and small donations from community members. Thank you all.
 
 See you on the 23rd of Glasgow, 2013 at 6.30pm.
 5th Floor
