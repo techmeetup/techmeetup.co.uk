@@ -38,7 +38,9 @@ function placeOpenTechCalendarEventListWidget(divid, options) {
 			html = '<div class="openTechCalendarEventListEventNone">No events</div>';
 		} else {
 			for (var i=0;i<limit;i++) {
-				html += htmlFromEventOpenTechCalendarEventList(data.data[i], usingOptions.maxStringLength, target);
+				if (!data.data[i].deleted) {
+					html += htmlFromEventOpenTechCalendarEventList(data.data[i], usingOptions.maxStringLength, target);
+				}
 			}
 		}
 
