@@ -1,0 +1,16 @@
+{
+  "edinburgh": {
+    "speakers": [
+      {
+        "name": "Steven Baker",
+        "talk": "Self Reliant Cloud"
+      },
+      {
+        "name": "Markos Charatzas",
+        "talk": "1 product, 3 years, 1 shipment (a true story)"
+      }
+    ],
+    "day": "11th",
+    "month": "Mar"
+  }
+}

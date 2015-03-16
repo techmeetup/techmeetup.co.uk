@@ -33,21 +33,18 @@ title: Home
     <h4><a href="{{ site.baseurl }}/edinburgh.html">Edinburgh</a></h4>
     <span>2nd Wed of month</span>
     <p><a href="https://www.google.co.uk/maps/place/Quartermile+One+Lauriston+Place/@55.9444215,-3.1946043,17z/data=!3m1!4b1!4m2!3m1!1s0x4887c79c80ea3bbf:0x875b29c71924b77d" class="map">Skyscanner, Quartermile One,<br>15 Lauriston Place, Edinburgh</a></p>
+    {% for speaker in site.data.index.edinburgh.speakers %}
     <p>
-      <strong>Steven Baker</strong>
+      <strong>{{ speaker.name }}</strong>
       <br>
-      Self Reliant Cloud
+      {{ speaker.talk }}
     </p>
-    <p>
-      <strong>Markos Charatzas</strong>
-      <br>
-      1 product, 3 years, 1 shipment (a true story)
-    </p>
+    {% endfor %}
     <div class="datewrapper">
       <div class="when">
         <div class="daywrap">
-          <div class="day">11th</div>
-          <div class="month">Mar</div>
+          <div class="day">{{ site.data.index.edinburgh.day }}</div>
+          <div class="month">{{ site.data.index.edinburgh..month }}</div>
         </div>
         <div class="time">6.30PM</div>
       </div>
