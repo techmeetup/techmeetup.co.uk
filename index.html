@@ -55,23 +55,18 @@ title: Home
     <h4><a href="{{ site.baseurl }}/glasgow.html">Glasgow</a></h4>
     <span>4th Wed of month</span>
     <p><a href="http://maps.google.com/maps/ms?msid=217161173396650967619.0004accf70991bd913a97&amp;msa=0" class="map">5th Floor, 18 Lilybank Gardens, Glasgow Uni</a></p>
-
+    {% for speaker in site.data.index.glasgow.speakers %}
     <p>
-      <strong>Adrian Mowat</strong>
+      <strong>{{ speaker.name }}</strong>
       <br>
-      Super Fast Functional Workflows - A talk about Clojure, EMACS & how a REPL driven workflow gives you freedom & power.
+      {{ speaker.talk }}
     </p>
-    <p>
-      <strong>Adrian Mouat</strong>
-      <br>
-      Intro to Docker
-    </p>
-
+    {% endfor %}
     <div class="datewrapper">
       <div class="when">
         <div class="daywrap">
-          <div class="day">25th</div>
-          <div class="month">Feb</div>
+          <div class="day">{{ site.data.index.glasgow.day }}</div>
+          <div class="month">{{ site.data.index.glasgow.month }}</div>
         </div>
         <div class="time">6.30PM</div>
       </div>
@@ -82,15 +77,18 @@ title: Home
     <h4><a href="{{ site.baseurl }}/aberdeen.html">Aberdeen</a></h4>
     <span>Every 3rd Wednesday</span>
     <p><a href="http://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Meston+Building+Aberdeen+University&amp;sll=57.294593,-2.400159&amp;sspn=0.017437,0.034075&amp;ie=UTF8&amp;hq=Meston+Building+Aberdeen+University&amp;hnear=&amp;l" class="map">North Side Meston Building, Aberdeen Uni</a></p>
+    {% for speaker in site.data.index.aberdeen.speakers %}
     <p>
-      <strong>Kenny Coyle</strong>  "OS Tools for Recording & Documenting KDE Akademy Conference"
+      <strong>{{ speaker.name }}</strong>
+      <br>
+      {{ speaker.talk }}
     </p>
-
+    {% endfor %}
     <div class="datewrapper">
       <div class="when">
         <div class="daywrap">
-          <div class="day">18th</div>
-          <div class="month">March</div>
+          <div class="day">{{ site.data.index.aberdeen.day }}</div>
+          <div class="month">{{ site.data.index.aberdeen.month }}</div>
         </div>
         <div class="time">6.30PM</div>
       </div>
@@ -107,14 +105,18 @@ title: Home
     <p>
       <a href="https://maps.google.co.uk/maps?q=Queen+Mother+Building,+Dundee+University&hl=en&sll=56.458593,-2.982733&sspn=0.00894,0.027874&hnear=Queen+Mother+Bldg,+Dundee+DD1+4HN,+United+Kingdom&t=m&z=16" class="map">Queen Mother Building, Dundee University</a>
     </p>
+    {% for speaker in site.data.index.dundee.speakers %}
     <p>
-    Dug Campbell and Scott Maxwell will be talking about Bitcoin and Cryptocurrency.
+      <strong>{{ speaker.name }}</strong>
+      <br>
+      {{ speaker.talk }}
     </p>
+    {% endfor %}
     <div class="datewrapper">
       <div class="when">
         <div class="daywrap">
-          <div class="day">24th</div>
-          <div class="month">February</div>
+          <div class="day">{{ site.data.index.dundee.day }}</div>
+          <div class="month">{{ site.data.index.dundee.month }}</div>
         </div>
         <div class="time">6.30PM</div>
       </div>
@@ -125,14 +127,18 @@ title: Home
     <h4><a href="{{ site.baseurl }}/inverness.html">Inverness</a></h4>
     <span>Last Monday of month</span>
     <p><a href="https://www.google.co.uk/maps/place/Velocity+Cafe+and+Bicycle+Workshop/@57.478026,-4.219222,17z/data=!4m6!1m3!3m2!1s0x488f714c32f8df9d:0x3eec43c6c2ca5cce!2sVelocity+Cafe+and+Bicycle+Workshop!3m1!1s0x488f714c32f8df9d:0x3eec43c6c2ca5cce" class="map">Velocity Cafe, 1 Crown Avenue, Inverness IV2 3NF.</a></p>
+    {% for speaker in site.data.index.inverness.speakers %}
     <p>
-      'Open Mike' Night, where everyone is encourage to speak a little about their favourite dev tool.
+      <strong>{{ speaker.name }}</strong>
+      <br>
+      {{ speaker.talk }}
     </p>
+    {% endfor %}
     <div class="datewrapper">
       <div class="when">
         <div class="daywrap">
-          <div class="day">23rd</div>
-          <div class="month">Mar</div>
+          <div class="day">{{ site.data.index.inverness.day }}</div>
+          <div class="month">{{ site.data.index.inverness.month }}</div>
         </div>
         <div class="time">6.30PM</div>
       </div>
