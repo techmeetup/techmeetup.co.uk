@@ -16,16 +16,12 @@
   "glasgow": {
     "speakers": [
       {
-        "name": "Adrian Mowat",
-        "talk": "Super Fast Functional Workflows - A talk about Clojure, EMACS & how a REPL driven workflow gives you freedom & power."
-      },
-      {
-        "name": "Adrian Mouat ",
-        "talk": "Intro to Docker"
+        "name": "John Hamelink",
+        "talk": "Consul: the little service discovery system that could"
       }
     ],
     "day": "25th",
-    "month": "Feb"
+    "month": "Mar"
   },
   "aberdeen": {
     "speakers": [
