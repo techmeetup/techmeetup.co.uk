@@ -18,6 +18,10 @@
       {
         "name": "John Hamelink",
         "talk": "Consul: the little service discovery system that could"
+      },
+      {
+        "name": "Paul Davidson",
+        "talk": "Introduction to code generation using T4 templates in Visual Studio"
       }
     ],
     "day": "25th",
