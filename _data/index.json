@@ -2,12 +2,12 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "TBA",
-        "talk": "TBA"
+        "name": "Rachel Willmer",
+        "talk": "Using Firebase for real-time data in my Django system"
       },
       {
-        "name": "TBA",
-        "talk": "TBA"
+        "name": "Gordon Watson",
+        "talk": "Seeing in the dark with Open Source"
       }
     ],
     "day": "8th",
