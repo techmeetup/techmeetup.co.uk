@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Rachel Willmer",
-        "talk": "Using Firebase for real-time data in my Django system"
+        "name": "Mia Alexiou",
+        "talk": "An introduction to Swift"
       },
       {
-        "name": "Gordon Watson",
-        "talk": "Seeing in the dark with Open Source"
+        "name": "Hasan Veldstra",
+        "talk": "An Introduction to Performance Testing of APIs"
       }
     ],
-    "day": "8th",
-    "month": "Apr"
+    "day": "13th",
+    "month": "May"
   },
   "glasgow": {
     "speakers": [
