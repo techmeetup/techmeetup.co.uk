@@ -16,16 +16,16 @@
   "glasgow": {
     "speakers": [
       {
-        "name": "John Hamelink",
-        "talk": "Consul: the little service discovery system that could"
+        "name": "Seb Rose",
+        "talk": "#NoEstimates"
       },
       {
-        "name": "Paul Davidson",
-        "talk": "Introduction to code generation using T4 templates in Visual Studio"
+        "name": "Dr Reuben Edwards",
+        "talk": "Creating distributed applications using Actor Systems"
       }
     ],
-    "day": "25th",
-    "month": "Mar"
+    "day": "27th",
+    "month": "May"
   },
   "aberdeen": {
     "speakers": [
