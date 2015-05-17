@@ -30,12 +30,12 @@
   "aberdeen": {
     "speakers": [
       {
-        "name": "Johanna Holtan",
-        "talk": "Organising Cyclehack 2015"
+        "name": "Andy Gaskell",
+        "talk": "PHP Frameworks for Mobile App Support"
       }
     ],
-    "day": "15th",
-    "month": "April"
+    "day": "20th",
+    "month": "May"
   },
   "dundee": {
     "speakers": [
