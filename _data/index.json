@@ -42,6 +42,11 @@
       {
         "name": "Phil Leggetter",
         "talk": "Pusher and real-time messaging"
+      },
+      {
+        "name": "Chris Martin"
+        "talk": "A five finger introduction to software engineering"
+      }
       }
     ],
     "day": "26th",
