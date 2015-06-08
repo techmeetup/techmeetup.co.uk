@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Mia Alexiou",
-        "talk": "An introduction to Swift"
+        "name": "Calum Gilchrist",
+        "talk": "AWS: Embracing the Lock-in "
       },
       {
-        "name": "Hasan Veldstra",
-        "talk": "An Introduction to Performance Testing of APIs"
+        "name": "Douglas McCallum",
+        "talk": "Using Go in the real world"
       }
     ],
-    "day": "13th",
-    "month": "May"
+    "day": "10th",
+    "month": "June"
   },
   "glasgow": {
     "speakers": [
