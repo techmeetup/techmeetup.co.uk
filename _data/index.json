@@ -16,16 +16,16 @@
   "glasgow": {
     "speakers": [
       {
-        "name": "Seb Rose",
-        "talk": "#NoEstimates"
+        "name": "Dougal Matthews",
+        "talk": "Building and managing MkDocs, an open source documentation project"
       },
       {
-        "name": "Dr Reuben Edwards",
-        "talk": "Creating distributed applications using Actor Systems"
+        "name": "Michael Ewins",
+        "talk": "Web & HTML5 game performance"
       }
     ],
-    "day": "27th",
-    "month": "May"
+    "day": "24th",
+    "month": "June"
   },
   "aberdeen": {
     "speakers": [
