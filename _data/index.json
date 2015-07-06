@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Calum Gilchrist",
-        "talk": "AWS: Embracing the Lock-in "
+        "name": "Christos Matskas",
+        "talk": "Cloud Development using Azure"
       },
       {
-        "name": "Douglas McCallum",
-        "talk": "Using Go in the real world"
+        "name": "Mark Sutherland",
+        "talk": "Thinking Out Loud: A talk about talks"
       }
     ],
-    "day": "10th",
-    "month": "June"
+    "day": "8th",
+    "month": "July"
   },
   "glasgow": {
     "speakers": [
