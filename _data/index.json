@@ -24,14 +24,14 @@
         "talk": "Web & HTML5 game performance"
       }
     ],
-    "day": "24th",
-    "month": "June"
+    "day": "15th",
+    "month": "July"
   },
   "aberdeen": {
     "speakers": [
       {
-        "name": "Andy Gaskell",
-        "talk": "PHP Frameworks for Mobile App Support"
+        "name": "James Littlejohn",
+        "talk": "An introduction to building a Dapp using Ethereum.org"
       }
     ],
     "day": "20th",
