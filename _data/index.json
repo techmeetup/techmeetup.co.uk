@@ -50,12 +50,12 @@
   "aberdeen": {
     "speakers": [
       {
-        "name": "James Littlejohn",
-        "talk": "An introduction to building a Dapp using Ethereum.org"
+        "name": "Tony Travis",
+        "talk": "An introduction to Parallella"
       }
     ],
-    "day": "15th",
-    "month": "July"
+    "day": "19th",
+    "month": "August"
   },
   "dundee": {
     "speakers": [
