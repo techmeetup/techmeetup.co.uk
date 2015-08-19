@@ -36,12 +36,12 @@
   "glasgow": {
     "speakers": [
       {
-        "name": "No July Meeting!!",
-        "talk": "We're skipping the meeting this month but will be back in August."
+        "name": "Dougal Matthews",
+        "talk": "Building and managing MkDocs, an open source documentation project."
       },
       {
-        "name": "Next Meeting - 26th August",
-        "talk": "Speakers to be announced."
+        "name": "Chris McDermott",
+        "talk": "It's systems all the way down."
       }
     ],
     "day": "26th",
