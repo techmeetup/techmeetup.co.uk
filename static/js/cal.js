@@ -24,14 +24,21 @@ function escapeHTMLNewLine(str) {
 
 // Munged from resigs
 function prettyDate(date){
-var diff = ((date.getTime() - new Date().getTime()) / 1000),
-day_diff = Math.floor(diff / 86400) + 1;
-
-  return day_diff < 0 && "Already Been :(" ||
-    day_diff == 0 && "Today!" ||
-    day_diff == 1 && "Tomorrow!" ||
-day_diff < 31 && "in " + day_diff + " days" ||
-    "A while away";
+    // Gets the current date.
+    var currentDate = new Date();
+    // Strips the time from both dates.
+    currentDate.setHours(0, 0, 0, 0);
+    date.setHours(0, 0, 0, 0);
+    // Calculates the total number of ms between the current date and the event date.
+    var diff = date.getTime() - currentDate.getTime();
+    // Converts ms into calendar days.
+    var day_diff = Math.round(diff / (1000*60*60*24));
+    
+    return day_diff < 0 && "Already Been :(" ||
+        day_diff == 0 && "Today!" ||
+        day_diff == 1 && "Tomorrow!" ||
+        day_diff < 31 && "in " + day_diff + " days" ||
+        "A while away";
 }
 
 
