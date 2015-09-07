@@ -2,36 +2,12 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Rachel Wilmer",
-        "talk": "How to overcome being very very shy"
-      },
-      {
-        "name": "Geoff Balinger",
-        "talk": "IoT == Skynet??"
-      },
-      {
-        "name": "Kyle Bremner",
-        "talk": "Short intro to graph databases"
-      },
-      {
-        "name": "Douglas McCallum",
-        "talk": "Mr Smug is super smug"
-      },
-      {
-        "name": "Richard Keen",
-        "talk": "Mobile Performance Testing"
-      },
-      {
-        "name": "Tim Willis",
-        "talk": "Tusi - fast text entry on your smartwatch"
-      },
-      {
-        "name": "and others",
-        "talk": "talking about other stuff!"
+        "name": "Andreea Cucu",
+        "talk": "BioHacks"
       }
     ],
-    "day": "12th",
-    "month": "August"
+    "day": "9th",
+    "month": "September"
   },
   "glasgow": {
     "speakers": [
