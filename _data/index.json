@@ -39,16 +39,12 @@
   "dundee": {
     "speakers": [
       {
-        "name": "Phil Leggetter",
-        "talk": "Pusher and real-time messaging"
-      },
-      {
-        "name": "Chris Martin",
-        "talk": "A five finger introduction to software engineering"
+        "name": "Craig Dalrymple",
+        "talk": "Growing your personal brand through social media"
       }
     ],
-    "day": "26th",
-    "month": "May"
+    "day": "29th",
+    "month": "September"
   },
   "inverness": {
     "speakers": [
