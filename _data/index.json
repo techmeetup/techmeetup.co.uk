@@ -15,16 +15,12 @@
   "glasgow": {
     "speakers": [
       {
-        "name": "Dougal Matthews",
-        "talk": "Building and managing MkDocs, an open source documentation project."
-      },
-      {
-        "name": "Chris McDermott",
-        "talk": "It's systems all the way down."
+        "name": "Cancelled",
+        "talk": "This months techmeetup has been cancelled, join us next month on 28th October!"
       }
     ],
-    "day": "26th",
-    "month": "August"
+    "day": "23rd",
+    "month": "September"
   },
   "aberdeen": {
     "speakers": [
