@@ -2,15 +2,15 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Andreea Cucu",
-        "talk": "BioHacks"
+        "name": "Patrick Grant",
+        "talk": "Uvwpmacoh"
       },{
-        "name": "Matt Hamilton",
-        "talk": "enquos - Building an app for Quantified Health"
+        "name": "Konstantin Kudryavtsev",
+        "talk": "Ethereum: The Decentralised Internet"
       }
     ],
-    "day": "9th",
-    "month": "September"
+    "day": "14th",
+    "month": "October"
   },
   "glasgow": {
     "speakers": [
