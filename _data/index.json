@@ -15,12 +15,16 @@
   "glasgow": {
     "speakers": [
       {
-        "name": "Cancelled",
-        "talk": "This months techmeetup has been cancelled, join us next month on 28th October!"
+        "name": "Douglas McCallum",
+        "talk": "34 years as a programmer, and how it's changed"
+      },
+      {
+        "name": "Robert Shield",
+        "talk": "Bake On - How We Build, Bake and Deploy stuff at the BBC"
       }
     ],
-    "day": "23rd",
-    "month": "September"
+    "day": "28th",
+    "month": "October"
   },
   "aberdeen": {
     "speakers": [
