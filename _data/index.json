@@ -2,15 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Patrick Grant",
-        "talk": "Uvwpmacoh"
-      },{
-        "name": "Konstantin Kudryavtsev",
-        "talk": "Ethereum: The Decentralised Internet"
+        "name": "Quinn Norton",
+        "talk": ""
+      },
+      {
+        "name": "Greg Sutcliffe",
+        "talk": "Keeping Busy"
       }
     ],
-    "day": "14th",
-    "month": "October"
+    "day": "11th",
+    "month": "November"
   },
   "glasgow": {
     "speakers": [
