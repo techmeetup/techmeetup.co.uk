@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Calum Gilchrist",
-        "talk": "AWS: Embracing the Lock-in "
+        "name": "Quinn Norton",
+        "talk": ""
       },
       {
-        "name": "Douglas McCallum",
-        "talk": "Using Go in the real world"
+        "name": "Greg Sutcliffe",
+        "talk": "Keeping Busy"
       }
     ],
-    "day": "10th",
-    "month": "June"
+    "day": "11th",
+    "month": "November"
   },
   "glasgow": {
     "speakers": [
