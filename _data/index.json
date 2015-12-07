@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Quinn Norton",
-        "talk": "Nothing Ever Ends"
+        "name": "James Baster",
+        "talk": "PHP 7 - A quick tour of shiny new things"
       },
       {
-        "name": "Greg Sutcliffe",
-        "talk": "Keeping Busy"
+        "name": "Andra Roston",
+        "talk": "Engaging and delightful customer support"
       }
     ],
-    "day": "11th",
-    "month": "November"
+    "day": "9th",
+    "month": "December"
   },
   "glasgow": {
     "speakers": [
