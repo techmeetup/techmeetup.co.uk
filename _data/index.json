@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "James Baster",
-        "talk": "PHP 7 - A quick tour of shiny new things"
+        "name": "Thomas Dutrion",
+        "talk": "Acceptance testing in PHP with Codeception"
       },
       {
-        "name": "Andra Roston",
-        "talk": "Engaging and delightful customer support"
+        "name": "Douglas McCallum",
+        "talk": "If programming is so easy, why are there so many job vacancies?"
       }
     ],
-    "day": "9th",
-    "month": "December"
+    "day": "13th",
+    "month": "January"
   },
   "glasgow": {
     "speakers": [
