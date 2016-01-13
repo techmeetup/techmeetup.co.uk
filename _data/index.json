@@ -16,16 +16,16 @@
   "glasgow": {
     "speakers": [
       {
-        "name": "Douglas McCallum",
-        "talk": "34 years as a programmer, and how it's changed"
+        "name": "Gary Fleming",
+        "talk": "Hexagonal Architecture"
       },
       {
-        "name": "Robert Shield",
-        "talk": "Bake On - How We Build, Bake and Deploy stuff at the BBC"
+        "name": "Graeme Boyd",
+        "talk": "React"
       }
     ],
-    "day": "28th",
-    "month": "October"
+    "day": "27th",
+    "month": "January"
   },
   "aberdeen": {
     "speakers": [
