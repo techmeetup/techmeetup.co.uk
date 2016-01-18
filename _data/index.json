@@ -30,12 +30,12 @@
   "aberdeen": {
     "speakers": [
       {
-        "name": "Maybe it's you?",
-        "talk": "An evening of ligntning talks"
+        "name": "Andrew Sage",
+        "talk": "Virtual Landscapes - exploring open LIDAR data in 3D with Unity"
       }
     ],
-    "day": "18th",
-    "month": "November"
+    "day": "20th",
+    "month": "January"
   },
   "dundee": {
     "speakers": [
