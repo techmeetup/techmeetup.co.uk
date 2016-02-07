@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Thomas Dutrion",
-        "talk": "Acceptance testing in PHP with Codeception"
+        "name": "Mia Alexiou",
+        "talk": "Debugging web services with Charles"
       },
       {
-        "name": "Douglas McCallum",
-        "talk": "If programming is so easy, why are there so many job vacancies?"
+        "name": "Robert Atkey",
+        "talk": "What Symbolic Logic Can Do For You"
       }
     ],
-    "day": "13th",
-    "month": "January"
+    "day": "10th",
+    "month": "February"
   },
   "glasgow": {
     "speakers": [
