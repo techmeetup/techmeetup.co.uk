@@ -30,12 +30,12 @@
   "aberdeen": {
     "speakers": [
       {
-        "name": "Andrew Sage",
-        "talk": "Virtual Landscapes - exploring open LIDAR data in 3D with Unity"
+        "name": "Alan Gardner",
+        "talk": "Elm for Web Development"
       }
     ],
-    "day": "20th",
-    "month": "January"
+    "day": "17th",
+    "month": "February"
   },
   "dundee": {
     "speakers": [
