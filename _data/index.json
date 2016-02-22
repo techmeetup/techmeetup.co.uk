@@ -15,17 +15,10 @@
   },
   "glasgow": {
     "speakers": [
-      {
-        "name": "Gary Fleming",
-        "talk": "Hexagonal Architecture"
-      },
-      {
-        "name": "Graeme Boyd",
-        "talk": "Integrating React with an existing JS app at Float"
-      }
+      
     ],
-    "day": "27th",
-    "month": "January"
+    "day": "23rd",
+    "month": "March"
   },
   "aberdeen": {
     "speakers": [
