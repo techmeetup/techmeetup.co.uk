@@ -15,7 +15,14 @@
   },
   "glasgow": {
     "speakers": [
-      
+      {
+        "name": "Gavin Montague",
+        "talk": "Email Deliverability"
+      },
+      {
+        "name": "Douglas McCallum",
+        "talk": "If programming is so easy, why are there so many vacancies?"
+      }
     ],
     "day": "23rd",
     "month": "March"
