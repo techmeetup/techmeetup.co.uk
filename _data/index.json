@@ -16,16 +16,12 @@
   "glasgow": {
     "speakers": [
       {
-        "name": "Gavin Montague",
-        "talk": "Email Deliverability"
-      },
-      {
-        "name": "Douglas McCallum",
-        "talk": "If programming is so easy, why are there so many vacancies?"
+        "name": "Rachel Willmer",
+        "talk": "Firebase: How I use it, why I love it, and what it can do for you?"
       }
     ],
-    "day": "23rd",
-    "month": "March"
+    "day": "27th",
+    "month": "April"
   },
   "aberdeen": {
     "speakers": [
