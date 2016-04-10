@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Jonathan Riddell",
-        "talk": "Linux on the Desktop"
+        "name": "Gavin Montague",
+        "talk": "The minimum you should know about email as a developer"
       },
       {
-        "name": "Paul Dragoonis",
-        "talk": "Dockerizing your CI/CD Pipeline"
+        "name": "Alistair Hann",
+        "talk": "From 26 to 2.6 million releases in a year"
       }
     ],
-    "day": "9th",
-    "month": "March"
+    "day": "13th",
+    "month": "April"
   },
   "glasgow": {
     "speakers": [
