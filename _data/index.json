@@ -1,17 +1,17 @@
 {
-  "edinburgh": {
+   "edinburgh": {
     "speakers": [
       {
-        "name": "Gavin Montague",
-        "talk": "The minimum you should know about email as a developer"
+        "name": "Martin Hawksey",
+        "talk": "Google Apps Script: The Authentic{ated} Playground"
       },
       {
-        "name": "Alistair Hann",
-        "talk": "From 26 to 2.6 million releases in a year"
+        "name": "Jamie Apted",
+        "talk": "3 Legal pitfalls every tech start-up should avoid!"
       }
     ],
-    "day": "13th",
-    "month": "April"
+    "day": "11th",
+    "month": "May"
   },
   "glasgow": {
     "speakers": [
