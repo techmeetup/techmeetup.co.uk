@@ -16,12 +16,15 @@
   "glasgow": {
     "speakers": [
       {
-        "name": "Rachel Willmer",
-        "talk": "Firebase: How I use it, why I love it, and what it can do for you?"
+        "name": "Jeremy Singer",
+        "talk": "A non-intimidating introduction to Haskell"
+      },
+      {
+        "name": "John Sutherland"
       }
     ],
-    "day": "27th",
-    "month": "April"
+    "day": "25th",
+    "month": "May"
   },
   "aberdeen": {
     "speakers": [
