@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Jonathan Riddell",
-        "talk": "Linux on the Desktop"
+        "name": "Martin Hawksey",
+        "talk": "Google Apps Script: The Authentic{ated} Playground"
       },
       {
-        "name": "Paul Dragoonis",
-        "talk": "Dockerizing your CI/CD Pipeline"
+        "name": "Jamie Apted",
+        "talk": "3 Legal pitfalls every tech start-up should avoid!"
       }
     ],
-    "day": "9th",
-    "month": "March"
+    "day": "11th",
+    "month": "May"
   },
   "glasgow": {
     "speakers": [
@@ -29,22 +29,22 @@
   "aberdeen": {
     "speakers": [
       {
-        "name": "Wendy Moncur",
-        "talk": "What does 'living digitally' mean when we die?"
+        "name": "Naveed Khan",
+        "talk": "accelerating research using high performance computing"
       }
     ],
-    "day": "16th",
-    "month": "March"
+    "day": "18th",
+    "month": "May"
   },
   "dundee": {
     "speakers": [
       {
-        "name": "TBC",
-        "talk": "TBC"
+        "name": "David Walker",
+        "talk": "The changing culture of application development and how Agile and DevOps are part of a technical lead revolution"
       }
     ],
-    "day": "26th",
-    "month": "April"
+    "day": "23rd",
+    "month": "May"
   },
   "inverness": {
     "speakers": [
