@@ -20,7 +20,8 @@
         "talk": "A non-intimidating introduction to Haskell"
       },
       {
-        "name": "John Sutherland"
+        "name": "John Sutherland",
+        "talk": "Programming with (almost) nothing"
       }
     ],
     "day": "25th",
