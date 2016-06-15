@@ -16,16 +16,16 @@
   "glasgow": {
     "speakers": [
       {
-        "name": "Jeremy Singer",
-        "talk": "A non-intimidating introduction to Haskell"
+        "name": "Dougal Matthews",
+        "talk": "Effective Code Review"
       },
       {
-        "name": "John Sutherland",
-        "talk": "Programming with (almost) nothing"
+        "name": "Ewan Dennis",
+        "talk": "Personal Data Mining (Not) Just For Fun"
       }
     ],
-    "day": "25th",
-    "month": "May"
+    "day": "22nd",
+    "month": "June"
   },
   "aberdeen": {
     "speakers": [
