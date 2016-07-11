@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Martin Hawksey",
-        "talk": "Google Apps Script: The Authentic{ated} Playground"
+        "name": "Greg Sutcliffe",
+        "talk": "Foreman's 7th Birthday"
       },
       {
-        "name": "Jamie Apted",
-        "talk": "3 Legal pitfalls every tech start-up should avoid!"
+        "name": "Radek Ostrowski",
+        "talk": "Finding the perfect weather with Apache Spark, Docker and IBM Bluemix"
       }
     ],
-    "day": "11th",
-    "month": "May"
+    "day": "13th",
+    "month": "July"
   },
   "glasgow": {
     "speakers": [
