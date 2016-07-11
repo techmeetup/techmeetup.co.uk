@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Katie Lyne",
-        "talk": "The CivTech Initiative"
+        "name": "Martin Hawksey",
+        "talk": "Google Apps Script: The Authentic{ated} Playground"
       },
       {
-        "name": "Mike McQuaid",
-        "talk": "How Github Works"
+        "name": "Jamie Apted",
+        "talk": "3 Legal pitfalls every tech start-up should avoid!"
       }
     ],
-    "day": "8th",
-    "month": "June"
+    "day": "11th",
+    "month": "May"
   },
   "glasgow": {
     "speakers": [
