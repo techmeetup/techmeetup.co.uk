@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Katie Lyne",
-        "talk": "The CivTech Initiative"
+        "name": "Greg Sutcliffe",
+        "talk": "Foreman's 7th Birthday"
       },
       {
-        "name": "Mike McQuaid",
-        "talk": "How Github Works"
+        "name": "Radek Ostrowski",
+        "talk": "Finding the perfect weather with Apache Spark, Docker and IBM Bluemix"
       }
     ],
-    "day": "8th",
-    "month": "June"
+    "day": "13th",
+    "month": "July"
   },
   "glasgow": {
     "speakers": [
