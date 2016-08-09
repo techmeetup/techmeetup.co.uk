@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Greg Sutcliffe",
-        "talk": "Foreman's 7th Birthday"
+        "name": "Mike Ritchie"
+        "talk": "Test-Driven Development and Design for Embedded and IoT Devices"
       },
       {
-        "name": "Radek Ostrowski",
-        "talk": "Finding the perfect weather with Apache Spark, Docker and IBM Bluemix"
+        "name": "Daniel Phillips",
+        "talk": "Wedding rings, curves and coastlines"
       }
     ],
-    "day": "13th",
-    "month": "July"
+    "day": "10th",
+    "month": "August"
   },
   "glasgow": {
     "speakers": [
