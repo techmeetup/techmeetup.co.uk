@@ -9,4 +9,4 @@ gems:
 # Disable despite enabled on GitHub Pages for supported plugins to work.
 # safe: true
 lsi: false
-highlighter: pygments
+highlighter: rouge
