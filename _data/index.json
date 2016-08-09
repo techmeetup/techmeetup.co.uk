@@ -2,7 +2,7 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Mike Ritchie"
+        "name": "Mike Ritchie",
         "talk": "Test-Driven Development and Design for Embedded and IoT Devices"
       },
       {
