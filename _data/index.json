@@ -16,16 +16,12 @@
   "glasgow": {
     "speakers": [
       {
-        "name": "Dougal Matthews",
-        "talk": "Effective Code Review"
+        "name": "Kevin McDermott",
+        "talk": "How to be successful at microservices"
       },
-      {
-        "name": "Ewan Dennis",
-        "talk": "Personal Data Mining (Not) Just For Fun"
-      }
     ],
-    "day": "22nd",
-    "month": "June"
+    "day": "24th",
+    "month": "August"
   },
   "aberdeen": {
     "speakers": [
