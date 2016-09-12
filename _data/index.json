@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Mike Ritchie",
-        "talk": "Test-Driven Development and Design for Embedded and IoT Devices"
+        "name": "Alastair Andrew",
+        "talk": "Constraint Programming for the Sudoku Intolerant"
       },
       {
-        "name": "Daniel Phillips",
-        "talk": "Wedding rings, curves and coastlines"
+        "name": "Douglas McCallum",
+        "talk": "How come you're all not using Cobol: Languages come and go, but never return"
       }
     ],
-    "day": "10th",
-    "month": "August"
+    "day": "14th",
+    "month": "September"
   },
   "glasgow": {
     "speakers": [
