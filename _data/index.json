@@ -36,12 +36,12 @@
   "dundee": {
     "speakers": [
       {
-        "name": "David Walker",
-        "talk": "The changing culture of application development and how Agile and DevOps are part of a technical lead revolution"
+        "name": "Corentin Guillo",
+        "talk": "It's so simple, you'll forget it's so clever"
       }
     ],
-    "day": "23rd",
-    "month": "May"
+    "day": "26th",
+    "month": "September"
   },
   "inverness": {
     "speakers": [
