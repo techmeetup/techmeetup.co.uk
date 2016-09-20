@@ -16,12 +16,14 @@
   "glasgow": {
     "speakers": [
       {
-        "name": "Kevin McDermott",
-        "talk": "How to be successful at microservices"
+        "name": "Survivor Stories",
+        "talk": "Ever looked at old code you have written and thought 'What was I thinking?'' Ever started a new job only to look at the existing codebase and think 'What have I gotten myself in to?'. No matter where you work; bank, start-up, fortune 500. Every company has horrible codebases so you are not alone.
+
+This month we will have many different speakers talking about their Survivor Stories."
       },
     ],
-    "day": "24th",
-    "month": "August"
+    "day": "28th",
+    "month": "September"
   },
   "aberdeen": {
     "speakers": [
