@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Alastair Andrew",
-        "talk": "Constraint Programming for the Sudoku Intolerant"
+        "name": "Iain McDonald",
+        "talk": "Why we chose React"
       },
       {
-        "name": "Douglas McCallum",
-        "talk": "How come you're all not using Cobol: Languages come and go, but never return"
+        "name": "Martin Hawksey",
+        "talk": "The Google Analytics of Things"
       }
     ],
-    "day": "14th",
-    "month": "September"
+    "day": "12th",
+    "month": "October"
   },
   "glasgow": {
     "speakers": [
