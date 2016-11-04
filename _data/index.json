@@ -30,14 +30,14 @@
         "talk": "Why you should learn Closure, even if you don't use it"
       }
     ],
-    "day": "21rst",
-    "month": "September"
+    "day": "29th",
+    "month": "November"
   },
   "dundee": {
     "speakers": [
       {
-        "name": "Andy Cobley",
-        "talk": "GROW Observatory"
+        "name": "Neil Crawford",
+        "talk": "Re-architecting a legacy platform"
       }
     ],
     "day": "25th",
