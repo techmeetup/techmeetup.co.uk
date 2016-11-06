@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Iain McDonald",
-        "talk": "Why we chose React"
+        "name": "Andrew Williams",
+        "talk": "Enlightenment: Life after 0.16"
       },
       {
-        "name": "Martin Hawksey",
-        "talk": "The Google Analytics of Things"
+        "name": "TBD",
+        "talk": "TBD"
       }
     ],
-    "day": "12th",
-    "month": "October"
+    "day": "9th",
+    "month": "November"
   },
   "glasgow": {
     "speakers": [
