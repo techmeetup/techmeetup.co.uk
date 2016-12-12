@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Andrew Williams",
-        "talk": "Enlightenment: Life after 0.16"
+        "name": "Steven Kilbane",
+        "talk": "Old-school Security: Lock-picking Basics"
       },
       {
-        "name": "TBD",
-        "talk": "TBD"
+        "name": "Alistair Hann",
+        "talk": "They applied manufacturing improvement methods to software development and you won't believe what happened next..."
       }
     ],
-    "day": "9th",
-    "month": "November"
+    "day": "14th",
+    "month": "December"
   },
   "glasgow": {
     "speakers": [
