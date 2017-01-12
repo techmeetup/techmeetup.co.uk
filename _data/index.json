@@ -30,18 +30,18 @@
         "talk": "Why you should learn Closure, even if you don't use it"
       }
     ],
-    "day": "21srt",
+    "day": "21st",
     "month": "September"
   },
   "dundee": {
     "speakers": [
       {
-        "name": "Neil Crawford",
-        "talk": "Re-architecting a legacy platform"
+        "name": "Jonathan Forbes",
+        "talk": "Data Engineering for Fun and Profit"
       }
     ],
-    "day": "29th",
-    "month": "Nov"
+    "day": "31st",
+    "month": "Jan"
   },
   "inverness": {
     "speakers": [
