@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Steven Kilbane",
-        "talk": "Old-school Security: Lock-picking Basics"
+        "name": "Heather Burns",
+        "talk": "Transatlantic Tech and Trump"
       },
       {
-        "name": "Alistair Hann",
-        "talk": "They applied manufacturing improvement methods to software development and you won't believe what happened next..."
+        "name": "Paul Sinclair",
+        "talk": "Esoteric Programming Languages, and why JavaScript is too clever for its own good"
       }
     ],
-    "day": "14th",
-    "month": "December"
+    "day": "8th",
+    "month": "February"
   },
   "glasgow": {
     "speakers": [
