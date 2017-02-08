@@ -12,26 +12,29 @@
   <body>
 
     <div id="wrapper">
-      <div id="headerwrapper"><div id="header">
+      <div id="headerwrapper">
+        <div id="header">
           <h1><a href="{{ site.baseurl }}/">Tech Meetup</a></h1>
           <ul>
             <li><a href="{{ site.baseurl }}/about.html">About</a></li>
             <li><a href="http://vimeo.com/techmeetup">On Vimeo</a></li>
-            <li><a href="https://www.youtube.com/channel/UCWMSLoZh4U4Pgc8n8ylw8Pg">On Youtube</a></li>
+            <li><a href="https://www.youtube.com/channel/UCWMSLoZh4U4Pgc8n8ylw8Pg">On YouTube</a></li>
             <li><a href="{{ site.baseurl }}/blog.html">Blog</a></li>
             <!-- <li><a href="/speakers/">Speakers</a></li> -->
             <li><a href="{{ site.baseurl }}/calendar.html">Calendar</a></li>
           </ul>
           <div class="clear"></div>
-      </div></div>
+        </div>
+      </div>
 
-      <div id="content">{{ content }}</div>
+    <div id="content">{{ content }}</div>
 
-    </div>
-
-    <div id="footerwrapper"><div id="footer">
-        <section><h4>Site</h4>
-          <ul><li><a href="{{ site.baseurl }}/about.html">About</a></li>
+    <div id="footerwrapper">
+      <div id="footer">
+        <section>
+          <h4>Site</h4>
+          <ul>
+            <li><a href="{{ site.baseurl }}/about.html">About</a></li>
             <li><a href="{{ site.baseurl }}/blog.html">Blog</a></li>
             <li><a href="{{ site.baseurl }}/calendar.html">Calendar</a></li>
             <li><a href="{{ site.baseurl }}/edinburgh.html">Edinburgh</a></li>
@@ -39,9 +42,11 @@
             <li><a href="{{ site.baseurl }}/aberdeen.html">Aberdeen</a></li>
             <li><a href="{{ site.baseurl }}/inverness.html">Inverness</a></li>
             <li><a href="{{ site.baseurl }}/dundee.html">Dundee</a></li>
-        </ul></section>
+          </ul>
+        </section>
 
-        <section><h4>Community</h4>
+        <section>
+          <h4>Community</h4>
           <ul>
             <li><a href="http://twitter.com/techmeetup">Twitter</a></li>
             <li><a href="http://vimeo.com/techmeetup">TechMeetup on Vimeo</a></li>
@@ -51,36 +56,46 @@
                 Slack Chat Discussions</a></li>
             <li><a href="http://groups.google.com/group/techmeetup?pli=1">
                 Announcements</a></li>
-        </ul></section>
+          </ul>
+        </section>
 
-		<section><h4>Other Places</h4>
-			<ul>
-				<li><a href="http://startupcafe.co.uk">StartupCafe</a>
-				<li><a href="http://metascotland.com/">Meta Scotland</a>
-				<li><a href="http://www.rookieoven.com/">RookieOven</a>
-				<li><a href="http://opentechcalendar.co.uk/">Open Tech Calendar</a>
-			</ul>
-		</section>
-
-        <section class="last"><h4>Sponsors</h4>
+        <section>
+          <h4>Other Places</h4>
           <ul>
-            <li><a href="http://www.skyscanner.net/" class="fadehover">
+            <li><a href="http://startupcafe.co.uk">StartupCafe</a></li>
+            <li><a href="http://metascotland.com/">Meta Scotland</a></li>
+            <li><a href="http://www.rookieoven.com/">RookieOven</a></li>
+            <li><a href="http://opentechcalendar.co.uk/">Open Tech Calendar</a></li>
+          </ul>
+        </section>
+
+        <section class="last">
+          <h4>Sponsors</h4>
+          <ul>
+            <li>
+              <a href="http://www.skyscanner.net/" class="fadehover">
                 <img src="{{ site.baseurl }}/static/img/skyscanner.png" />
-            </a></li>
-            <li><a href="http://cultivatehq.com/" class="fadehover">
+              </a>
+            </li>
+            <li>
+              <a href="http://cultivatehq.com/" class="fadehover">
                 <img src="{{ site.baseurl }}/static/img/cultivatehq-white-small.png" />
-            </a></li>
-            <li><a href="http://www.informatics-ventures.com/" class="fadehover">
+              </a>
+            </li>
+            <li>
+              <a href="http://www.informatics-ventures.com/" class="fadehover">
                 <img src="{{ site.baseurl }}/static/img/informatics.png" />
-            </a></li>
+              </a>
+            </li>
             <li><a href="{{ site.baseurl }}/about.html">And many more »</a></li>
           </ul>
         </section>
 
-    </div></div>
+      </div>
+    </div>
+  </div>
 
-    <script src="{{ site.baseurl }}/static/js/main.js"></script>
-
+  <script src="{{ site.baseurl }}/static/js/main.js"></script>
 
 <script type="text/javascript">
 
