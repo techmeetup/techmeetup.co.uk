@@ -16,12 +16,12 @@
   "glasgow": {
     "speakers": [
       {
-        "name": "Pub Meetup",
-        "talk": "This month we are breaking with tradition and moving the meetup straight to Bar Brel! Come along for a chat."
+        "name": "Cancelled",
+        "talk": "This months meetup has been cancelled"
       },
     ],
-    "day": "23rd",
-    "month": "November"
+    "day": "22nd",
+    "month": "Feburary"
   },
   "aberdeen": {
     "speakers": [
