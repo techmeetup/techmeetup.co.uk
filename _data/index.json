@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Heather Burns",
-        "talk": "Transatlantic Tech and Trump"
+        "name": "Rachel Wilmer",
+        "talk": "Django Channels: real-time data in Django"
       },
       {
-        "name": "Paul Sinclair",
-        "talk": "Esoteric Programming Languages, and why JavaScript is too clever for its own good"
+        "name": "Martin Asenov",
+        "talk": "Gaussian Processes: Theory and applications"
       }
     ],
     "day": "8th",
-    "month": "February"
+    "month": "March"
   },
   "glasgow": {
     "speakers": [
