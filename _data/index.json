@@ -2,7 +2,7 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Rachel Wilmer",
+        "name": "Rachel Willmer",
         "talk": "Django Channels: real-time data in Django"
       },
       {
