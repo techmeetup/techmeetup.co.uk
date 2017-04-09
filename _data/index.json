@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Rachel Willmer",
-        "talk": "Django Channels: real-time data in Django"
+        "name": "Gordon Guthrie",
+        "talk": "Will the Desert Bloom for Scottish Tech"
       },
       {
-        "name": "Martin Asenov",
-        "talk": "Gaussian Processes: Theory and applications"
+        "name": "Katie Lyne",
+        "talk": "CivTech"
       }
     ],
-    "day": "8th",
-    "month": "March"
+    "day": "12th",
+    "month": "April"
   },
   "glasgow": {
     "speakers": [
