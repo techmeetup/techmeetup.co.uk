@@ -2,16 +2,12 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Gordon Guthrie",
-        "talk": "Will the Desert Bloom for Scottish Tech"
+        "name": "Mark Sutherland",
+        "talk": "The Future of Networking"
       },
-      {
-        "name": "Katie Lyne",
-        "talk": "CivTech"
-      }
     ],
-    "day": "12th",
-    "month": "April"
+    "day": "10th",
+    "month": "May"
   },
   "glasgow": {
     "speakers": [
