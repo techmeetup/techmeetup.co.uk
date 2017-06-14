@@ -2,12 +2,12 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Mark Sutherland",
-        "talk": "The Future of Networking"
+        "name": "Code Your Future",
+        "talk": "The Coding School for Refugees"
       },
     ],
-    "day": "10th",
-    "month": "May"
+    "day": "14th",
+    "month": "June"
   },
   "glasgow": {
     "speakers": [
