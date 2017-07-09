@@ -2,12 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Code Your Future",
-        "talk": "The Coding School for Refugees"
+        "name": "Greg Sutcliffe",
+        "talk": "Giving Back The Free Lunch - How & why to handle your own data"
+      },
+      {
+        "name": "Ruaridh Miller and Calvin Blyth",
+        "talk": "CV Mistakes and Other Recruiter Tips"
       },
     ],
-    "day": "14th",
-    "month": "June"
+    "day": "12th",
+    "month": "July"
   },
   "glasgow": {
     "speakers": [
