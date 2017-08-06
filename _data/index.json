@@ -2,16 +2,12 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Greg Sutcliffe",
-        "talk": "Giving Back The Free Lunch - How & why to handle your own data"
-      },
-      {
-        "name": "Ruaridh Miller and Calvin Blyth",
-        "talk": "CV Mistakes and Other Recruiter Tips"
-      },
+        "name": "Steve Kilbane",
+        "talk": "SPDX - the Software Package Data Exchange"
+      }
     ],
-    "day": "12th",
-    "month": "July"
+    "day": "9th",
+    "month": "August"
   },
   "glasgow": {
     "speakers": [
