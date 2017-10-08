@@ -2,12 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Peter Aitken",
-        "talk": "How can our language and behaviour be more inclusive?"
+        "name": "Paul Makin",
+        "talk": "Never throw a good idea away: a trail of technology across Africa"
+      },
+      {
+        "name": "Pawel Piotrowski",
+        "talk": "Apple Newton MessagePad: Defying gravity"
       }
     ],
-    "day": "13th",
-    "month": "September"
+    "day": "11th",
+    "month": "October"
   },
   "glasgow": {
     "speakers": [
