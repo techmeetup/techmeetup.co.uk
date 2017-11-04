@@ -2,19 +2,19 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Paul Makin",
-        "talk": "Never throw a good idea away: a trail of technology across Africa"
+        "name": "Pawel Piotrowski",
+        "talk": "Apple Newton MessagePad: Defying gravity"
       }
     ],
-    "day": "11th",
-    "month": "October"
+    "day": "8th",
+    "month": "November"
   },
   "glasgow": {
     "speakers": [
       {
         "name": "Cancelled",
         "talk": "This months meetup has been cancelled"
-      },
+      }
     ],
     "day": "22nd",
     "month": "Feburary"
