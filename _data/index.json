@@ -2,12 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Pawel Piotrowski",
-        "talk": "Apple Newton MessagePad: Defying gravity"
+        "name": "Ankit Sonkar",
+        "talk": "The Last Invention"
+      },
+      {
+        "name": "Robin Smith",
+        "talk": "Going Freelance"
       }
     ],
-    "day": "8th",
-    "month": "November"
+    "day": "13th",
+    "month": "December"
   },
   "glasgow": {
     "speakers": [
