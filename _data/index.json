@@ -2,16 +2,12 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Ankit Sonkar",
-        "talk": "The Last Invention"
-      },
-      {
-        "name": "Robin Smith",
-        "talk": "Going Freelance"
+        "name": "Douglas McCallum",
+        "talk": "MongoDB"
       }
     ],
-    "day": "13th",
-    "month": "December"
+    "day": "10th",
+    "month": "January"
   },
   "glasgow": {
     "speakers": [
