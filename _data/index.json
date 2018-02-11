@@ -2,12 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Douglas McCallum",
-        "talk": "MongoDB"
+        "name": "Pierre",
+        "talk": "Taming a massive testsuite: rationalising code coverage with Hadoop MapReduce"
+      },
+      {
+        "name": "Paul Sinclair",
+        "talk": "How to win at anything ever (maybe): how AIs learn to play games"
       }
     ],
-    "day": "10th",
-    "month": "January"
+    "day": "14th",
+    "month": "February"
   },
   "glasgow": {
     "speakers": [
