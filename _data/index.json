@@ -2,7 +2,7 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Pierre",
+        "name": "Pierre Ruiz",
         "talk": "Taming a massive testsuite: rationalising code coverage with Hadoop MapReduce"
       },
       {
