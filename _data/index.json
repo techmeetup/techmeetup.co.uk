@@ -2,12 +2,12 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Pierre Ruiz",
-        "talk": "Taming a massive testsuite: rationalising code coverage with Hadoop MapReduce"
+        "name": "Phil Hale",
+        "talk": "Remote Working"
       },
       {
-        "name": "Paul Sinclair",
-        "talk": "How to win at anything ever (maybe): how AIs learn to play games"
+        "name": "Stephen Meyer",
+        "talk": "GIS (Geographic information systems)"
       }
     ],
     "day": "14th",
