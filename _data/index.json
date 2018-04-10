@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Phil Hale",
-        "talk": "Remote Working"
+        "name": "Shehraz Ditta",
+        "talk": "Computer Chronicles and the Way Back Machine"
       },
       {
-        "name": "Stephen Meyer",
-        "talk": "GIS (Geographic information systems)"
+        "name": "Gordon Guthrie",
+        "talk": "Cambridge Analytics - big data and politics"
       }
     ],
-    "day": "14th",
-    "month": "March"
+    "day": "11th",
+    "month": "April"
   },
   "glasgow": {
     "speakers": [
