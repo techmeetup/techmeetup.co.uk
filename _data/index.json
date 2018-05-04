@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Shehraz Ditta",
-        "talk": "Computer Chronicles and the Way Back Machine"
+        "name": "Daniel Irvine",
+        "talk": "Secrets of successful mentoring"
       },
       {
-        "name": "Gordon Guthrie",
-        "talk": "Cambridge Analytica - big data and politics"
+        "name": "Rabea Gleissner",
+        "talk": "Of spies, fakes and friends - help your code lead a double life!"
       }
     ],
-    "day": "11th",
-    "month": "April"
+    "day": "9th",
+    "month": "May"
   },
   "glasgow": {
     "speakers": [
