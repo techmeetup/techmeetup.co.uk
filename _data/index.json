@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Daniel Irvine",
-        "talk": "Secrets of successful mentoring"
+        "name": "Tadas Labudis",
+        "talk": "Behind the scenes of an early stage startup"
       },
       {
-        "name": "Rabea Gleissner",
-        "talk": "Of spies, fakes and friends - help your code lead a double life!"
+        "name": "Aled Sage",
+        "talk": "Migrating to and Exploiting the Cloud, without Losing Control"
       }
     ],
-    "day": "9th",
-    "month": "May"
+    "day": "13th",
+    "month": "June"
   },
   "glasgow": {
     "speakers": [
