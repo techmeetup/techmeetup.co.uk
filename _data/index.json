@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Tadas Labudis",
-        "talk": "Behind the scenes of an early stage startup"
+        "name": "Steve Kilbane",
+        "talk": "Anatomy of a C Compiler"
       },
       {
-        "name": "Aled Sage",
-        "talk": "Migrating to and Exploiting the Cloud, without Losing Control"
+        "name": "Dr. Joe Zuntz",
+        "talk": "Cosmology and Code: Understanding the universe, and the computational challenges involved"
       }
     ],
-    "day": "13th",
-    "month": "June"
+    "day": "11th",
+    "month": "July"
   },
   "glasgow": {
     "speakers": [
