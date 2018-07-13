@@ -23,6 +23,20 @@
     "day": "22nd",
     "month": "Feburary"
   },
+  "stirling": {
+    "speakers": [
+      {
+        "name": "Greg Sutcliffe",
+        "talk": "Welcome to TechMeetup Stirling!"
+      },
+      {
+        "name": "TBA",
+        "talk": "TBA"
+      }
+    ],
+    "day": "7th",
+    "month": "August"
+  },
   "aberdeen": {
     "speakers": [
       {
