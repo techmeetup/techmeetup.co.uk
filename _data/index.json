@@ -2,16 +2,12 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Steve Kilbane",
-        "talk": "Anatomy of a C Compiler"
-      },
-      {
-        "name": "Dr. Joe Zuntz",
-        "talk": "Cosmology and Code: Understanding the universe, and the computational challenges involved"
+        "name": "Matthew Bell",
+        "talk": "Crawling TechMeetup for fun and profit"
       }
     ],
-    "day": "11th",
-    "month": "July"
+    "day": "8th",
+    "month": "August"
   },
   "glasgow": {
     "speakers": [
