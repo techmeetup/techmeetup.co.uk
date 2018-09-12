@@ -2,12 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Matthew Bell",
-        "talk": "Crawling TechMeetup for fun and profit"
+        "name": "Tim Taylor",
+        "talk": "The Deep Past & Far Future of AI: Prospects and consequences of machines that can reproduce and evolve"
+      },
+      {
+        "name": "Greg Sutcliffe",
+        "talk": "Communication Tools For Communities"
       }
     ],
-    "day": "8th",
-    "month": "August"
+    "day": "12th",
+    "month": "September"
   },
   "glasgow": {
     "speakers": [
