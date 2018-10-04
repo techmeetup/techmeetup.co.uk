@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Tim Taylor",
-        "talk": "The Deep Past & Far Future of AI: Prospects and consequences of machines that can reproduce and evolve"
+        "name": "Jim Newbery",
+        "talk": "Surviving the Single Page App-ocalypse"
       },
       {
-        "name": "Greg Sutcliffe",
-        "talk": "Communication Tools For Communities"
+        "name": "Alistair Hann",
+        "talk": "Building an Open Health Platform"
       }
     ],
-    "day": "12th",
-    "month": "September"
+    "day": "10th",
+    "month": "October"
   },
   "glasgow": {
     "speakers": [
