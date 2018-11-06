@@ -46,12 +46,12 @@
   "dundee": {
     "speakers": [
       {
-        "name": "Johannes Postma from Markle Aquila talking about Data Engineering",
-        "talk": "Cyber Essentials and GDPR"
+        "name": "Todd Harding and Dr. Teodora Oniga from FindMyPast",
+        "talk": "Deep Learning for Extracting Meaning from Free-Text Inputs"
       }
     ],
-    "day": "27th",
-    "month": "Mar"
+    "day": "29th",
+    "month": "Nov"
   },
   "inverness": {
     "speakers": [
