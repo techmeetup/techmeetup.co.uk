@@ -2,16 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Jim Newbery",
-        "talk": "Surviving the Single Page App-ocalypse"
+        "name": "Rachel Willmer",
+        "talk": "DevOps: Why the Startup CEO should care and how to convince them with numbers"
       },
       {
-        "name": "Alistair Hann",
-        "talk": "Building an Open Health Platform"
+        "name": "Andrew Samtoy",
+        "talk": "What We Wish You Would Say!"
       }
     ],
-    "day": "10th",
-    "month": "October"
+    "day": "14th",
+    "month": "November"
   },
   "glasgow": {
     "speakers": [
