@@ -26,12 +26,12 @@
   "stirling": {
     "speakers": [
      {
-        "name": "Greg Sutcliffe",
-        "talk": "Privacy, threats to it, actions to take, and why it matters."
+        "name": "Lightning talks",
+        "talk": "10 minute talks on a variety of subjects."
       }
     ],
-    "day": "6th",
-    "month": "November"
+    "day": "4th",
+    "month": "December"
   },
   "aberdeen": {
     "speakers": [
