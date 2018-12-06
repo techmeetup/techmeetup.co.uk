@@ -26,12 +26,12 @@
   "stirling": {
     "speakers": [
      {
-        "name": "Rob McLay",
-        "talk": "Killsuits & Snuffle Unicorns: A beginners guide to the NSA's Dandersplitz Lab"
+        "name": "Douglas McCallum",
+        "talk": "Adventures in Ansible, how it appears to work for a non sysadmin"
       }
     ],
-    "day": "4th",
-    "month": "December"
+    "day": "6th",
+    "month": "February"
   },
   "aberdeen": {
     "speakers": [
