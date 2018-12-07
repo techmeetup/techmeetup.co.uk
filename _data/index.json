@@ -2,16 +2,36 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Rachel Willmer",
-        "talk": "DevOps: Why the Startup CEO should care and how to convince them with numbers"
+        "name": "Stuart Meikle",
+        "talk": "An Architects Tale"
       },
       {
-        "name": "Andrew Samtoy",
-        "talk": "What We Wish You Would Say!"
+        "name": "Thomas Kluyver",
+        "talk": "What is Jupyter and What is it Good For"
+      },
+      {
+        "name": "Pavel Piotrowski",
+        "talk": "Livestreaming"
+      },
+      {
+        "name": "Daniel Bee",
+        "talk": "FGPA... What?"
+      },
+      {
+        "name": "Tai Kepzierski",
+        "talk": "Better Ways to Write Bash"
+      },
+      {
+        "name": "Ricardo Ruiz",
+        "talk": "Know Your Customer"
+      },
+      {
+        "name": "Alex Shiell",
+        "talk": "Building a Map from Raw Data"
       }
     ],
-    "day": "14th",
-    "month": "November"
+    "day": "12th",
+    "month": "December"
   },
   "glasgow": {
     "speakers": [
