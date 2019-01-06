@@ -2,36 +2,12 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Stuart Meikle",
-        "talk": "An Architects Tale"
-      },
-      {
-        "name": "Thomas Kluyver",
-        "talk": "What is Jupyter and What is it Good For"
-      },
-      {
-        "name": "Pavel Piotrowski",
-        "talk": "Livestreaming"
-      },
-      {
-        "name": "Daniel Bee",
-        "talk": "FGPA... What?"
-      },
-      {
-        "name": "Tai Kepzierski",
-        "talk": "Better Ways to Write Bash"
-      },
-      {
-        "name": "Ricardo Ruiz",
-        "talk": "Know Your Customer"
-      },
-      {
-        "name": "Alex Shiell",
-        "talk": "Building a Map from Raw Data"
+        "name": "Elena Beratarbide",
+        "talk": "Privacy by Design"
       }
     ],
-    "day": "12th",
-    "month": "Dec"
+    "day": "9th",
+    "month": "Jan"
   },
   "glasgow": {
     "speakers": [
