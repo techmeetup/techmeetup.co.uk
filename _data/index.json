@@ -2,12 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Elena Beratarbide",
-        "talk": "Privacy by Design"
+        "name": "Alyssa Ross",
+        "talk": "You may have found a bug in the Ruby interpreter"
+      },
+      {
+        "name": "Kris Findlay",
+        "talk": "Title TBC"
       }
     ],
-    "day": "9th",
-    "month": "Jan"
+    "day": "13th",
+    "month": "Feb"
   },
   "glasgow": {
     "speakers": [
