@@ -1,7 +1,7 @@
 url: http://techmeetup.co.uk
 exclude: [bin, vendor, CNAME, Gemfile, Gemfile.lock, Guardfile, Rakefile,
           README.md]
-gems:
+plugins:
   - jekyll-sitemap
 
 # Same as GitHub Pages
