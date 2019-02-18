@@ -2,16 +2,12 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Alyssa Ross",
-        "talk": "You may have found a bug in the Ruby interpreter"
-      },
-      {
-        "name": "Kris Findlay",
-        "talk": "Title TBC"
+        "name": "Tai Kedzierski",
+        "talk": "Building Better Bash Scripts"
       }
     ],
     "day": "13th",
-    "month": "Feb"
+    "month": "Mar"
   },
   "glasgow": {
     "speakers": [
