@@ -1,4 +1,4 @@
-var url = "http://opentechcalendar.co.uk/api1/area/59/events.jsonp?callback=?";
+var url = "https://opentechcalendar.co.uk/api1/area/59/events.jsonp?callback=?";
 
 var mkhtml = function(entry) {
   return "<li>"
