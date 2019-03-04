@@ -22,8 +22,8 @@
   "stirling": {
     "speakers": [
      {
-        "name": "speaker to be confirmed",
-        "talk": "Talk to be announced"
+        "name": "Greg Sutcliffe",
+        "talk": "Introduction to Markdown, and Reproducability with RMarkdown"
       }
     ],
     "day": "6th",
