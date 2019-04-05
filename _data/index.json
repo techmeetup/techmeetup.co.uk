@@ -2,12 +2,16 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Tai Kedzierski",
-        "talk": "Building Better Bash Scripts"
+        "name": "Mike McQuaid",
+        "talk": "How To (Not) Fail At Using Open Source Software In Your Organisation"
+      },
+      {
+        "name": "Ricardo Ruiz",
+        "talk": "Know your customer"
       }
     ],
-    "day": "13th",
-    "month": "Mar"
+    "day": "10th",
+    "month": "Apr"
   },
   "glasgow": {
     "speakers": [
