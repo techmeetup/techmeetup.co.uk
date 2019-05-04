@@ -2,12 +2,12 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Mike McQuaid",
-        "talk": "How To (Not) Fail At Using Open Source Software In Your Organisation"
+        "name": "Tim Leslie",
+        "talk": "Building a collaborative engineering culture"
       }
     ],
-    "day": "10th",
-    "month": "Apr"
+    "day": "8th",
+    "month": "May"
   },
   "glasgow": {
     "speakers": [
