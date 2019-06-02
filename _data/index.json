@@ -2,12 +2,12 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Tim Leslie",
-        "talk": "Building a Collaborative Engineering Culture"
+        "name": "Dr Alistair Grant",
+        "talk": "Supercomputing with Wee Archie Demonstration"
       }
     ],
-    "day": "8th",
-    "month": "May"
+    "day": "12th",
+    "month": "June"
   },
   "glasgow": {
     "speakers": [
@@ -16,8 +16,8 @@
         "talk": "This months meetup has been cancelled"
       }
     ],
-    "day": "22nd",
-    "month": "Feb"
+    "day": "17th",
+    "month": "May"
   },
   "stirling": {
     "speakers": [
