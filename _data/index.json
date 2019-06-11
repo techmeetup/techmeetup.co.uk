@@ -22,12 +22,12 @@
   "stirling": {
     "speakers": [
      {
-        "name": "Andy Gibson",
-        "talk": ".NET is Dead, Long Live .NET"
+        "name": "Douglas Matthews",
+        "talk": "The Secret Life of Software"
       }
     ],
-    "day": "4th",
-    "month": "June"
+    "day": "2nd",
+    "month": "July"
   },
   "aberdeen": {
     "speakers": [
