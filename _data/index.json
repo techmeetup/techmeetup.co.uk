@@ -2,22 +2,22 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Dr Alistair Grant",
-        "talk": "Supercomputing with Wee Archie Demonstration"
+        "name": "Various Speakers",
+        "talk": "Lightning Talks"
       }
     ],
-    "day": "12th",
-    "month": "June"
+    "day": "10th",
+    "month": "July"
   },
   "glasgow": {
     "speakers": [
       {
-        "name": "Cancelled",
-        "talk": "This months meetup has been cancelled"
+        "name": "TBC",
+        "talk": "TBC"
       }
     ],
-    "day": "17th",
-    "month": "May"
+    "day": "TBC",
+    "month": "TBC"
   },
   "stirling": {
     "speakers": [
@@ -32,31 +32,31 @@
   "aberdeen": {
     "speakers": [
       {
-        "name": "Katie Lynn",
-        "talk": "Scot.Gov's CivTech Programme"
+        "name": "TBC",
+        "talk": "TBC"
       }
     ],
-    "day": "15th",
-    "month": "March"
+    "day": "TBC",
+    "month": "TBC"
   },
   "dundee": {
     "speakers": [
       {
-        "name": "Todd Harding and Dr. Teodora Oniga from FindMyPast",
-        "talk": "Deep Learning for Extracting Meaning from Free-Text Inputs"
+        "name": "TBC",
+        "talk": "TBC"
       }
     ],
-    "day": "29th",
-    "month": "Nov"
+    "day": "TBC",
+    "month": "TBC"
   },
   "inverness": {
     "speakers": [
       {
-        "name": "Open Mic Night",
-        "talk": "Everyone is encourage to speak a little about their favourite dev tool."
+        "name": "TBC",
+        "talk": "TBC"
       }
     ],
-    "day": "23rd",
-    "month": "Mar"
+    "day": "TBC",
+    "month": "TBC"
   }
 }
