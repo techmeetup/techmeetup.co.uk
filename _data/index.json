@@ -2,12 +2,12 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Various Speakers (@ CodeClan this month)",
-        "talk": "Lightning Talks"
+        "name": "Privacy Preserving Machine Learning",
+        "talk": "Adam Hall"
       }
     ],
-    "day": "10th",
-    "month": "July"
+    "day": "14th",
+    "month": "August"
   },
   "glasgow": {
     "speakers": [
