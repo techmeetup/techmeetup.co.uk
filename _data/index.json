@@ -2,12 +2,12 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Privacy Preserving Machine Learning",
-        "talk": "Adam Hall"
+        "name": "Weaknesses in Software Supply Chains",
+        "talk": "SEan Wright"
       }
     ],
-    "day": "14th",
-    "month": "August"
+    "day": "11th",
+    "month": "September"
   },
   "glasgow": {
     "speakers": [
