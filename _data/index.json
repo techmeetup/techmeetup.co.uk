@@ -22,12 +22,12 @@
   "stirling": {
     "speakers": [
      {
-        "name": "Multiple speakers",
-        "talk": "Lightning talks about a variety of subjects"
+        "name": "Douglas McCallum",
+        "talk": "OOP is dead, long live OOP"
       }
     ],
-    "day": "6th",
-    "month": "August"
+    "day": "1st",
+    "month": "October"
   },
   "aberdeen": {
     "speakers": [
