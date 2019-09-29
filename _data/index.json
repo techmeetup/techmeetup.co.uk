@@ -2,12 +2,12 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Weaknesses in Software Supply Chains",
-        "talk": "Sean Wright"
+        "name": "Adventures in Tech",
+        "talk": "Steve Kilbane"
       }
     ],
-    "day": "11th",
-    "month": "September"
+    "day": "9th",
+    "month": "October"
   },
   "glasgow": {
     "speakers": [
