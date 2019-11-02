@@ -2,12 +2,12 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Lights, Sound, Camera! Providing Tech Infrastructure at Science Fiction Conventions",
-        "talk": "Steve Kilbane"
+        "name": "Andrew Rendle",
+        "talk": "IT Project Management Demystified"
       }
     ],
-    "day": "9th",
-    "month": "October"
+    "day": "13th",
+    "month": "November"
   },
   "glasgow": {
     "speakers": [
