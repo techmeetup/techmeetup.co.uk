@@ -2,12 +2,12 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Andrew Rendle",
-        "talk": "IT Project Management Demystified"
+        "name": "Ian McDonald",
+        "talk": "Why You Should Automate Deployments"
       }
     ],
-    "day": "13th",
-    "month": "November"
+    "day": "11th",
+    "month": "December"
   },
   "glasgow": {
     "speakers": [
