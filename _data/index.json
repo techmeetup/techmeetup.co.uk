@@ -2,12 +2,19 @@
   "edinburgh": {
     "speakers": [
       {
-        "name": "Ian McDonald",
-        "talk": "Why You Should Automate Deployments"
+        "talk": "The Future: trends and predictions",
+        "talk": "Motivation in Tech",
+        "talk": "E-waste Recycling",
+        "talk": "Enterprise Apple device deployment",
+        "talk": "Gaming on Linux/Steam",
+        "talk": "Energy Harvesting Image Sensors",
+        "talk": "A Developer's Journey",
+        "talk": "Unionisation in the Tech Industry",
+        "talk": "5G Rollout"
       }
     ],
-    "day": "11th",
-    "month": "December"
+    "day": "12th",
+    "month": "February"
   },
   "glasgow": {
     "speakers": [
