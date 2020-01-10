@@ -2,15 +2,8 @@
   "edinburgh": {
     "speakers": [
       {
-        "talk": "The Future: trends and predictions",
-        "talk": "Motivation in Tech",
-        "talk": "E-waste Recycling",
-        "talk": "Enterprise Apple device deployment",
-        "talk": "Gaming on Linux/Steam",
-        "talk": "Energy Harvesting Image Sensors",
-        "talk": "A Developer's Journey",
-        "talk": "Unionisation in the Tech Industry",
-        "talk": "5G Rollout"
+        "name": "Many Lightning talks on topics including:",
+        "talk": "E-waste, 5G, Gaming, Unions, Sensors and the Future",
       }
     ],
     "day": "12th",
