@@ -22,12 +22,12 @@
   "stirling": {
     "speakers": [
      {
-        "name": "Douglas McCallum",
-        "talk": "OOP is dead, long live OOP"
+        "name": "Stacey Armour",
+        "talk": "Testing"
       }
     ],
-    "day": "1st",
-    "month": "October"
+    "day": "4th",
+    "month": "February"
   },
   "aberdeen": {
     "speakers": [
