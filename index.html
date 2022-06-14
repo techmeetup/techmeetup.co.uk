@@ -5,38 +5,58 @@ title: Home
 
 <div id="head">
   <div id="intro">
-       <p>TechMeetup is a monthly excuse for developers and the tech community around Scotland to meet up and learn new stuff from each other. No name badges, no sales pitches, just informative presentations from your peers and a chance to meet some of the tech community around you.</p>
+    <p>
+      TechMeetup is a monthly excuse for developers and the tech community
+      around Scotland to meet up and learn new stuff from each other. No name
+      badges, no sales pitches, just informative presentations from your peers
+      and a chance to meet some of the tech community around you.
+    </p>
 
-       <p>We're not centred around specific languages, technologies or disciplines; we believe there's stuff to learn from mixing everyone together. There's no cost to attend either!</p>
+    <p>
+      We're not centred around specific languages, technologies or disciplines;
+      we believe there's stuff to learn from mixing everyone together. There's
+      no cost to attend either!
+    </p>
   </div>
 
-  <div id="sponsors"><h4>Thanks to our sponsors:</h4>
+  <div id="sponsors">
+    <h4>Thanks to our sponsors:</h4>
     <ul>
-      <li><a href="http://www.skyscanner.net/" class="fadehover">
+      <li>
+        <a href="http://www.skyscanner.net/" class="fadehover">
           <img src="{{ site.baseurl }}/static/img/skyscanner.png" />
-      </a></li>
-      <li><a href="http://cultivatehq.com/" class="fadehover">
-          <img src="{{ site.baseurl }}/static/img/cultivatehq-white-small.png" />
-      </a></li>
-      <li><a href="http://www.informatics-ventures.com/" class="fadehover">
+        </a>
+      </li>
+      <li>
+        <a href="http://cultivatehq.com/" class="fadehover">
+          <img
+            src="{{ site.baseurl }}/static/img/cultivatehq-white-small.png"
+          />
+        </a>
+      </li>
+      <li>
+        <a href="http://www.informatics-ventures.com/" class="fadehover">
           <img src="{{ site.baseurl }}/static/img/informatics.png" />
-      </a></li>
+        </a>
+      </li>
       <li><a href="{{ site.baseurl }}/about.html">And many more »</a></li>
     </ul>
   </div>
-
 </div>
 
 <ul class="cities">
-
   <li class="first">
     <h4><a href="{{ site.baseurl }}/edinburgh.html">Edinburgh</a></h4>
     <span>2nd Wed of month</span>
-    <p><a href="https://goo.gl/maps/vGxnZeziwdJ2" class="map">CodeBase<br>38 Castle Terrace,EH3 9DZ</a></p>
+    <p>
+      <a href="https://goo.gl/maps/vGxnZeziwdJ2" class="map"
+        >CodeBase<br />38 Castle Terrace,EH3 9DZ</a
+      >
+    </p>
     {% for speaker in site.data.index.edinburgh.speakers %}
     <p>
       <strong>{{ speaker.name }}</strong>
-      <br>
+      <br />
       {{ speaker.talk }}
     </p>
     {% endfor %}
@@ -54,11 +74,16 @@ title: Home
   <li class="">
     <h4><a href="{{ site.baseurl }}/stirling.html">Stirling</a></h4>
     <span>1st Tue of month</span>
-    <p><a href="https://www.google.com/maps?sll=56.118527,-3.939337&q=8-10+Corn+Exchange+Road+Stirling,+Scotland,+FK8+2HU,+United+Kingdom&z=12">CodeBase Stirling - 8-10 Corn Exchange Rd, Stirling FK8 2HU</a></p>
+    <p>
+      <a
+        href="https://www.google.com/maps?sll=56.118527,-3.939337&q=8-10+Corn+Exchange+Road+Stirling,+Scotland,+FK8+2HU,+United+Kingdom&z=12"
+        >CodeBase Stirling - 8-10 Corn Exchange Rd, Stirling FK8 2HU</a
+      >
+    </p>
     {% for speaker in site.data.index.stirling.speakers %}
     <p>
       <strong>{{ speaker.name }}</strong>
-      <br>
+      <br />
       {{ speaker.talk }}
     </p>
     {% endfor %}
@@ -74,41 +99,53 @@ title: Home
   </li>
 
   <li class="last">
-    <h4><a href="{{ site.baseurl }}/aberdeen.html">Aberdeen</a></h4>
-    <span>Every 3rd Wednesday</span>
-    <p><a href="http://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Meston+Building+Aberdeen+University&amp;sll=57.294593,-2.400159&amp;sspn=0.017437,0.034075&amp;ie=UTF8&amp;hq=Meston+Building+Aberdeen+University&amp;hnear=&amp;l" class="map">North Side Meston Building, Aberdeen Uni</a></p>
-    {% for speaker in site.data.index.aberdeen.speakers %}
+    <h4><a href="{{ site.baseurl }}/glasgow.html">Glasgow</a></h4>
+    <span>Every 1st Thursday</span>
+    <p>
+      <a href="https://goo.gl/maps/XpgiaafHK2U6ffEf9" class="map"
+        >Strathclyde Students Union, 51 Richmond Street, Glasgow G1 1XU</a
+      >
+    </p>
+    {% for speaker in site.data.index.glasgow.speakers %}
     <p>
       <strong>{{ speaker.name }}</strong>
-      <br>
+      <br />
       {{ speaker.talk }}
     </p>
     {% endfor %}
+    <p>
+      <a
+        href="https://www.eventbrite.co.uk/e/tech-meetup-july-tickets-357010898207"
+        >Tickets on EventBrite</a
+      >
+    </p>
     <div class="datewrapper">
       <div class="when">
         <div class="daywrap">
-          <div class="day">{{ site.data.index.aberdeen.day }}</div>
-          <div class="month">{{ site.data.index.aberdeen.month }}</div>
+          <div class="day">{{ site.data.index.glasgow.day }}</div>
+          <div class="month">{{ site.data.index.glasgow.month }}</div>
         </div>
         <div class="time">6.30PM</div>
       </div>
     </div>
   </li>
-
 </ul>
 
-<ul id="secondcities" class="cities">
-
+<ul class="cities">
   <li class="first">
     <h4><a href="{{ site.baseurl }}/dundee.html">Dundee</a></h4>
     <span>Last Tuesday of the Month</span>
     <p>
-      <a href="https://www.google.com/maps/search/Chambers+Building,+Panmure+Street,+DD1+1ED/@56.463188,-2.9728147,17z/data=!3m1!4b1" class="map">The Brouhaha, Chambers Building (2 floors above BrewDog)</a>
+      <a
+        href="https://www.google.com/maps/search/Chambers+Building,+Panmure+Street,+DD1+1ED/@56.463188,-2.9728147,17z/data=!3m1!4b1"
+        class="map"
+        >The Brouhaha, Chambers Building (2 floors above BrewDog)</a
+      >
     </p>
     {% for speaker in site.data.index.dundee.speakers %}
     <p>
       <strong>{{ speaker.name }}</strong>
-      <br>
+      <br />
       {{ speaker.talk }}
     </p>
     {% endfor %}
@@ -123,14 +160,48 @@ title: Home
     </div>
   </li>
 
+  <li>
+    <h4><a href="{{ site.baseurl }}/aberdeen.html">Aberdeen</a></h4>
+    <span>Every 3rd Wednesday</span>
+    <p>
+      <a
+        href="http://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Meston+Building+Aberdeen+University&amp;sll=57.294593,-2.400159&amp;sspn=0.017437,0.034075&amp;ie=UTF8&amp;hq=Meston+Building+Aberdeen+University&amp;hnear=&amp;l"
+        class="map"
+        >North Side Meston Building, Aberdeen Uni</a
+      >
+    </p>
+    {% for speaker in site.data.index.aberdeen.speakers %}
+    <p>
+      <strong>{{ speaker.name }}</strong>
+      <br />
+      {{ speaker.talk }}
+    </p>
+    {% endfor %}
+    <div class="datewrapper">
+      <div class="when">
+        <div class="daywrap">
+          <div class="day">{{ site.data.index.aberdeen.day }}</div>
+          <div class="month">{{ site.data.index.aberdeen.month }}</div>
+        </div>
+        <div class="time">6.30PM</div>
+      </div>
+    </div>
+  </li>
+
   <li class="last">
     <h4><a href="{{ site.baseurl }}/inverness.html">Inverness</a></h4>
     <span>Last Monday of month</span>
-    <p><a href="https://www.google.co.uk/maps?q=pentahotel+inverness&ion=1&espv=2&es_th=1&bav=on.2,or.r_cp.&bvm=bv.107467506,d.ZWU&biw=1366&bih=628&dpr=1&safe=strict&um=1&ie=UTF-8&sa=X&ved=0CAYQ_AUoAWoVChMIssH-7pGQyQIVhLYUCh07oQLX" class="map">Penta Hotel, 63 Academy St, Inverness IV1 1LU.</a></p>
+    <p>
+      <a
+        href="https://www.google.co.uk/maps?q=pentahotel+inverness&ion=1&espv=2&es_th=1&bav=on.2,or.r_cp.&bvm=bv.107467506,d.ZWU&biw=1366&bih=628&dpr=1&safe=strict&um=1&ie=UTF-8&sa=X&ved=0CAYQ_AUoAWoVChMIssH-7pGQyQIVhLYUCh07oQLX"
+        class="map"
+        >Penta Hotel, 63 Academy St, Inverness IV1 1LU.</a
+      >
+    </p>
     {% for speaker in site.data.index.inverness.speakers %}
     <p>
       <strong>{{ speaker.name }}</strong>
-      <br>
+      <br />
       {{ speaker.talk }}
     </p>
     {% endfor %}
@@ -144,7 +215,6 @@ title: Home
       </div>
     </div>
   </li>
-
 </ul>
 
 <div id="contact">
@@ -157,10 +227,17 @@ title: Home
 
   <div id="twitter">
     <img src="{{site.baseurl}}/static/img/groups.png" />
-    <h3><a href="http://groups.google.com/group/techmeetup?pli=1">
-      Get Announcements</a></h3> about upcoming techmeetups, or <br /><br />
-    <h3><a href="http://techmeetup.herokuapp.com/">
-      Join Discussions on Slack</a></h3><br /> with the rest of the community.
+    <h3>
+      <a href="http://groups.google.com/group/techmeetup?pli=1">
+        Get Announcements</a
+      >
+    </h3>
+    about upcoming techmeetups, or <br /><br />
+    <h3>
+      <a href="http://techmeetup.herokuapp.com/"> Join Discussions on Slack</a>
+    </h3>
+    <br />
+    with the rest of the community.
   </div>
 </div>
 
@@ -169,7 +246,10 @@ title: Home
 <div id="home">
   <ul id="blog" class="posts">
     {% for post in site.posts limit:5 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{site.baseurl}}{{ post.url }}"><h4>{{ post.title }}</h4></a></li>
+    <li>
+      <span>{{ post.date | date_to_string }}</span> &raquo;
+      <a href="{{site.baseurl}}{{ post.url }}"><h4>{{ post.title }}</h4></a>
+    </li>
     {% endfor %}
   </ul>
 </div>

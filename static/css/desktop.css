@@ -281,7 +281,6 @@ li {
 		width         : 290px;
 		border-right  : 0px;
 	}
-	#secondcities { width: 650px; margin: 0 auto; margin-bottom: 3em; }
 }
 
 @media screen and (max-width: 940px) {

@@ -12,16 +12,20 @@
   "glasgow": {
     "speakers": [
       {
-        "name": "TBC",
-        "talk": "TBC"
+        "name": "Keith Harrison",
+        "talk": "Functional Programming"
+      },
+      {
+        "name": "Kat Kmiotek",
+        "talk": "GraphQL - Playground and testing"
       }
     ],
-    "day": "TBC",
-    "month": "TBC"
+    "day": "7th",
+    "month": "July 2022"
   },
   "stirling": {
     "speakers": [
-     {
+      {
         "name": "Not sure",
         "talk": "No title yet"
       }
