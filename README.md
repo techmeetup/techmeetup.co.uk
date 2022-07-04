@@ -2,12 +2,25 @@
 The GitHub Pages/Jekyll-powered website for techmeetup.co.uk.
 
 ## Installation
+
 ```bash
 git clone https://github.com/TechMeetup/TechMeetup.co.uk
 cd TechMeetup.co.uk
 gem install bundler
 bundle install
 bundle exec guard
+```
+
+Or, via nix
+
+```
+nix-shell
+```
+
+## Running
+
+```
+jekyll serve --watch
 ```
 
 ## Contact
