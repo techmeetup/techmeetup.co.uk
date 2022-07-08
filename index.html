@@ -19,203 +19,67 @@ title: Home
     </p>
   </div>
 
-  <div id="sponsors">
-    <h4>Thanks to our sponsors:</h4>
-    <ul>
-      <li>
-        <a href="http://www.skyscanner.net/" class="fadehover">
-          <img src="{{ site.baseurl }}/static/img/skyscanner.png" />
-        </a>
-      </li>
-      <li>
-        <a href="http://cultivatehq.com/" class="fadehover">
-          <img
-            src="{{ site.baseurl }}/static/img/cultivatehq-white-small.png"
-          />
-        </a>
-      </li>
-      <li>
-        <a href="http://www.informatics-ventures.com/" class="fadehover">
-          <img src="{{ site.baseurl }}/static/img/informatics.png" />
-        </a>
-      </li>
-      <li><a href="{{ site.baseurl }}/about.html">And many more »</a></li>
-    </ul>
   </div>
+
+<div class="upcoming-events">
+  <h1 class="text-center">Upcoming Events</h1>
+  {% assign sorted = site.data.index | sort: 'date' | reverse %}
+  {% for event in sorted %}
+  <div class="event">
+      <div class="event-date-time event-date-time--{% cycle "pink", "green" %}">
+        {% if event.active == "true" %}
+        <div class="event-date">
+          {% assign d = event.date | date: "%-d" %}
+{% case d %}
+  {% when "1" or "21" or "31" %}{{ d }}st
+  {% when "2" or "22" %}{{ d }}nd
+  {% when "3" or "23" %}{{ d }}rd
+  {% else %}{{ d }}th
+{% endcase %}
+        </div>
+        <div class="event-month">{{ event.date | date: "%b"}}</div>
+        <div class="event-year">{{ event.date | date: "%Y"}}</div>
+        <div class="event-time">{{ event.date | date: "%R"}}</div>
+        {% else %}
+        <div class="event-month">TBC</div>
+        {% endif %}
+      </div>
+      <div class="event-details">
+        <div class="event-name">
+          <a class="event-link" href="{{ site.baseurl }}/{{ event.city }}.html">{{ event.city }} TechMeetup</a>
+        </div>
+        <div class="event-on">
+          <i>{{ event.on }}</i>
+        </div>
+        <div class="event-location">
+          <a href="{{ event.location.link }}">{{ event.location.address }}</a>
+        </div>
+        {% if event.active == "true" %}
+        <div class="event-description">
+            {% for speaker in event.speakers %}
+            <p>
+              <strong>{{ speaker.name }}</strong>
+              <br />
+              {{ speaker.talk }}
+            </p>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="event-description">
+          <p>
+            <strong>Not recovered from Covid</strong>
+          </p>
+      </div>
+        {% endif %}
+        <a class="event-link" href="{{ site.baseurl }}/{{ event.city }}.html">
+        <div class="event-more-info-link">
+          <span class="event-link-button">More info</span>
+        </div>
+      </a>
+      </div>
+  </div>
+  {% endfor %}
 </div>
-
-<ul class="cities">
-  <li class="first">
-    <h4><a href="{{ site.baseurl }}/edinburgh.html">Edinburgh</a></h4>
-    <span>2nd Wed of month</span>
-    <p>
-      <a href="https://goo.gl/maps/vGxnZeziwdJ2" class="map"
-        >CodeBase<br />38 Castle Terrace,EH3 9DZ</a
-      >
-    </p>
-    {% for speaker in site.data.index.edinburgh.speakers %}
-    <p>
-      <strong>{{ speaker.name }}</strong>
-      <br />
-      {{ speaker.talk }}
-    </p>
-    {% endfor %}
-    <div class="datewrapper">
-      <div class="when">
-        <div class="daywrap">
-          <div class="day">{{ site.data.index.edinburgh.day }}</div>
-          <div class="month">{{ site.data.index.edinburgh.month }}</div>
-        </div>
-        <div class="time">6.30PM</div>
-      </div>
-    </div>
-  </li>
-
-  <li class="">
-    <h4><a href="{{ site.baseurl }}/stirling.html">Stirling</a></h4>
-    <span>1st Tue of month</span>
-    <p>
-      <a
-        href="https://www.google.com/maps?sll=56.118527,-3.939337&q=8-10+Corn+Exchange+Road+Stirling,+Scotland,+FK8+2HU,+United+Kingdom&z=12"
-        >CodeBase Stirling - 8-10 Corn Exchange Rd, Stirling FK8 2HU</a
-      >
-    </p>
-    {% for speaker in site.data.index.stirling.speakers %}
-    <p>
-      <strong>{{ speaker.name }}</strong>
-      <br />
-      {{ speaker.talk }}
-    </p>
-    {% endfor %}
-    <div class="datewrapper">
-      <div class="when">
-        <div class="daywrap">
-          <div class="day">{{ site.data.index.stirling.day }}</div>
-          <div class="month">{{ site.data.index.stirling.month }}</div>
-        </div>
-        <div class="time">6.30PM</div>
-      </div>
-    </div>
-  </li>
-
-  <li class="last">
-    <h4><a href="{{ site.baseurl }}/glasgow.html">Glasgow</a></h4>
-    <span>Every 1st Thursday</span>
-    <p>
-      <a href="https://goo.gl/maps/XpgiaafHK2U6ffEf9" class="map"
-        >Strathclyde Students Union, 51 Richmond Street, Glasgow G1 1XU</a
-      >
-    </p>
-    {% for speaker in site.data.index.glasgow.speakers %}
-    <p>
-      <strong>{{ speaker.name }}</strong>
-      <br />
-      {{ speaker.talk }}
-    </p>
-    {% endfor %}
-    <p>
-      <a
-        href="https://www.eventbrite.co.uk/e/tech-meetup-july-tickets-357010898207"
-        >Tickets on EventBrite</a
-      >
-    </p>
-    <div class="datewrapper">
-      <div class="when">
-        <div class="daywrap">
-          <div class="day">{{ site.data.index.glasgow.day }}</div>
-          <div class="month">{{ site.data.index.glasgow.month }}</div>
-        </div>
-        <div class="time">6.30PM</div>
-      </div>
-    </div>
-  </li>
-</ul>
-
-<ul class="cities">
-  <li class="first">
-    <h4><a href="{{ site.baseurl }}/dundee.html">Dundee</a></h4>
-    <span>Last Tuesday of the Month</span>
-    <p>
-      <a
-        href="https://www.google.com/maps/search/Chambers+Building,+Panmure+Street,+DD1+1ED/@56.463188,-2.9728147,17z/data=!3m1!4b1"
-        class="map"
-        >The Brouhaha, Chambers Building (2 floors above BrewDog)</a
-      >
-    </p>
-    {% for speaker in site.data.index.dundee.speakers %}
-    <p>
-      <strong>{{ speaker.name }}</strong>
-      <br />
-      {{ speaker.talk }}
-    </p>
-    {% endfor %}
-    <div class="datewrapper">
-      <div class="when">
-        <div class="daywrap">
-          <div class="day">{{ site.data.index.dundee.day }}</div>
-          <div class="month">{{ site.data.index.dundee.month }}</div>
-        </div>
-        <div class="time">6.00PM</div>
-      </div>
-    </div>
-  </li>
-
-  <li>
-    <h4><a href="{{ site.baseurl }}/aberdeen.html">Aberdeen</a></h4>
-    <span>Every 3rd Wednesday</span>
-    <p>
-      <a
-        href="http://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Meston+Building+Aberdeen+University&amp;sll=57.294593,-2.400159&amp;sspn=0.017437,0.034075&amp;ie=UTF8&amp;hq=Meston+Building+Aberdeen+University&amp;hnear=&amp;l"
-        class="map"
-        >North Side Meston Building, Aberdeen Uni</a
-      >
-    </p>
-    {% for speaker in site.data.index.aberdeen.speakers %}
-    <p>
-      <strong>{{ speaker.name }}</strong>
-      <br />
-      {{ speaker.talk }}
-    </p>
-    {% endfor %}
-    <div class="datewrapper">
-      <div class="when">
-        <div class="daywrap">
-          <div class="day">{{ site.data.index.aberdeen.day }}</div>
-          <div class="month">{{ site.data.index.aberdeen.month }}</div>
-        </div>
-        <div class="time">6.30PM</div>
-      </div>
-    </div>
-  </li>
-
-  <li class="last">
-    <h4><a href="{{ site.baseurl }}/inverness.html">Inverness</a></h4>
-    <span>Last Monday of month</span>
-    <p>
-      <a
-        href="https://www.google.co.uk/maps?q=pentahotel+inverness&ion=1&espv=2&es_th=1&bav=on.2,or.r_cp.&bvm=bv.107467506,d.ZWU&biw=1366&bih=628&dpr=1&safe=strict&um=1&ie=UTF-8&sa=X&ved=0CAYQ_AUoAWoVChMIssH-7pGQyQIVhLYUCh07oQLX"
-        class="map"
-        >Penta Hotel, 63 Academy St, Inverness IV1 1LU.</a
-      >
-    </p>
-    {% for speaker in site.data.index.inverness.speakers %}
-    <p>
-      <strong>{{ speaker.name }}</strong>
-      <br />
-      {{ speaker.talk }}
-    </p>
-    {% endfor %}
-    <div class="datewrapper">
-      <div class="when">
-        <div class="daywrap">
-          <div class="day">{{ site.data.index.inverness.day }}</div>
-          <div class="month">{{ site.data.index.inverness.month }}</div>
-        </div>
-        <div class="time">7PM</div>
-      </div>
-    </div>
-  </li>
-</ul>
 
 <div id="contact">
   <div id="mailinglists">

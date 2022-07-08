@@ -1,15 +1,29 @@
-{
-  "edinburgh": {
+[
+  {
+    "city": "edinburgh",
+    "on": "2nd Wed of month",
+    "location": {
+      "link": "https://goo.gl/maps/vGxnZeziwdJ2",
+      "address": "CodeBase, 38 Castle Terrace,EH3 9DZ"
+    },
+    "active": "false",
+    "date": "2020-01-02T18:00:00Z",
     "speakers": [
       {
         "name": "CANCELLED due to Covid-19",
         "talk": "CANCELLED due to Covid-19"
       }
-    ],
-    "day": "1th",
-    "month": "March"
+    ]
   },
-  "glasgow": {
+  {
+    "city": "glasgow",
+    "on": "Every 1st Thursday",
+    "location": {
+      "link": "https://goo.gl/maps/XpgiaafHK2U6ffEf9",
+      "address": "Strathclyde Students Union, 51 Richmond Street, Glasgow G1 1XU"
+    },
+    "active": "true",
+    "date": "2022-07-08T18:00:00Z",
     "speakers": [
       {
         "name": "Keith Harrison",
@@ -19,48 +33,70 @@
         "name": "Kat Kmiotek",
         "talk": "GraphQL - Playground and testing"
       }
-    ],
-    "day": "7th",
-    "month": "July 2022"
+    ]
   },
-  "stirling": {
+  {
+    "city": "stirling",
+    "on": "1st Tue of month",
+    "location": {
+      "link": "https://www.google.com/maps?sll=56.118527,-3.939337&q=8-10+Corn+Exchange+Road+Stirling,+Scotland,+FK8+2HU,+United+Kingdom&z=12",
+      "address": "CodeBase Stirling - 8-10 Corn Exchange Rd, Stirling FK8 2HU"
+    },
+    "active": "true",
+    "date": "2022-05-05T18:30:00Z",
     "speakers": [
       {
         "name": "Rab McLay",
         "talk": "Hack The Box: Gamified hacking"
       }
-    ],
-    "day": "5th",
-    "month": "July 2022"
+    ]
   },
-  "aberdeen": {
+  {
+    "city": "aberdeen",
+    "on": "Every 3rd Wednesday",
+    "location": {
+      "link": "http://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Meston+Building+Aberdeen+University&amp;sll=57.294593,-2.400159&amp;sspn=0.017437,0.034075&amp;ie=UTF8&amp;hq=Meston+Building+Aberdeen+University&amp;hnear=&amp;l",
+      "address": "North Side Meston Building, Aberdeen Uni"
+    },
+    "active": "false",
+    "date": "2020-01-01T18:00:00Z",
     "speakers": [
       {
         "name": "TBC",
         "talk": "TBC"
       }
-    ],
-    "day": "TBC",
-    "month": "TBC"
+    ]
   },
-  "dundee": {
+  {
+    "city": "dundee",
+    "on": "Last Tuesday of the Month",
+    "location": {
+      "link": "https://www.google.com/maps/search/Chambers+Building,+Panmure+Street,+DD1+1ED/@56.463188,-2.9728147,17z/data=!3m1!4b1",
+      "address": "The Brouhaha, Chambers Building (2 floors above BrewDog)"
+    },
+    "active": "false",
+    "date": "2020-01-01T18:00:00Z",
     "speakers": [
       {
         "name": "TBC",
         "talk": "TBC"
       }
-    ],
-    "day": "TBC",
-    "month": "TBC"
+    ]
   },
-  "inverness": {
+  {
+    "city": "inverness",
+    "on": "Last Monday of month",
+    "location": {
+      "link": "https://www.google.co.uk/maps?q=pentahotel+inverness&ion=1&espv=2&es_th=1&bav=on.2,or.r_cp.&bvm=bv.107467506,d.ZWU&biw=1366&bih=628&dpr=1&safe=strict&um=1&ie=UTF-8&sa=X&ved=0CAYQ_AUoAWoVChMIssH-7pGQyQIVhLYUCh07oQLX",
+      "address": "Penta Hotel, 63 Academy St, Inverness IV1 1LU"
+    },
+    "active": "false",
+    "date": "2020-01-01T18:00:00Z",
     "speakers": [
       {
         "name": "TBC",
         "talk": "TBC"
       }
-    ],
-    "day": "TBC",
-    "month": "TBC"
+    ]
   }
-}
+]
