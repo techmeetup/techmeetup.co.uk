@@ -150,6 +150,10 @@ li {
     padding: 0 0 25px 0;
   }
 
+  #what-we-are {
+    padding: 0;
+  }
+
   #header h1 {
     margin: 0px;
     float: left;
@@ -479,4 +483,9 @@ li {
 
 #recent-posts {
   margin-top: 1.5em;
+}
+
+#what-we-are {
+  padding-left: 0.8em;
+  padding-right: 0.8em;
 }
