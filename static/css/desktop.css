@@ -60,7 +60,7 @@ a {
 }
 
 p {
-  margin-bottom: 2em;
+  margin-bottom: 0.5em;
 }
 
 ul,
@@ -96,6 +96,7 @@ li {
   margin: 25px auto 0px auto;
   padding: 25px 10px;
   background: #30363e;
+  font-size: 1.3em;
 }
 #content sub {
   color: #999;
@@ -130,6 +131,7 @@ li {
   width: 190px;
   text-indent: -999px;
   outline: none;
+  margin-left: 0.5em;
 }
 #header a:link,
 #header a:visited {
@@ -147,7 +149,8 @@ li {
 
 #header > ul > li {
   display: inline-block;
-  margin: 5px 0px 0px 35px;
+  /* margin: 5px 0px 0px 35px; */
+  margin: 0 18px 0 0;
   font-size: 120%;
 }
 
@@ -155,8 +158,6 @@ li {
   #intro {
     width: 680px;
     margin-right: 20px;
-    float: left;
-    font-size: 1.3em;
   }
   #sponsors {
     width: 280px;
@@ -409,13 +410,9 @@ li {
 }
 
 #blog {
-  padding: 0px;
   list-style: none;
 }
 
-#blog li {
-  margin: 1em 0;
-}
 #blog a {
   text-decoration: none;
 }
@@ -467,10 +464,6 @@ li {
   #twitter {
     height: 100%;
   }
-
-  #contact {
-    height: 95px;
-  }
 }
 
 .details {
@@ -521,7 +514,6 @@ li {
 #about-sponsors {
   height: 100%;
   width: 280px;
-  float: right;
   margin: 0px 0 0 40px;
   background: #000;
   padding: 10px;
@@ -532,11 +524,6 @@ li {
 }
 #about-sponsors ul {
   list-style: none;
-}
-
-#head {
-  min-height: 240px;
-  overflow: auto;
 }
 
 #UpcomingEvents .openTechCalendarEventListEvent {
@@ -552,6 +539,7 @@ li {
 ******************************************************************************/
 
 .upcoming-events {
+  margin-top: 1.5em;
   margin-bottom: 2em;
 }
 
@@ -591,6 +579,10 @@ li {
   .event .event-date-time {
     min-height: 160px;
   }
+
+  #header h1 a {
+    margin-left: 0;
+  }
 }
 
 .event .event-date-time .event-date {
@@ -607,7 +599,7 @@ li {
 }
 
 .event .event-date-time .event-year {
-  font-weight: 600;
+  font-weight: 300;
   font-size: 26px;
   text-transform: uppercase;
   line-height: 28px;
@@ -647,14 +639,18 @@ li {
   font-style: normal;
 }
 
+.event .event-details .event-on {
+  font-size: 12px;
+}
+
 .event .event-details .event-location {
   font-weight: 600;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .event .event-details .event-description {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 14px;
   padding-top: 4px;
 }
 
@@ -679,4 +675,19 @@ li {
   display: block;
   width: 120px;
   text-align: center;
+}
+
+#contact img {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  margin-right: 0.6em;
+}
+
+#contact ul {
+  list-style-type: none;
+}
+
+#recent-posts {
+  margin-top: 2em;
 }
