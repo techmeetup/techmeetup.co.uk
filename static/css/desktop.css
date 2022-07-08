@@ -94,7 +94,6 @@ li {
 }
 #content {
   margin: 25px auto 0px auto;
-  padding: 25px 10px;
   background: #30363e;
   font-size: 1.3em;
 }
@@ -105,17 +104,6 @@ li {
 #last_twitter_created {
   font-size: 70%;
   color: #999;
-}
-
-#sponsors ul {
-  list-style: none;
-  padding: 0;
-}
-#sponsors {
-  text-align: center;
-}
-#sponsors li {
-  margin-top: 20px;
 }
 
 #header {
@@ -149,16 +137,11 @@ li {
 
 #header > ul > li {
   display: inline-block;
-  /* margin: 5px 0px 0px 35px; */
   margin: 0 18px 0 0;
   font-size: 120%;
 }
 
 @media screen and (min-width: 940px) {
-  #sponsors {
-    width: 280px;
-    float: right;
-  }
   #header {
     width: 940px;
   }
@@ -172,11 +155,7 @@ li {
     float: left;
   }
   #header ul {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    list-style: none;
-    margin-top: 0px;
+    text-align: right;
   }
 
   #header > ul > li {
@@ -271,139 +250,6 @@ li {
 /******************************************************************************
    FRONT PAGE
 ******************************************************************************/
-@media screen and (min-width: 940px) {
-  .cities {
-    overflow: auto;
-    list-style-type: none;
-    background: -webkit-gradient(linear, 0 40%, 0 70%, from(#efefef), to(#ccc));
-    background: -moz-linear-gradient(center top, #efefef, #bbb) repeat scroll 0
-      0 transparent;
-    background-color: #efefef;
-
-    -moz-box-shadow: 1px 1px 5px #111;
-    -webkit-box-shadow: 1px 1px 5px #111;
-    border: 1px solid #222;
-    margin: 0px 0px 35px 0px;
-    padding: 10px 0px;
-    overflow: auto;
-    width: 940px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-  }
-  .cities li {
-    width: 298px;
-    float: left;
-    padding: 0px 10px 0px 10px;
-    margin: 0px;
-    position: relative;
-    border-right: 1px solid #999;
-    border-left: 1px solid #ddd;
-  }
-  .cities li.first {
-    border-left: 0px;
-  }
-  .cities li.last {
-    padding: 0px 0px 0px 10px;
-    width: 290px;
-    border-right: 0px;
-  }
-}
-
-@media screen and (max-width: 940px) {
-  .cities li {
-    background: -webkit-gradient(linear, 0 40%, 0 70%, from(#efefef), to(#ccc));
-    background: -moz-linear-gradient(center top, #efefef, #bbb) repeat scroll 0
-      0 transparent;
-    background-color: #efefef;
-
-    -moz-box-shadow: 1px 1px 5px #111;
-    -webkit-box-shadow: 1px 1px 5px #111;
-    border: 1px solid #222;
-    margin: 10px 0;
-    padding: 10px 10px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    list-style-type: none;
-    position: relative;
-    width: 90%;
-  }
-}
-
-.cities li p {
-  margin: 0px 0px;
-  font-size: 90%;
-  color: #333;
-}
-.cities h4 {
-  margin: 0px;
-}
-.cities span {
-  position: relative;
-  top: -5px;
-  color: #555;
-  font-size: 70%;
-  line-height: 70%;
-}
-
-.datewrapper {
-  position: absolute;
-  top: 0px;
-  right: 10px;
-  text-align: center;
-}
-
-.datewrapper sub {
-  display: none;
-  color: #999;
-}
-
-.cities h4 {
-  color: #333;
-  font-weight: bold;
-  text-shadow: #fff 1px 1px 0px;
-}
-
-.cities h4 a {
-  color: #333;
-}
-.when {
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  color: white;
-  background: blue;
-  font-weight: bold;
-  text-align: center;
-  font-size: 90%;
-  line-height: 14px;
-  width: 110px;
-  padding: 3px;
-  text-shadow: #275200 1px 1px 0px;
-  background: #57a621;
-  overflow: auto;
-}
-
-.daywrap {
-  float: left;
-  width: 30px;
-}
-
-.time {
-  display: block;
-  width: 80px;
-  line-height: 28px;
-  float: right;
-  text-align: center;
-  font-size: 140%;
-}
-
-#recent {
-  color: #999;
-  margin-top: 25px;
-  font-variant: small-caps;
-  text-shadow: none;
-}
 
 #blog {
   list-style: none;
@@ -416,50 +262,6 @@ li {
   color: #33a5d1;
   display: inline;
   text-shadow: #111 1px 1px 1px;
-}
-.map {
-  display: block;
-  line-height: 16px;
-  background: url(../img/map.png) no-repeat;
-  padding-left: 20px;
-  height: 40px;
-  text-decoration: none;
-  color: #106294 !important;
-}
-#mailinglists img,
-#twitter img {
-  width: 32px;
-  height: 32px;
-}
-@media screen and (min-width: 940px) {
-  #mailinglists img,
-  #twitter img {
-    float: left;
-    margin-right: 10px;
-    padding-bottom: 50px;
-  }
-
-  #mailinglists p {
-    margin: 0px;
-  }
-  #mailinglists {
-    width: 449px;
-    padding-right: 20px;
-    float: left;
-    border-right: 1px solid #222;
-  }
-
-  #twitter {
-    width: 449px;
-    float: right;
-    padding-left: 20px;
-    border-left: 1px solid #444;
-  }
-
-  #mailinglists,
-  #twitter {
-    height: 100%;
-  }
 }
 
 .details {
