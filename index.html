@@ -3,25 +3,20 @@ layout: default
 title: Home
 ---
 
-<div id="head">
-  <div id="intro">
-    <p>
-      TechMeetup is a monthly excuse for developers and the tech community
-      around Scotland to meet up and learn new stuff from each other. No name
-      badges, no sales pitches, just informative presentations from your peers
-      and a chance to meet some of the tech community around you.
-    </p>
+<p>
+  TechMeetup is a monthly excuse for developers and the tech community
+  around Scotland to meet up and learn new stuff from each other. No name
+  badges, no sales pitches, just informative presentations from your peers
+  and a chance to meet some of the tech community around you.
+</p>
 
-    <p>
-      We're not centred around specific languages, technologies or disciplines;
-      we believe there's stuff to learn from mixing everyone together. There's
-      no cost to attend either!
-    </p>
-  </div>
+<p>
+  We're not centred around specific languages, technologies or disciplines;
+  we believe there's stuff to learn from mixing everyone together. There's
+  no cost to attend either!
+</p>
 
-  </div>
-
-<div class="upcoming-events">
+<div id="upcoming-events">
   <h1>Upcoming Events</h1>
   {% assign sorted = site.data.index | sort: 'date' | reverse %}
   {% for event in sorted %}
@@ -81,7 +76,7 @@ title: Home
   {% endfor %}
 </div>
 
-<div id="contact">
+<div id="contact-us">
   <h2>Contact Us</h2>
   <ul>
     <li><a href="http://www.twitter.com/techmeetup"><img src="{{site.baseurl}}/static/img/twitter.png" />@techmeetup</a> </li>
@@ -93,7 +88,7 @@ title: Home
 
 <div id="recent-posts">
   <h2>Recent Posts</h2>
-  <ul id="blog" class="posts">
+  <ul>
     {% for post in site.posts limit:3 %}
     <li>
       <span>{{ post.date | date_to_string }}</span> &raquo;
