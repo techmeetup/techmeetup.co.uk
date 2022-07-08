@@ -27,17 +27,8 @@
       "address": "Strathclyde Students Union, 51 Richmond Street, Glasgow G1 1XU"
     },
     "active": "true",
-    "date": "2022-07-08T18:00:00Z",
-    "speakers": [
-      {
-        "name": "Keith Harrison",
-        "talk": "Functional Programming"
-      },
-      {
-        "name": "Kat Kmiotek",
-        "talk": "GraphQL - Playground and testing"
-      }
-    ]
+    "date": "2022-08-04T18:00:00Z",
+    "speakers": []
   },
   {
     "city": "stirling",

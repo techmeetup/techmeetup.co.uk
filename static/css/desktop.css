@@ -94,6 +94,8 @@ li {
 }
 #content {
   margin: 25px auto 0px auto;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
   background: #30363e;
   font-size: 1.3em;
 }
@@ -314,7 +316,6 @@ li {
 }
 
 #about-sponsors {
-  margin: 0px 0 0 40px;
   background: #000;
   padding: 10px;
   border-radius: 5px;
@@ -483,9 +484,4 @@ li {
 
 #recent-posts {
   margin-top: 1.5em;
-}
-
-#what-we-are {
-  padding-left: 0.8em;
-  padding-right: 0.8em;
 }
