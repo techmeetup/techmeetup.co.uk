@@ -6,12 +6,16 @@
       "link": "https://goo.gl/maps/vGxnZeziwdJ2",
       "address": "CodeBase, 38 Castle Terrace,EH3 9DZ"
     },
-    "active": "false",
-    "date": "2020-01-02T18:00:00Z",
+    "active": "true",
+    "date": "2022-08-10T18:00:00Z",
     "speakers": [
       {
-        "name": "CANCELLED due to Covid-19",
-        "talk": "CANCELLED due to Covid-19"
+        "name": "Oliver Littlejohn",
+        "talk": "NoCode"
+      },
+      {
+        "name": "Janani Prabhakaran",
+        "talk": "The Future of Tech for Travel"
       }
     ]
   },
