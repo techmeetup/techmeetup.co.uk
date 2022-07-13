@@ -41,7 +41,11 @@ title: Home
       </div>
       <div class="event-details">
         <div class="event-name">
-          <a class="event-link" href="{{ site.baseurl }}/{{ event.city }}.html">{{ event.city }} TechMeetup</a>
+          {% if event.meetup %}
+          <a class="event-link" href="{{ event.meetup }}">{{ event.city }} TechMeetup</a>
+          {% else %}
+            <a class="event-link" href="{{ site.baseurl }}/{{ event.city }}.html">{{ event.city }} TechMeetup</a>
+          {% endif %}
         </div>
         <div class="event-on">
           <i>{{ event.on }}</i>
@@ -66,7 +70,11 @@ title: Home
           </p>
       </div>
         {% endif %}
-        <a class="event-link" href="{{ site.baseurl }}/{{ event.city }}.html">
+          {% if event.meetup %}
+            <a class="event-link" href="{{ event.meetup }}">
+          {% else %}
+            <a class="event-link" href="{{ site.baseurl }}/{{ event.city }}.html">
+          {% endif %}
         <div class="event-more-info-link">
           <span class="event-link-button">More info</span>
         </div>

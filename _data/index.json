@@ -2,6 +2,7 @@
   {
     "city": "edinburgh",
     "on": "2nd Wednesday of the month",
+    "meetup": "https://www.meetup.com/techmeetup/events/287159006/",
     "location": {
       "link": "https://goo.gl/maps/vGxnZeziwdJ2",
       "address": "CodeBase, 38 Castle Terrace,EH3 9DZ"
