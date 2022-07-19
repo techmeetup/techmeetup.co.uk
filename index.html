@@ -18,7 +18,7 @@ title: Home
 
 <div id="upcoming-events">
   <h1>Upcoming Events</h1>
-  {% assign sorted = site.data.index | sort: 'date' | reverse %}
+  {% assign sorted = site.data.index | sort: 'date' %}
   {% for event in sorted %}
   <div class="event">
       <div class="event-date-time event-date-time--{% cycle "pink", "green" %}">
