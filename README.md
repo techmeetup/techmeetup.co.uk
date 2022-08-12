@@ -17,6 +17,15 @@ Or, via nix
 nix-shell
 ```
 
+Note that if the nix shell is invalid, it's probably because the Gemfile has
+been updated but a new gemset.nix hasn't been generated; run:
+
+```
+nix-shell -p bundler -p bundix --run 'bundler update; bundler lock; bundler package --no-install --path vendor; bundix; rm -rf vendor'
+```
+
+to fix that.
+
 ## Running
 
 ```

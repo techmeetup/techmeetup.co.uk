@@ -1,11 +1,11 @@
 with import <nixpkgs> { };
 
 let jekyll_env = bundlerEnv rec {
-    name = "jekyll_env";
     inherit ruby;
-    gemfile = ./Gemfile;
+    name     = "jekyll_env";
+    gemfile  = ./Gemfile;
     lockfile = ./Gemfile.lock;
-    gemset = ./gemset.nix;
+    gemset   = ./gemset.nix;
   };
 in
   stdenv.mkDerivation rec {
