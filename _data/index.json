@@ -2,21 +2,21 @@
   {
     "city": "edinburgh",
     "on": "2nd Wednesday of the month",
-    "meetup": "https://www.meetup.com/techmeetup/events/287159006/",
+    "meetup": "https://www.meetup.com/techmeetup/events/qrdtwsydcmbsb/",
     "location": {
       "link": "https://goo.gl/maps/vGxnZeziwdJ2",
       "address": "CodeBase, 38 Castle Terrace,EH3 9DZ"
     },
     "active": "true",
-    "date": "2022-08-10T18:00:00Z",
+    "date": "2022-09-10T18:00:00Z",
     "speakers": [
       {
-        "name": "Oliver Littlejohn",
-        "talk": "NoCode? No problem."
+        "name": "Liam Bell",
+        "talk": "Satellite Data for Remote Monitoring of UN Sustainable Development Goals"
       },
       {
-        "name": "Janani Prabhakaran",
-        "talk": "The Future of Travel Tech"
+        "name": "Karthik Rajamani",
+        "talk": "Intro to DataOps"
       }
     ]
   },
