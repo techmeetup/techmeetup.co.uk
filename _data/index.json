@@ -23,21 +23,17 @@
   {
     "city": "glasgow",
     "on": "1st Thursday of the month",
-    "meetup": "https://www.eventbrite.co.uk/e/tech-meetup-setpember-tickets-404874509557",
+    "meetup": "https://www.eventbrite.co.uk/e/tech-meetup-october-tickets-428362903977?aff=ebdsoporgprofile",
     "location": {
       "link": "https://goo.gl/maps/XpgiaafHK2U6ffEf9",
       "address": "Strathclyde Students Union, 51 Richmond Street, Glasgow G1 1XU"
     },
     "active": "true",
-    "date": "2022-09-01T18:00:00Z",
+    "date": "2022-10-06T18:00:00Z",
     "speakers": [
       {
-        "name": "Ewa Grabowiecka",
-        "talk": "CircleCi. CI/CD"
-      },
-      {
-        "name": "Swetank Poddar",
-        "talk": "Docker"
+        "name": "Dougal Matthews",
+        "talk": "Home Automation"
       }
     ]
   },
