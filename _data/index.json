@@ -1,22 +1,22 @@
 [
   {
     "city": "edinburgh",
-    "on": "2nd Wednesday of the month",
-    "meetup": "https://www.meetup.com/techmeetup/events/qrdtwsydcmbsb/",
+    "on": "2nd Tuesday of the month",
+    "meetup": "https://www.meetup.com/techmeetup/events/287514908/",
     "location": {
       "link": "https://goo.gl/maps/vGxnZeziwdJ2",
       "address": "CodeBase, 38 Castle Terrace,EH3 9DZ"
     },
     "active": "true",
-    "date": "2022-09-14T18:00:00Z",
+    "date": "2022-10-11T17:30:00Z",
     "speakers": [
       {
-        "name": "Liam Bell",
-        "talk": "Satellite Data for Remote Monitoring of UN Sustainable Development Goals"
+        "name": "Gala Camacho Ferrari",
+        "talk": "What we don't talk about when we talk about data"
       },
       {
-        "name": "Karthik Rajamani",
-        "talk": "Intro to DataOps"
+        "name": "Gordon Guthrie",
+        "talk": "On Notation: Writing music with sonic Pi"
       }
     ]
   },
