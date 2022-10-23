@@ -87,13 +87,13 @@
   },
   {
     "city": "inverness",
-    "on": "Last Monday of the month",
+    "on": "Second Monday of the month",
     "location": {
       "link": "https://www.google.co.uk/maps?q=pentahotel+inverness&ion=1&espv=2&es_th=1&bav=on.2,or.r_cp.&bvm=bv.107467506,d.ZWU&biw=1366&bih=628&dpr=1&safe=strict&um=1&ie=UTF-8&sa=X&ved=0CAYQ_AUoAWoVChMIssH-7pGQyQIVhLYUCh07oQLX",
       "address": "Penta Hotel, 63 Academy St, Inverness IV1 1LU"
     },
-    "active": "false",
-    "date": "3020-01-01T18:00:00Z",
+    "active": "true",
+    "date": "2022-11-14T19:00:00Z",
     "speakers": [
       {
         "name": "TBC",
