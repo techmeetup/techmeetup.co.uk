@@ -8,15 +8,11 @@
       "address": "CodeBase, 38 Castle Terrace,EH3 9DZ"
     },
     "active": "true",
-    "date": "2022-10-11T17:30:00Z",
+    "date": "2023-01-10T17:30:00Z",
     "speakers": [
       {
-        "name": "Gala Camacho Ferrari",
-        "talk": "What we don't talk about when we talk about data"
-      },
-      {
-        "name": "Gordon Guthrie",
-        "talk": "On Notation: Writing music with sonic Pi"
+        "name": "TBC",
+        "talk": "TBC"
       }
     ]
   },
@@ -94,19 +90,15 @@
       "address": "Penta Hotel, 63 Academy St, Inverness IV1 1LU"
     },
     "active": "true",
-    "date": "2022-11-14T18:20:00Z",
+    "date": "2022-12-12T18:20:00Z",
     "speakers": [
       {
-        "name": "Pamela Looper",
-        "talk": "My Journey into Tech"
+        "name": "Marius Ciocănel",
+        "talk": "Lightning talk on ChatGPT"
       },
       {
         "name": "Brian MacKenzie",
-        "talk": "Code Inverness needs you"
-      },
-      {
-        "name": "Douglas McCallum",
-        "talk": "GraphQL"
+        "talk": "Zen and the Art of Bicycle Maintenance"
       }
     ]
   }
