@@ -94,15 +94,11 @@
       "address": "Penta Hotel, 63 Academy St, Inverness IV1 1LU"
     },
     "active": "true",
-    "date": "2022-12-12T18:20:00Z",
+    "date": "2023-02-13T18:20:00Z",
     "speakers": [
       {
-        "name": "Marius Ciocănel",
-        "talk": "Lightning talk on ChatGPT"
-      },
-      {
-        "name": "Brian MacKenzie",
-        "talk": "Zen and the Art of Bicycle Maintenance"
+        "name": "Jiveen MacGillivray",
+        "talk": "CivTech 7, 8 and 9"
       }
     ]
   }
