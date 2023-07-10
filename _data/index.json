@@ -98,11 +98,11 @@
       "address": "Penta Hotel, 63 Academy St, Inverness IV1 1LU"
     },
     "active": "true",
-    "date": "2023-04-10T18:20:00Z",
+    "date": "2023-07-10T18:20:00Z",
     "speakers": [
       {
-        "name": "Dave Mackay",
-        "talk": "What's new with Tech and Digital at HIE (Highlands and Islands Enterprise)"
+        "name": "Networking",
+        "talk": "Review of the year, suggestions for next year's talks"
       }
     ]
   }
