@@ -29,15 +29,15 @@
       "address": "Level 11, Livingstone Tower, 26 Richmond Street, Glasgow, G1 1XH"
     },
     "active": "true",
-    "date": "2023-07-06T18:00:00Z",
+    "date": "2023-08-03T18:00:00Z",
     "speakers": [
       {
-        "name": "Dougal Metthews",
-        "talk": "Introduction to Load Testing"
+        "name": "Dan Llewellyn and Emma Chee﻿",
+        "talk": "How xDesign built Martin Lewis' new AI chatbot"
       },
       {
-        "name": "Sarah Lean",
-        "talk": "Infrastructure as Code - A look at Azure Bicep and Terraform"
+        "name": "Habib Ogunsola",
+        "talk": "Introduction to Svelte"
       }
     ]
   },
