@@ -38,54 +38,6 @@
     ]
   },
   {
-    "city": "stirling",
-    "on": "1st Tuesday of the month",
-    "location": {
-      "link": "https://www.google.com/maps?sll=56.118527,-3.939337&q=8-10+Corn+Exchange+Road+Stirling,+Scotland,+FK8+2HU,+United+Kingdom&z=12",
-      "address": "CodeBase Stirling - 8-10 Corn Exchange Rd, Stirling FK8 2HU"
-    },
-    "active": "false",
-    "date": "3020-01-01T18:00:00Z",
-    "speakers": [
-      {
-        "name": "TBC",
-        "talk": "TBC"
-      }
-    ]
-  },
-  {
-    "city": "aberdeen",
-    "on": "3rd Wednesday of the month",
-    "location": {
-      "link": "http://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Meston+Building+Aberdeen+University&amp;sll=57.294593,-2.400159&amp;sspn=0.017437,0.034075&amp;ie=UTF8&amp;hq=Meston+Building+Aberdeen+University&amp;hnear=&amp;l",
-      "address": "North Side Meston Building, Aberdeen Uni"
-    },
-    "active": "false",
-    "date": "3020-01-01T18:00:00Z",
-    "speakers": [
-      {
-        "name": "TBC",
-        "talk": "TBC"
-      }
-    ]
-  },
-  {
-    "city": "dundee",
-    "on": "Last Tuesday of the Month",
-    "location": {
-      "link": "https://www.google.com/maps/search/Chambers+Building,+Panmure+Street,+DD1+1ED/@56.463188,-2.9728147,17z/data=!3m1!4b1",
-      "address": "The Brouhaha, Chambers Building (2 floors above BrewDog)"
-    },
-    "active": "false",
-    "date": "3020-01-01T18:00:00Z",
-    "speakers": [
-      {
-        "name": "TBC",
-        "talk": "TBC"
-      }
-    ]
-  },
-  {
     "city": "inverness",
     "on": "Second Monday of the month",
     "meetup": "https://www.eventbrite.co.uk/o/inverness-tech-meetup-55697471093",
