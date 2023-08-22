@@ -18,9 +18,10 @@ title: Home
 
 <div id="upcoming-events">
   <h1>Upcoming Events</h1>
-{% assign future_events = site.data.index | where_exp: "item", "item.date >= site.time" | sort: 'date' %}
-{% assign past_events = site.data.index | where_exp: "item", "item.date < site.time" | sort: 'date' | reverse %}
-
+{% assign current_time = site.time | date: '%Y-%m-%dT%H:%M:%S%Z' %}
+{% assign future_events = site.data.index | where_exp: "item", "item.date >= current_time" | sort: 'date' %}
+{% assign past_events = site.data.index | where_exp: "item", "item.date < current_time" | sort: 'date' | reverse %}
+  
 {% assign sorted = future_events | concat: past_events %}
   {% for event in sorted %}
   <div class="event">
