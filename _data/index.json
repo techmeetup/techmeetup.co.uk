@@ -69,5 +69,22 @@
         "talk": "Review of the year, suggestions for next year's talks"
       }
     ]
+  },
+  {
+    "city": "Stirling",
+    "on": "Third Wednesday of the month",
+    "meetup": "https://www.eventbrite.co.uk/o/inverness-tech-meetup-55697471093",
+    "location": {
+      "link": "https://www.google.co.uk/maps?q=pentahotel+inverness&ion=1&espv=2&es_th=1&bav=on.2,or.r_cp.&bvm=bv.107467506,d.ZWU&biw=1366&bih=628&dpr=1&safe=strict&um=1&ie=UTF-8&sa=X&ved=0CAYQ_AUoAWoVChMIssH-7pGQyQIVhLYUCh07oQLX",
+      "address": "Codebase"
+    },
+    "active": "true",
+    "date": "2023-10-18T18:30:00Z",
+    "speakers": [
+      {
+        "name": "Douglas McCallum",
+        "talk": "Autonomous driving, how hard can it be?"
+      }
+    ]
   }
 ]
