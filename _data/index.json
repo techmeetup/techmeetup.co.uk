@@ -34,22 +34,22 @@
   },
   {
     "city": "glasgow",
-    "on": "1st Thursday of the month",
+    "on": "1st Wednesday of the month",
     "meetup": "https://www.eventbrite.co.uk/e/tech-meetup-september-new-venue-tickets-707047567307",
     "location": {
       "link": "https://www.google.com/maps/place/Civic+House/@55.8709837,-4.2593489,18.92z/data=!4m6!3m5!1s0x4888452307dbc2a7:0xbdd1abbe0ab9f4b4!8m2!3d55.871222!4d-4.2592423!16s%2Fg%2F11flfdjhqv?entry=ttu",
       "address": "Civic House, 26 Civic House, Glasgow, G4 9RH"
     },
     "active": "true",
-    "date": "2023-08-03T18:00:00Z",
+    "date": "2023-10-04T18:00:00Z",
     "speakers": [
       {
-        "name": "Ryan Findlay﻿",
-        "talk": "How I became a tech leader"
+        "name": "Lewis Shearer﻿",
+        "talk": "How I build a full-stack application using Tensorflow and Firebase"
       },
       {
-        "name": "Keith Harrison",
-        "talk": "What I Learned Working 3 Years at a Start-up"
+        "name": "Arran Edwards",
+        "talk": "Why your monolithic application doesn't need moving to microservices"
       }
     ]
   },
