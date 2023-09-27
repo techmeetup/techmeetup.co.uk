@@ -73,10 +73,10 @@
   {
     "city": "Stirling",
     "on": "Third Wednesday of the month",
-    "meetup": "https://www.eventbrite.co.uk/o/inverness-tech-meetup-55697471093",
+    "meetup": "https://www.meetup.com/techmeetup/events/296375769",
     "location": {
-      "link": "https://www.google.co.uk/maps?q=pentahotel+inverness&ion=1&espv=2&es_th=1&bav=on.2,or.r_cp.&bvm=bv.107467506,d.ZWU&biw=1366&bih=628&dpr=1&safe=strict&um=1&ie=UTF-8&sa=X&ved=0CAYQ_AUoAWoVChMIssH-7pGQyQIVhLYUCh07oQLX",
-      "address": "Codebase"
+      "link": "https://www.google.co.uk/maps/place/CodeBase+Ltd/@56.1182949,-3.9390359,217m/data=!3m1!1e3!4m6!3m5!1s0x48886294d54eaaab:0xdaddfba88edb1ed!8m2!3d56.1185271!4d-3.9393371!16s%2Fg%2F11g9jdvtg4?entry=ttu",
+      "address": "8 - 10 Corn Exchange Road · Stirling"
     },
     "active": "true",
     "date": "2023-10-18T18:30:00Z",
